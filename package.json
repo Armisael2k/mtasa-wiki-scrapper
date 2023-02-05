@@ -1,0 +1,19 @@
+{
+  "name": "wiki-scapper",
+  "version": "1.0.0",
+  "description": "A web scrapper for the MTA:SA WIKI",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Armisael2k/mtasa-wiki-scrapper.git"
+  },
+  "author": "motar2k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Armisael2k/mtasa-wiki-scrapper/issues"
+  },
+  "homepage": "https://github.com/Armisael2k/mtasa-wiki-scrapper#readme"
+}
