@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A web scrapper for the MTA:SA WIKI",
   "main": "app.js",
+  "type": "module",
   "scripts": {
+    "start": "node ./app",
+    "dev": "nodemon ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/Armisael2k/mtasa-wiki-scrapper/issues"
   },
-  "homepage": "https://github.com/Armisael2k/mtasa-wiki-scrapper#readme"
+  "homepage": "https://github.com/Armisael2k/mtasa-wiki-scrapper#readme",
+  "dependencies": {
+    "puppeteer": "^19.6.3",
+    "write-json-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
