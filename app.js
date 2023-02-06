@@ -1,3 +1,5 @@
+// Arreglar cuando son varias sintaxis de la misma funcion
+
 import puppeteer from 'puppeteer';
 import { writeJsonFile } from 'write-json-file';
 
@@ -6,7 +8,7 @@ import { writeJsonFile } from 'write-json-file';
     const page = await browser.newPage();
     
     await page.goto('https://wiki.multitheftauto.com/wiki/Resource:DGS', { waitUntil: 'networkidle0' });
-    
+    await page.waitForSelector('li>a[title]', { timeout: 2000});
     const links = (await page.$$eval('li>a[title]', link => link.map(row => row.href))).filter(row => row.includes('Dgs') && !row.includes('-'));
 
     const log = [];
@@ -18,7 +20,7 @@ import { writeJsonFile } from 'write-json-file';
             await page.goto(link, { waitUntil: 'networkidle0' });
             await page.waitForSelector('.mw-page-title-main', { timeout: 2000});
             await page.waitForSelector('h2 + pre', { timeout: 2000});
-            const functionName = await page.$eval('.mw-page-title-main', el => el.textContent).trim();
+            const functionName = (await page.$eval('.mw-page-title-main', el => el.textContent)).trim();
             const syntax = await page.$$eval('h2 + pre', el => el.map(row => row.previousElementSibling.textContent == 'Syntax' ? { isFunction: true, syntax: row.textContent.trim() } : { isFunction: false } ));
             log.push({
                 ...syntax,
@@ -28,10 +30,13 @@ import { writeJsonFile } from 'write-json-file';
                 for (let i2 = 0; i2 < syntax.length; i2++) {
                     const row = syntax[i2];
                     if (!row.isFunction) continue;
-                    functions[functionName] = {
+                    let n = "";
+                    if (i2 > 0) n = (i2+1).toString();
+                    console.log(functionName+n);
+                    functions[functionName+n] = {
                         scope: "lua",
                         description: row.syntax,
-                        prefix: functionName,
+                        prefix: functionName+n,
                         body: functionName
                     }
                 }
