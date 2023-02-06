@@ -25,25 +25,25 @@
 	},
 	"dgsSetParent": {
 		"scope": "lua",
-		"description": "bool dgsSetParent( element theElement, element parent )  ",
+		"description": "bool dgsSetParent( element theElement, element parent )",
 		"prefix": "dgsSetParent",
 		"body": "dgsSetParent"
 	},
 	"dgsGetParent": {
 		"scope": "lua",
-		"description": "element dgsGetParent( element theElement )  ",
+		"description": "element dgsGetParent( element theElement )",
 		"prefix": "dgsGetParent",
 		"body": "dgsGetParent"
 	},
 	"dgsGetChild": {
 		"scope": "lua",
-		"description": "element dgsGetChild ( element dgsParent, int index ) ",
+		"description": "element dgsGetChild ( element dgsParent, int index )",
 		"prefix": "dgsGetChild",
 		"body": "dgsGetChild"
 	},
 	"dgsGetChildren": {
 		"scope": "lua",
-		"description": "table dgsGetChildren ( element dgsParent ) ",
+		"description": "table dgsGetChildren ( element dgsParent )",
 		"prefix": "dgsGetChildren",
 		"body": "dgsGetChildren"
 	},
@@ -61,7 +61,7 @@
 	},
 	"dgsGetType": {
 		"scope": "lua",
-		"description": "string dgsGetType ( mixed theMixed )  ",
+		"description": "string dgsGetType ( mixed theMixed )",
 		"prefix": "dgsGetType",
 		"body": "dgsGetType"
 	},
@@ -457,13 +457,13 @@
 	},
 	"dgsSetElementKeeperEnabled": {
 		"scope": "lua",
-		"description": "bool dgsSetElementKeeperEnabled( bool state ) ",
+		"description": "bool dgsSetElementKeeperEnabled( bool state )",
 		"prefix": "dgsSetElementKeeperEnabled",
 		"body": "dgsSetElementKeeperEnabled"
 	},
 	"dgsGetElementKeeperEnabled": {
 		"scope": "lua",
-		"description": "bool dgsGetElementKeeperEnabled( ) ",
+		"description": "bool dgsGetElementKeeperEnabled( )",
 		"prefix": "dgsGetElementKeeperEnabled",
 		"body": "dgsGetElementKeeperEnabled"
 	},
@@ -1099,14 +1099,26 @@
 	},
 	"dgsComboBoxSetItemData": {
 		"scope": "lua",
-		"description": "bool dgsComboBoxSetItemData ( element combobox, int itemIndex, mixed key, mixed data )",
+		"description": "bool dgsComboBoxSetItemData ( element combobox, int itemIndex, mixed data )",
 		"prefix": "dgsComboBoxSetItemData",
+		"body": "dgsComboBoxSetItemData"
+	},
+	"dgsComboBoxSetItemData2": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxSetItemData ( element combobox, int itemIndex, mixed key, mixed data )",
+		"prefix": "dgsComboBoxSetItemData2",
 		"body": "dgsComboBoxSetItemData"
 	},
 	"dgsComboBoxGetItemData": {
 		"scope": "lua",
-		"description": "mixed dgsComboBoxGetItemData ( element combobox, int itemIndex, mixed key )",
+		"description": "mixed dgsComboBoxGetItemData ( element combobox, int itemIndex )",
 		"prefix": "dgsComboBoxGetItemData",
+		"body": "dgsComboBoxGetItemData"
+	},
+	"dgsComboBoxGetItemData2": {
+		"scope": "lua",
+		"description": "mixed dgsComboBoxGetItemData ( element combobox, int itemIndex, mixed key )",
+		"prefix": "dgsComboBoxGetItemData2",
 		"body": "dgsComboBoxGetItemData"
 	},
 	"dgsComboBoxGetItemCount": {
@@ -1687,8 +1699,14 @@
 	},
 	"dgsGridListSetColumnTextColor": {
 		"scope": "lua",
-		"description": "bool dgsGridListSetColumnTextColor( element gridList, int columnIndex, int r, int g, int b [, int a = 255 ] )",
+		"description": "bool dgsGridListSetColumnTextColor( element gridList, int columnIndex, int color )",
 		"prefix": "dgsGridListSetColumnTextColor",
+		"body": "dgsGridListSetColumnTextColor"
+	},
+	"dgsGridListSetColumnTextColor2": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetColumnTextColor( element gridList, int columnIndex, int r, int g, int b [, int a = 255 ] )",
+		"prefix": "dgsGridListSetColumnTextColor2",
 		"body": "dgsGridListSetColumnTextColor"
 	},
 	"dgsGridListSetSortColumn": {
@@ -1789,8 +1807,14 @@
 	},
 	"dgsGridListSetItemColor": {
 		"scope": "lua",
-		"description": "bool dgsGridListSetItemColor ( element gridList, int rowIndex, int columnIndex,int r, int g, int b [, int a = 255 ] )",
+		"description": "bool dgsGridListSetItemColor ( element gridList, int rowIndex, int columnIndex, int/table color )",
 		"prefix": "dgsGridListSetItemColor",
+		"body": "dgsGridListSetItemColor"
+	},
+	"dgsGridListSetItemColor2": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetItemColor ( element gridList, int rowIndex, int columnIndex,int r, int g, int b [, int a = 255 ] )",
+		"prefix": "dgsGridListSetItemColor2",
 		"body": "dgsGridListSetItemColor"
 	},
 	"dgsGridListGetItemColor": {
@@ -1819,14 +1843,26 @@
 	},
 	"dgsGridListSetItemData": {
 		"scope": "lua",
-		"description": "bool dgsGridListSetItemData ( element gridList, int rowIndex, int columnIndex, mixed key, mixed data )",
+		"description": "bool dgsGridListSetItemData ( element gridList, int rowIndex, int columnIndex, var data )",
 		"prefix": "dgsGridListSetItemData",
+		"body": "dgsGridListSetItemData"
+	},
+	"dgsGridListSetItemData2": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetItemData ( element gridList, int rowIndex, int columnIndex, mixed key, mixed data )",
+		"prefix": "dgsGridListSetItemData2",
 		"body": "dgsGridListSetItemData"
 	},
 	"dgsGridListGetItemData": {
 		"scope": "lua",
-		"description": "var dgsGridListGetItemData ( element gridList, int rowIndex, int columnIndex, mixed key )",
+		"description": "var dgsGridListGetItemData ( element gridList, int rowIndex, int columnIndex )",
 		"prefix": "dgsGridListGetItemData",
+		"body": "dgsGridListGetItemData"
+	},
+	"dgsGridListGetItemData2": {
+		"scope": "lua",
+		"description": "var dgsGridListGetItemData ( element gridList, int rowIndex, int columnIndex, mixed key )",
+		"prefix": "dgsGridListGetItemData2",
 		"body": "dgsGridListGetItemData"
 	},
 	"dgsGridListSetItemImage": {
@@ -2257,8 +2293,14 @@
 	},
 	"dgsLabelSetColor": {
 		"scope": "lua",
-		"description": "bool dgsLabelSetColor ( element theElement, int color, bool notSplitColor )",
+		"description": "bool dgsLabelSetColor ( element theElement, int red, int green, int blue, int alpha )",
 		"prefix": "dgsLabelSetColor",
+		"body": "dgsLabelSetColor"
+	},
+	"dgsLabelSetColor2": {
+		"scope": "lua",
+		"description": "bool dgsLabelSetColor ( element theElement, int color, bool notSplitColor )",
+		"prefix": "dgsLabelSetColor2",
 		"body": "dgsLabelSetColor"
 	},
 	"dgsLabelGetColor": {
@@ -3325,8 +3367,14 @@
 	},
 	"dgsCreateRoundRect": {
 		"scope": "lua",
-		"description": "element dgsCreateRoundRect( table multiArguments [, int color = 0xFFFFFFFF, texture background = nil, bool colorOverwritten = true, bool isBorderOnly, float borderHorizontalThickness, float borderVerticalThickness ] )",
+		"description": "element dgsCreateRoundRect( float radius, bool relative [, int color = 0xFFFFFFFF, texture background = nil, bool colorOverwritten = true, bool isBorderOnly, float borderHorizontalThickness, float borderVerticalThickness ] )",
 		"prefix": "dgsCreateRoundRect",
+		"body": "dgsCreateRoundRect"
+	},
+	"dgsCreateRoundRect3": {
+		"scope": "lua",
+		"description": "element dgsCreateRoundRect( table multiArguments [, int color = 0xFFFFFFFF, texture background = nil, bool colorOverwritten = true, bool isBorderOnly, float borderHorizontalThickness, float borderVerticalThickness ] )",
+		"prefix": "dgsCreateRoundRect3",
 		"body": "dgsCreateRoundRect"
 	},
 	"dgsRoundRectSetTexture": {
@@ -3397,7 +3445,7 @@
 	},
 	"dgsCreateSVG": {
 		"scope": "lua",
-		"description": " svg dgsCreateSVG ( int width, int height [, string pathORrawData ] )",
+		"description": "svg dgsCreateSVG ( int width, int height [, string pathORrawData ] )",
 		"prefix": "dgsCreateSVG",
 		"body": "dgsCreateSVG"
 	},
@@ -3409,7 +3457,7 @@
 	},
 	"dgsSVGGetDocument": {
 		"scope": "lua",
-		"description": " xmlnode dgsSVGGetDocument( svg svgElement )",
+		"description": "xmlnode dgsSVGGetDocument( svg svgElement )",
 		"prefix": "dgsSVGGetDocument",
 		"body": "dgsSVGGetDocument"
 	},
@@ -3439,7 +3487,7 @@
 	},
 	"dgsSVGNodeSetAttributes": {
 		"scope": "lua",
-		"description": " bool dgsSVGNodeSetAttributes( xmlnode xmlNode, table attributesWithValue)",
+		"description": "bool dgsSVGNodeSetAttributes( xmlnode xmlNode, table attributesWithValue)",
 		"prefix": "dgsSVGNodeSetAttributes",
 		"body": "dgsSVGNodeSetAttributes"
 	},
