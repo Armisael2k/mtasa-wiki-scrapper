@@ -1,0 +1,3470 @@
+{
+	"dgsSetProperty": {
+		"scope": "lua",
+		"description": "string dgsSetProperty ( element/table dgsElement, string property, mixed value [, mixed arg1, mixed arg2 ... ] )",
+		"prefix": "dgsSetProperty",
+		"body": "dgsSetProperty"
+	},
+	"dgsSetProperties": {
+		"scope": "lua",
+		"description": "bool dgsSetProperties ( element/table dgsElement, table properties )",
+		"prefix": "dgsSetProperties",
+		"body": "dgsSetProperties"
+	},
+	"dgsGetPosition": {
+		"scope": "lua",
+		"description": "float, float dgsGetPosition ( element dgsElement, bool relative [, bool includeParent = false ] )",
+		"prefix": "dgsGetPosition",
+		"body": "dgsGetPosition"
+	},
+	"dgsSetPosition": {
+		"scope": "lua",
+		"description": "bool dgsSetPosition ( element theElement, float x, float y, bool relative [, bool isCenterPosition = false ] )",
+		"prefix": "dgsSetPosition",
+		"body": "dgsSetPosition"
+	},
+	"dgsSetParent": {
+		"scope": "lua",
+		"description": "bool dgsSetParent( element theElement, element parent )  ",
+		"prefix": "dgsSetParent",
+		"body": "dgsSetParent"
+	},
+	"dgsGetParent": {
+		"scope": "lua",
+		"description": "element dgsGetParent( element theElement )  ",
+		"prefix": "dgsGetParent",
+		"body": "dgsGetParent"
+	},
+	"dgsGetChild": {
+		"scope": "lua",
+		"description": "element dgsGetChild ( element dgsParent, int index ) ",
+		"prefix": "dgsGetChild",
+		"body": "dgsGetChild"
+	},
+	"dgsGetChildren": {
+		"scope": "lua",
+		"description": "table dgsGetChildren ( element dgsParent ) ",
+		"prefix": "dgsGetChildren",
+		"body": "dgsGetChildren"
+	},
+	"dgsGetSize": {
+		"scope": "lua",
+		"description": "float, float dgsGetSize ( element theElement, bool relative )",
+		"prefix": "dgsGetSize",
+		"body": "dgsGetSize"
+	},
+	"dgsSetSize": {
+		"scope": "lua",
+		"description": "bool dgsSetSize ( element dgsElement, float width, float height, bool relative )",
+		"prefix": "dgsSetSize",
+		"body": "dgsSetSize"
+	},
+	"dgsGetType": {
+		"scope": "lua",
+		"description": "string dgsGetType ( mixed theMixed )  ",
+		"prefix": "dgsGetType",
+		"body": "dgsGetType"
+	},
+	"dgsSetLayer": {
+		"scope": "lua",
+		"description": "bool dgsSetLayer( element dgsElement, string layer [, bool forceDetatch = false ] )",
+		"prefix": "dgsSetLayer",
+		"body": "dgsSetLayer"
+	},
+	"dgsGetLayer": {
+		"scope": "lua",
+		"description": "string dgsGetLayer( element dgsElement )",
+		"prefix": "dgsGetLayer",
+		"body": "dgsGetLayer"
+	},
+	"dgsSetCurrentLayerIndex": {
+		"scope": "lua",
+		"description": "bool dgsSetCurrentLayerIndex( element dgsElement, integer index )",
+		"prefix": "dgsSetCurrentLayerIndex",
+		"body": "dgsSetCurrentLayerIndex"
+	},
+	"dgsGetCurrentLayerIndex": {
+		"scope": "lua",
+		"description": "integer dgsGetCurrentLayerIndex( element dgsElement )",
+		"prefix": "dgsGetCurrentLayerIndex",
+		"body": "dgsGetCurrentLayerIndex"
+	},
+	"dgsGetLayerElements": {
+		"scope": "lua",
+		"description": "table dgsGetLayerElements( string layer )",
+		"prefix": "dgsGetLayerElements",
+		"body": "dgsGetLayerElements"
+	},
+	"dgsGetProperty": {
+		"scope": "lua",
+		"description": "string dgsGetProperty ( element dgsElement, string property )",
+		"prefix": "dgsGetProperty",
+		"body": "dgsGetProperty"
+	},
+	"dgsSetPropertyInherit": {
+		"scope": "lua",
+		"description": "string dgsSetPropertyInherit ( element/table dgsElement, string property, mixed value [, mixed arg1, mixed arg2 ... ] )",
+		"prefix": "dgsSetPropertyInherit",
+		"body": "dgsSetPropertyInherit"
+	},
+	"dgsGetProperties": {
+		"scope": "lua",
+		"description": "table dgsGetProperties ( element dgsElement [, table properties ] )",
+		"prefix": "dgsGetProperties",
+		"body": "dgsGetProperties"
+	},
+	"dgsGetVisible": {
+		"scope": "lua",
+		"description": "bool dgsGetVisible ( element guiElement )",
+		"prefix": "dgsGetVisible",
+		"body": "dgsGetVisible"
+	},
+	"dgsSetVisible": {
+		"scope": "lua",
+		"description": "bool dgsSetVisible ( element/table dgsElement, bool state )",
+		"prefix": "dgsSetVisible",
+		"body": "dgsSetVisible"
+	},
+	"dgsGetEnabled": {
+		"scope": "lua",
+		"description": "bool dgsGetEnabled ( element guiElement )",
+		"prefix": "dgsGetEnabled",
+		"body": "dgsGetEnabled"
+	},
+	"dgsSetEnabled": {
+		"scope": "lua",
+		"description": "bool dgsSetEnabled ( element dgsElement, bool enabled )",
+		"prefix": "dgsSetEnabled",
+		"body": "dgsSetEnabled"
+	},
+	"dgsGetPositionAlignment": {
+		"scope": "lua",
+		"description": "string, string dgsGetPositionAlignment( element dgsElement )",
+		"prefix": "dgsGetPositionAlignment",
+		"body": "dgsGetPositionAlignment"
+	},
+	"dgsSetPositionAlignment": {
+		"scope": "lua",
+		"description": "bool dgsSetPositionAlignment( element dgsElement [, string horizontalAlignment, string verticalAlignment ] )",
+		"prefix": "dgsSetPositionAlignment",
+		"body": "dgsSetPositionAlignment"
+	},
+	"dgsGetAlpha": {
+		"scope": "lua",
+		"description": "float dgsGetAlpha ( element dgsElement [, bool isAbsolute = false, bool includeParent = false ] )",
+		"prefix": "dgsGetAlpha",
+		"body": "dgsGetAlpha"
+	},
+	"dgsSetAlpha": {
+		"scope": "lua",
+		"description": "bool dgsSetAlpha ( element guielement, float alpha )",
+		"prefix": "dgsSetAlpha",
+		"body": "dgsSetAlpha"
+	},
+	"dgsGetFont": {
+		"scope": "lua",
+		"description": "string/element dgsGetFont ( element dgsElement )",
+		"prefix": "dgsGetFont",
+		"body": "dgsGetFont"
+	},
+	"dgsSetFont": {
+		"scope": "lua",
+		"description": "bool dgsSetFont( element dgsElement, mixed font )",
+		"prefix": "dgsSetFont",
+		"body": "dgsSetFont"
+	},
+	"dgsGetText": {
+		"scope": "lua",
+		"description": "string dgsGetText ( element guiElement )",
+		"prefix": "dgsGetText",
+		"body": "dgsGetText"
+	},
+	"dgsSetText": {
+		"scope": "lua",
+		"description": "bool dgsSetText ( element DGS element, string text )",
+		"prefix": "dgsSetText",
+		"body": "dgsSetText"
+	},
+	"dgsGetPostGUI": {
+		"scope": "lua",
+		"description": "bool dgsGetPostGUI( element dgsElement )",
+		"prefix": "dgsGetPostGUI",
+		"body": "dgsGetPostGUI"
+	},
+	"dgsSetPostGUI": {
+		"scope": "lua",
+		"description": "bool dgsSetPostGUI( element dgsElement, bool postGUI )",
+		"prefix": "dgsSetPostGUI",
+		"body": "dgsSetPostGUI"
+	},
+	"dgsGetInputEnabled": {
+		"scope": "lua",
+		"description": "bool dgsGetInputEnabled ()",
+		"prefix": "dgsGetInputEnabled",
+		"body": "dgsGetInputEnabled"
+	},
+	"dgsSetInputEnabled": {
+		"scope": "lua",
+		"description": "bool dgsSetInputEnabled ( bool enabled )",
+		"prefix": "dgsSetInputEnabled",
+		"body": "dgsSetInputEnabled"
+	},
+	"dgsGetInputMode": {
+		"scope": "lua",
+		"description": "string dgsGetInputMode ( )",
+		"prefix": "dgsGetInputMode",
+		"body": "dgsGetInputMode"
+	},
+	"dgsSetInputMode": {
+		"scope": "lua",
+		"description": "bool dgsSetInputMode ( string mode )",
+		"prefix": "dgsSetInputMode",
+		"body": "dgsSetInputMode"
+	},
+	"dgsAttachToAutoDestroy": {
+		"scope": "lua",
+		"description": "bool dgsAttachToAutoDestroy( element sourceElement, element dgsElement )",
+		"prefix": "dgsAttachToAutoDestroy",
+		"body": "dgsAttachToAutoDestroy"
+	},
+	"dgsDetachFromAutoDestroy": {
+		"scope": "lua",
+		"description": "bool dgsDetachFromAutoDestroy( element sourceElement, element dgsElement )",
+		"prefix": "dgsDetachFromAutoDestroy",
+		"body": "dgsDetachFromAutoDestroy"
+	},
+	"dgsFocus": {
+		"scope": "lua",
+		"description": "bool dgsFocus ( element dgsElement )",
+		"prefix": "dgsFocus",
+		"body": "dgsFocus"
+	},
+	"dgsBlur": {
+		"scope": "lua",
+		"description": "bool dgsBlur ( element dgsElement )",
+		"prefix": "dgsBlur",
+		"body": "dgsBlur"
+	},
+	"dgsCreateFont": {
+		"scope": "lua",
+		"description": "element dgsCreateFont ( string filepath [, int size=9, bool bold=false, string quality=\"proof\" ] )",
+		"prefix": "dgsCreateFont",
+		"body": "dgsCreateFont"
+	},
+	"dgsBringToFront": {
+		"scope": "lua",
+		"description": "bool dgsBringToFront ( element dgsElement )",
+		"prefix": "dgsBringToFront",
+		"body": "dgsBringToFront"
+	},
+	"dgsMoveToBack": {
+		"scope": "lua",
+		"description": "bool dgsMoveToBack ( element dgsElement )",
+		"prefix": "dgsMoveToBack",
+		"body": "dgsMoveToBack"
+	},
+	"dgsGetScreenSize": {
+		"scope": "lua",
+		"description": "float, float dgsGetScreenSize()",
+		"prefix": "dgsGetScreenSize",
+		"body": "dgsGetScreenSize"
+	},
+	"dgsGetCursorPosition": {
+		"scope": "lua",
+		"description": "float/int, float/int [, float, float, float, bool ]  dgsGetCursorPosition ( [ element dgsElement, bool relative ] )",
+		"prefix": "dgsGetCursorPosition",
+		"body": "dgsGetCursorPosition"
+	},
+	"dgsGetMouseEnterGUI": {
+		"scope": "lua",
+		"description": "element dgsGetMouseEnterGUI ( )",
+		"prefix": "dgsGetMouseEnterGUI",
+		"body": "dgsGetMouseEnterGUI"
+	},
+	"dgsGetMouseLeaveGUI": {
+		"scope": "lua",
+		"description": "element dgsGetMouseLeaveGUI ( )",
+		"prefix": "dgsGetMouseLeaveGUI",
+		"body": "dgsGetMouseLeaveGUI"
+	},
+	"dgsIsMouseWithinGUI": {
+		"scope": "lua",
+		"description": "bool/table dgsIsMouseWithinGUI( element/table withinElement )",
+		"prefix": "dgsIsMouseWithinGUI",
+		"body": "dgsIsMouseWithinGUI"
+	},
+	"dgsSetSystemFont": {
+		"scope": "lua",
+		"description": "element dgsSetSystemFont ( string filepath [, int size=9, bool bold=false, string quality=\"proof\" ] )",
+		"prefix": "dgsSetSystemFont",
+		"body": "dgsSetSystemFont"
+	},
+	"dgsGetSystemFont": {
+		"scope": "lua",
+		"description": "mixed dgsGetSystemFont ( )",
+		"prefix": "dgsGetSystemFont",
+		"body": "dgsGetSystemFont"
+	},
+	"dgsGetElementsInLayer": {
+		"scope": "lua",
+		"description": "table dgsGetElementsInLayer( [ string layer = \"center\" ] )",
+		"prefix": "dgsGetElementsInLayer",
+		"body": "dgsGetElementsInLayer"
+	},
+	"dgsGetElementsFromResource": {
+		"scope": "lua",
+		"description": "table dgsGetElementsFromResource( [ resource res ] )",
+		"prefix": "dgsGetElementsFromResource",
+		"body": "dgsGetElementsFromResource"
+	},
+	"dgsGetFocusedGUI": {
+		"scope": "lua",
+		"description": "element dgsGetFocusedGUI ( )",
+		"prefix": "dgsGetFocusedGUI",
+		"body": "dgsGetFocusedGUI"
+	},
+	"dgsGetExportedFunctionName": {
+		"scope": "lua",
+		"description": "table/string dgsGetExportedFunctionName( [ string name ] )",
+		"prefix": "dgsGetExportedFunctionName",
+		"body": "dgsGetExportedFunctionName"
+	},
+	"dgsImportFunction": {
+		"scope": "lua",
+		"description": "string dgsImportFunction( [ string functionName ] )",
+		"prefix": "dgsImportFunction",
+		"body": "dgsImportFunction"
+	},
+	"dgsImportOOPClass": {
+		"scope": "lua",
+		"description": "string dgsImportOOPClass( )",
+		"prefix": "dgsImportOOPClass",
+		"body": "dgsImportOOPClass"
+	},
+	"dgsG2DLoadHooker": {
+		"scope": "lua",
+		"description": "string dgsG2DLoadHooker( )",
+		"prefix": "dgsG2DLoadHooker",
+		"body": "dgsG2DLoadHooker"
+	},
+	"dgsSetRenderSetting": {
+		"scope": "lua",
+		"description": "bool dgsSetRenderSetting( string settingName, mixed value )",
+		"prefix": "dgsSetRenderSetting",
+		"body": "dgsSetRenderSetting"
+	},
+	"dgsGetRenderSetting": {
+		"scope": "lua",
+		"description": "mixed dgsGetRenderSetting( string settingName )",
+		"prefix": "dgsGetRenderSetting",
+		"body": "dgsGetRenderSetting"
+	},
+	"dgsSimulateClick": {
+		"scope": "lua",
+		"description": "string dgsSimulateClick( element dgsElement, string button )",
+		"prefix": "dgsSimulateClick",
+		"body": "dgsSimulateClick"
+	},
+	"dgsGetRootElement": {
+		"scope": "lua",
+		"description": "element dgsGetRootElement ( )",
+		"prefix": "dgsGetRootElement",
+		"body": "dgsGetRootElement"
+	},
+	"dgsAddMoveHandler": {
+		"scope": "lua",
+		"description": "string dgsAddMoveHandler( element dgsElement [, float x = 0,float y = 0, float width = 1, float height = 1, bool relativeX = true, bool relativeY = true, bool relativeW = true, bool relativeH = true ] )",
+		"prefix": "dgsAddMoveHandler",
+		"body": "dgsAddMoveHandler"
+	},
+	"dgsRemoveMoveHandler": {
+		"scope": "lua",
+		"description": "string dgsRemoveMoveHandler( element dgsElement )",
+		"prefix": "dgsRemoveMoveHandler",
+		"body": "dgsRemoveMoveHandler"
+	},
+	"dgsIsMoveHandled": {
+		"scope": "lua",
+		"description": "bool dgsIsMoveHandled( element dgsElement )",
+		"prefix": "dgsIsMoveHandled",
+		"body": "dgsIsMoveHandled"
+	},
+	"dgsAddSizeHandler": {
+		"scope": "lua",
+		"description": "bool dgsAddSizeHandler( element dgsElement [, float left = 0,float right = 0, float top = 0, float bottom = 0, bool relativeLeft = true, bool relativeRight = true, bool relativeTop = true, bool relativeBottom = true ] )",
+		"prefix": "dgsAddSizeHandler",
+		"body": "dgsAddSizeHandler"
+	},
+	"dgsRemoveSizeHandler": {
+		"scope": "lua",
+		"description": "bool dgsRemoveSizeHandler( element dgsElement )",
+		"prefix": "dgsRemoveSizeHandler",
+		"body": "dgsRemoveSizeHandler"
+	},
+	"dgsIsSizeHandled": {
+		"scope": "lua",
+		"description": "bool dgsIsSizeHandled( element dgsElement )",
+		"prefix": "dgsIsSizeHandled",
+		"body": "dgsIsSizeHandled"
+	},
+	"dgsAttachElements": {
+		"scope": "lua",
+		"description": "bool dgsAttachElements( element dgsElement, element attachTo, int/float offsetX, int/float offsetY, int/float offsetW, int/float offsetH [, bool relativePos = false, bool relativeSize = false ] )",
+		"prefix": "dgsAttachElements",
+		"body": "dgsAttachElements"
+	},
+	"dgsDetachElements": {
+		"scope": "lua",
+		"description": "bool dgsDetachElements( element dgsElement )",
+		"prefix": "dgsDetachElements",
+		"body": "dgsDetachElements"
+	},
+	"dgsElementIsAttached": {
+		"scope": "lua",
+		"description": "bool dgsElementIsAttached( element dgsElement )",
+		"prefix": "dgsElementIsAttached",
+		"body": "dgsElementIsAttached"
+	},
+	"dgsSetMultiClickInterval": {
+		"scope": "lua",
+		"description": "bool dgsSetMultiClickInterval( int interval )",
+		"prefix": "dgsSetMultiClickInterval",
+		"body": "dgsSetMultiClickInterval"
+	},
+	"dgsGetMultiClickInterval": {
+		"scope": "lua",
+		"description": "int dgsGetMultiClickInterval( )",
+		"prefix": "dgsGetMultiClickInterval",
+		"body": "dgsGetMultiClickInterval"
+	},
+	"dgsSetMouseStayDelay": {
+		"scope": "lua",
+		"description": "bool dgsSetMouseStayDelay( int interval )",
+		"prefix": "dgsSetMouseStayDelay",
+		"body": "dgsSetMouseStayDelay"
+	},
+	"dgsGetMouseStayDelay": {
+		"scope": "lua",
+		"description": "int dgsGetMouseStayDelay( )",
+		"prefix": "dgsGetMouseStayDelay",
+		"body": "dgsGetMouseStayDelay"
+	},
+	"dgsCenterElement": {
+		"scope": "lua",
+		"description": "bool dgsCenterElement ( element dgsElement [, bool remainX, bool remainY ] )",
+		"prefix": "dgsCenterElement",
+		"body": "dgsCenterElement"
+	},
+	"dgsSetElementKeeperEnabled": {
+		"scope": "lua",
+		"description": "bool dgsSetElementKeeperEnabled( bool state ) ",
+		"prefix": "dgsSetElementKeeperEnabled",
+		"body": "dgsSetElementKeeperEnabled"
+	},
+	"dgsGetElementKeeperEnabled": {
+		"scope": "lua",
+		"description": "bool dgsGetElementKeeperEnabled( ) ",
+		"prefix": "dgsGetElementKeeperEnabled",
+		"body": "dgsGetElementKeeperEnabled"
+	},
+	"dgsSetClickingSound": {
+		"scope": "lua",
+		"description": "bool dgsSetClickingSound( element dgsElement, string soundPath )",
+		"prefix": "dgsSetClickingSound",
+		"body": "dgsSetClickingSound"
+	},
+	"dgsGetClickingSound": {
+		"scope": "lua",
+		"description": "string dgsGetClickingSound( element dgsElement )",
+		"prefix": "dgsGetClickingSound",
+		"body": "dgsGetClickingSound"
+	},
+	"dgsSetClickingSoundVolume": {
+		"scope": "lua",
+		"description": "bool dgsSetClickingSoundVolume( element dgsElement, float volume )",
+		"prefix": "dgsSetClickingSoundVolume",
+		"body": "dgsSetClickingSoundVolume"
+	},
+	"dgsGetClickingSoundVolume": {
+		"scope": "lua",
+		"description": "float dgsGetClickingSoundVolume( element dgsElement )",
+		"prefix": "dgsGetClickingSoundVolume",
+		"body": "dgsGetClickingSoundVolume"
+	},
+	"dgsSetCustomCursorEnabled": {
+		"scope": "lua",
+		"description": "bool dgsSetCustomCursorEnabled( bool state )",
+		"prefix": "dgsSetCustomCursorEnabled",
+		"body": "dgsSetCustomCursorEnabled"
+	},
+	"dgsGetCustomCursorEnabled": {
+		"scope": "lua",
+		"description": "bool dgsGetCustomCursorEnabled ()",
+		"prefix": "dgsGetCustomCursorEnabled",
+		"body": "dgsGetCustomCursorEnabled"
+	},
+	"dgsSetCustomCursorImage": {
+		"scope": "lua",
+		"description": "bool dgsSetCustomCursorImage( [ string cursorType = nil, material image = nil, float rotation = 0.0, table rotationCenter = { 0, 0 }, table offset = { 0, 0 }, float scale = 0.0 ] )",
+		"prefix": "dgsSetCustomCursorImage",
+		"body": "dgsSetCustomCursorImage"
+	},
+	"dgsGetCustomCursorImage": {
+		"scope": "lua",
+		"description": "material dgsGetCustomCursorImage( string cursorType )",
+		"prefix": "dgsGetCustomCursorImage",
+		"body": "dgsGetCustomCursorImage"
+	},
+	"dgsSetCustomCursorSize": {
+		"scope": "lua",
+		"description": "bool dgsSetCustomCursorSize( float size )",
+		"prefix": "dgsSetCustomCursorSize",
+		"body": "dgsSetCustomCursorSize"
+	},
+	"dgsGetCustomCursorSize": {
+		"scope": "lua",
+		"description": "float dgsGetCustomCursorSize( )",
+		"prefix": "dgsGetCustomCursorSize",
+		"body": "dgsGetCustomCursorSize"
+	},
+	"dgsGetCustomCursorType": {
+		"scope": "lua",
+		"description": "string dgsGetCustomCursorType( )",
+		"prefix": "dgsGetCustomCursorType",
+		"body": "dgsGetCustomCursorType"
+	},
+	"dgsSetCustomCursorColor": {
+		"scope": "lua",
+		"description": "bool dgsSetCustomCursorColor( int color )",
+		"prefix": "dgsSetCustomCursorColor",
+		"body": "dgsSetCustomCursorColor"
+	},
+	"dgsGetCustomCursorColor": {
+		"scope": "lua",
+		"description": "int dgsGetCustomCursorColor( )",
+		"prefix": "dgsGetCustomCursorColor",
+		"body": "dgsGetCustomCursorColor"
+	},
+	"dgsTranslationTableExists": {
+		"scope": "lua",
+		"description": "bool dgsTranslationTableExists ( string name )",
+		"prefix": "dgsTranslationTableExists",
+		"body": "dgsTranslationTableExists"
+	},
+	"dgsSetTranslationTable": {
+		"scope": "lua",
+		"description": "bool dgsSetTranslationTable ( string name, table translationTable )",
+		"prefix": "dgsSetTranslationTable",
+		"body": "dgsSetTranslationTable"
+	},
+	"dgsAttachToTranslation": {
+		"scope": "lua",
+		"description": "bool dgsAttachToTranslation ( element dgsElement, string name )",
+		"prefix": "dgsAttachToTranslation",
+		"body": "dgsAttachToTranslation"
+	},
+	"dgsDetachFromTranslation": {
+		"scope": "lua",
+		"description": "bool dgsDetachFromTranslation ( element dgsElement )",
+		"prefix": "dgsDetachFromTranslation",
+		"body": "dgsDetachFromTranslation"
+	},
+	"dgsSetAttachTranslation": {
+		"scope": "lua",
+		"description": "bool dgsSetAttachTranslation( string name )",
+		"prefix": "dgsSetAttachTranslation",
+		"body": "dgsSetAttachTranslation"
+	},
+	"dgsGetTranslationName": {
+		"scope": "lua",
+		"description": "string dgsGetTranslationName ( element dgsElement )",
+		"prefix": "dgsGetTranslationName",
+		"body": "dgsGetTranslationName"
+	},
+	"dgsAnimTo": {
+		"scope": "lua",
+		"description": "number/table dgsAnimTo ( element/table dgsElement, string propertyName, mixed value, string easing = \"Linear\", int duration [, int delay = 0, bool reverseProgress = false ] )",
+		"prefix": "dgsAnimTo",
+		"body": "dgsAnimTo"
+	},
+	"dgsIsAniming": {
+		"scope": "lua",
+		"description": "table dgsIsAniming ( element dgsElement )",
+		"prefix": "dgsIsAniming",
+		"body": "dgsIsAniming"
+	},
+	"dgsStopAniming": {
+		"scope": "lua",
+		"description": "bool dgsStopAniming( element dgsElement )",
+		"prefix": "dgsStopAniming",
+		"body": "dgsStopAniming"
+	},
+	"dgsMoveTo": {
+		"scope": "lua",
+		"description": "number/table dgsMoveTo ( element dgsElement, float x, float y, bool relative, string easing = \"Linear\", float duration [, int delay = 0 ])",
+		"prefix": "dgsMoveTo",
+		"body": "dgsMoveTo"
+	},
+	"dgsIsMoving": {
+		"scope": "lua",
+		"description": "table dgsIsMoving ( element dgsElement )",
+		"prefix": "dgsIsMoving",
+		"body": "dgsIsMoving"
+	},
+	"dgsStopMoving": {
+		"scope": "lua",
+		"description": "bool dgsStopMoving ( element dgsElement )",
+		"prefix": "dgsStopMoving",
+		"body": "dgsStopMoving"
+	},
+	"dgsSizeTo": {
+		"scope": "lua",
+		"description": "number/table dgsSizeTo ( element dgsElement, float w, float h, bool relative, string easing = \"Linear\", float duration [, int delay = 0 ])",
+		"prefix": "dgsSizeTo",
+		"body": "dgsSizeTo"
+	},
+	"dgsIsSizing": {
+		"scope": "lua",
+		"description": "table dgsIsSizing ( element dgsElement )",
+		"prefix": "dgsIsSizing",
+		"body": "dgsIsSizing"
+	},
+	"dgsStopSizing": {
+		"scope": "lua",
+		"description": "bool dgsStopSizing ( element dgsElement )",
+		"prefix": "dgsStopSizing",
+		"body": "dgsStopSizing"
+	},
+	"dgsAlphaTo": {
+		"scope": "lua",
+		"description": "number/table dgsAlphaTo ( element dgsElement, float targetAlpha, string easing = \"Linear\", float duration [, int delay = 0 ] )",
+		"prefix": "dgsAlphaTo",
+		"body": "dgsAlphaTo"
+	},
+	"dgsIsAlphaing": {
+		"scope": "lua",
+		"description": "table dgsIsAlphaing ( element dgsElement )",
+		"prefix": "dgsIsAlphaing",
+		"body": "dgsIsAlphaing"
+	},
+	"dgsStopAlphaing": {
+		"scope": "lua",
+		"description": "bool dgsStopAlphaing ( element dgsElement )",
+		"prefix": "dgsStopAlphaing",
+		"body": "dgsStopAlphaing"
+	},
+	"dgsAddEasingFunction": {
+		"scope": "lua",
+		"description": "bool dgsAddEasingFunction ( string name, string functionStr )",
+		"prefix": "dgsAddEasingFunction",
+		"body": "dgsAddEasingFunction"
+	},
+	"dgsRemoveEasingFunction": {
+		"scope": "lua",
+		"description": "bool dgsRemoveEasingFunction ( string name )",
+		"prefix": "dgsRemoveEasingFunction",
+		"body": "dgsRemoveEasingFunction"
+	},
+	"dgsEasingFunctionExists": {
+		"scope": "lua",
+		"description": "bool dgsEasingFunctionExists ( string name )",
+		"prefix": "dgsEasingFunctionExists",
+		"body": "dgsEasingFunctionExists"
+	},
+	"dgs3DGetPosition": {
+		"scope": "lua",
+		"description": "float, float, float dgs3DGetPosition ( element dgsElement )",
+		"prefix": "dgs3DGetPosition",
+		"body": "dgs3DGetPosition"
+	},
+	"dgs3DSetPosition": {
+		"scope": "lua",
+		"description": "bool dgs3DSetPosition ( element dgsElement, float x, float y, float z )",
+		"prefix": "dgs3DSetPosition",
+		"body": "dgs3DSetPosition"
+	},
+	"dgs3DGetInterior": {
+		"scope": "lua",
+		"description": "int dgs3DGetInterior( element element3D )",
+		"prefix": "dgs3DGetInterior",
+		"body": "dgs3DGetInterior"
+	},
+	"dgs3DSetInterior": {
+		"scope": "lua",
+		"description": "bool dgs3DSetInterior( element element3D, int interior )",
+		"prefix": "dgs3DSetInterior",
+		"body": "dgs3DSetInterior"
+	},
+	"dgs3DSetDimension": {
+		"scope": "lua",
+		"description": "bool dgs3DSetDimension( element element3D, int dimension )",
+		"prefix": "dgs3DSetDimension",
+		"body": "dgs3DSetDimension"
+	},
+	"dgs3DGetDimension": {
+		"scope": "lua",
+		"description": "int dgs3DGetDimension( element element3D )",
+		"prefix": "dgs3DGetDimension",
+		"body": "dgs3DGetDimension"
+	},
+	"dgsCreate3DInterface": {
+		"scope": "lua",
+		"description": "element dgsCreate3DInterface ( float x, float y, float z, float width, float height, int resolutionX, int resolutionY [, int color = 0xFFFFFFFF, float faceX = cameraX, float faceY = cameraY, float faceZ = cameraZ, float distance = 100, float rotation = 0 ] )",
+		"prefix": "dgsCreate3DInterface",
+		"body": "dgsCreate3DInterface"
+	},
+	"dgs3DInterfaceGetBlendMode": {
+		"scope": "lua",
+		"description": "string dgs3DInterfaceGetBlendMode( element dgsElement )",
+		"prefix": "dgs3DInterfaceGetBlendMode",
+		"body": "dgs3DInterfaceGetBlendMode"
+	},
+	"dgs3DInterfaceSetBlendMode": {
+		"scope": "lua",
+		"description": "bool dgs3DInterfaceSetBlendMode( element dgsElement, string blendMode )",
+		"prefix": "dgs3DInterfaceSetBlendMode",
+		"body": "dgs3DInterfaceSetBlendMode"
+	},
+	"dgs3DInterfaceGetFaceTo": {
+		"scope": "lua",
+		"description": "float, float, float, string dgs3DInterfaceGetFaceTo ( element dgsElement )",
+		"prefix": "dgs3DInterfaceGetFaceTo",
+		"body": "dgs3DInterfaceGetFaceTo"
+	},
+	"dgs3DInterfaceSetFaceTo": {
+		"scope": "lua",
+		"description": "bool dgs3DInterfaceSetFaceTo ( element dgsElement [, float x, float y, float z, string relativeTo = \"self\" ]  )",
+		"prefix": "dgs3DInterfaceSetFaceTo",
+		"body": "dgs3DInterfaceSetFaceTo"
+	},
+	"dgs3DInterfaceGetResolution": {
+		"scope": "lua",
+		"description": "float, float dgs3DInterfaceGetResolution( element dgsElement )",
+		"prefix": "dgs3DInterfaceGetResolution",
+		"body": "dgs3DInterfaceGetResolution"
+	},
+	"dgs3DInterfaceSetResolution": {
+		"scope": "lua",
+		"description": "bool dgs3DInterfaceSetResolution ( element dgsElement, int width, int height )",
+		"prefix": "dgs3DInterfaceSetResolution",
+		"body": "dgs3DInterfaceSetResolution"
+	},
+	"dgs3DInterfaceSetRoll": {
+		"scope": "lua",
+		"description": "bool dgs3DInterfaceSetRoll( element dgsElement, float rollRotation )",
+		"prefix": "dgs3DInterfaceSetRoll",
+		"body": "dgs3DInterfaceSetRoll"
+	},
+	"dgs3DInterfaceGetRoll": {
+		"scope": "lua",
+		"description": "float dgs3DInterfaceGetRoll( element dgsElement )",
+		"prefix": "dgs3DInterfaceGetRoll",
+		"body": "dgs3DInterfaceGetRoll"
+	},
+	"dgs3DInterfaceGetSize": {
+		"scope": "lua",
+		"description": "float, float dgs3DInterfaceGetSize ( element dgsElement )",
+		"prefix": "dgs3DInterfaceGetSize",
+		"body": "dgs3DInterfaceGetSize"
+	},
+	"dgs3DInterfaceSetSize": {
+		"scope": "lua",
+		"description": "bool dgs3DInterfaceSetSize ( element dgsElement, float width, float height )",
+		"prefix": "dgs3DInterfaceSetSize",
+		"body": "dgs3DInterfaceSetSize"
+	},
+	"dgs3DInterfaceIsAttached": {
+		"scope": "lua",
+		"description": "bool dgs3DInterfaceIsAttached( element dgsElement )",
+		"prefix": "dgs3DInterfaceIsAttached",
+		"body": "dgs3DInterfaceIsAttached"
+	},
+	"dgs3DInterfaceAttachToElement": {
+		"scope": "lua",
+		"description": "bool dgs3DInterfaceAttachToElement( element dgsElement, element targetElement [, float offX = offX, float offY = offY, float offZ = offZ, float offFaceX = offFaceX, float offFaceY = offFaceY, float offFaceZ = offFaceZ ] )",
+		"prefix": "dgs3DInterfaceAttachToElement",
+		"body": "dgs3DInterfaceAttachToElement"
+	},
+	"dgs3DInterfaceDetachFromElement": {
+		"scope": "lua",
+		"description": "bool dgs3DInterfaceDetachFromElement( element dgsElement )",
+		"prefix": "dgs3DInterfaceDetachFromElement",
+		"body": "dgs3DInterfaceDetachFromElement"
+	},
+	"dgs3DInterfaceSetAttachedOffsets": {
+		"scope": "lua",
+		"description": "bool dgs3DInterfaceSetAttachedOffsets( element dgsElement [, float offX = offX, float offY = offY, float offZ = offZ, float offFaceX = offFaceX, float offFaceY = offFaceY, float offFaceZ = offFaceZ ] )",
+		"prefix": "dgs3DInterfaceSetAttachedOffsets",
+		"body": "dgs3DInterfaceSetAttachedOffsets"
+	},
+	"dgs3DInterfaceGetAttachedOffsets": {
+		"scope": "lua",
+		"description": "float, float, float, float, float, float dgs3DInterfaceGetAttachedOffsets( element dgsElement )",
+		"prefix": "dgs3DInterfaceGetAttachedOffsets",
+		"body": "dgs3DInterfaceGetAttachedOffsets"
+	},
+	"dgsCreate3DLine": {
+		"scope": "lua",
+		"description": "element dgsCreate3DLine ( float x, float y, float z [, float rx = 0, float ry = 0, float rz = 0, float width = 1, float color = 0xFFFFFFFF, float maxDistance = 80 ] )",
+		"prefix": "dgsCreate3DLine",
+		"body": "dgsCreate3DLine"
+	},
+	"dgs3DLineAddItem": {
+		"scope": "lua",
+		"description": "int dgs3DLineAddItem( element line3D , float startX, float startY, float startZ, float endX, float endY, float endZ [, float lineWidth = dgs3DLineWidth, int lineColor = dgs3DLineColor, bool isRelative = false ] )",
+		"prefix": "dgs3DLineAddItem",
+		"body": "dgs3DLineAddItem"
+	},
+	"dgs3DLineRemoveItem": {
+		"scope": "lua",
+		"description": "bool dgs3DLineRemoveItem( element line3D, int itemIndex )",
+		"prefix": "dgs3DLineRemoveItem",
+		"body": "dgs3DLineRemoveItem"
+	},
+	"dgs3DLineSetItemPosition": {
+		"scope": "lua",
+		"description": "bool dgs3DLineSetItemPosition( element line3D, int index, float x, float y, float z )",
+		"prefix": "dgs3DLineSetItemPosition",
+		"body": "dgs3DLineSetItemPosition"
+	},
+	"dgs3DLineGetItemPosition": {
+		"scope": "lua",
+		"description": "float/nil, float/nil, float/nil, float, float, float dgs3DLineGetItemPosition( element line3D, int index )",
+		"prefix": "dgs3DLineGetItemPosition",
+		"body": "dgs3DLineGetItemPosition"
+	},
+	"dgs3DLineSetItemWidth": {
+		"scope": "lua",
+		"description": "bool dgs3DLineSetItemWidth( element line3D, int index, float width )",
+		"prefix": "dgs3DLineSetItemWidth",
+		"body": "dgs3DLineSetItemWidth"
+	},
+	"dgs3DLineGetItemWidth": {
+		"scope": "lua",
+		"description": "bool dgs3DLineGetItemWidth( element line3D, int index )",
+		"prefix": "dgs3DLineGetItemWidth",
+		"body": "dgs3DLineGetItemWidth"
+	},
+	"dgs3DLineSetItemColor": {
+		"scope": "lua",
+		"description": "bool dgs3DLineSetItemColor( element line3D, int index, int color )",
+		"prefix": "dgs3DLineSetItemColor",
+		"body": "dgs3DLineSetItemColor"
+	},
+	"dgs3DLineGetItemColor": {
+		"scope": "lua",
+		"description": "int dgs3DLineGetItemColor( element line3D, int index )",
+		"prefix": "dgs3DLineGetItemColor",
+		"body": "dgs3DLineGetItemColor"
+	},
+	"dgsCreate3DImage": {
+		"scope": "lua",
+		"description": "element dgsCreate3DImage( float x, float y, float z, string/texture/nil image[, int color = 0xFFFFFFFF, float scaleX = 1, float scaleY = 1, float maxDistance = 80 ] )",
+		"prefix": "dgsCreate3DImage",
+		"body": "dgsCreate3DImage"
+	},
+	"dgs3DImageSetSize": {
+		"scope": "lua",
+		"description": "bool dgs3DImageSetSize( element image3D, float width, float height )",
+		"prefix": "dgs3DImageSetSize",
+		"body": "dgs3DImageSetSize"
+	},
+	"dgs3DImageGetSize": {
+		"scope": "lua",
+		"description": "float, float dgs3DImageGetSize( element image3D )",
+		"prefix": "dgs3DImageGetSize",
+		"body": "dgs3DImageGetSize"
+	},
+	"dgs3DImageSetImage": {
+		"scope": "lua",
+		"description": "bool dgs3DImageSetImage ( element image3D, element/string texture )",
+		"prefix": "dgs3DImageSetImage",
+		"body": "dgs3DImageSetImage"
+	},
+	"dgs3DImageGetImage": {
+		"scope": "lua",
+		"description": "texture dgs3DImageGetImage ( element image3D )",
+		"prefix": "dgs3DImageGetImage",
+		"body": "dgs3DImageGetImage"
+	},
+	"dgs3DImageAttachToElement": {
+		"scope": "lua",
+		"description": "bool dgs3DImageAttachToElement ( dgsElement the3DImageElement, element theAttachToElement, [ float xPosOffset = 0, float yPosOffset = 0, float zPosOffset = 0, float xRotOffset = 0, float yRotOffset = 0, float zRotOffset = 0 ] )",
+		"prefix": "dgs3DImageAttachToElement",
+		"body": "dgs3DImageAttachToElement"
+	},
+	"dgs3DImageIsAttached": {
+		"scope": "lua",
+		"description": "bool dgs3DImageIsAttached( dgsElement element )",
+		"prefix": "dgs3DImageIsAttached",
+		"body": "dgs3DImageIsAttached"
+	},
+	"dgs3DImageDetachFromElement": {
+		"scope": "lua",
+		"description": "bool dgs3DImageDetachFromElement ( element the3DImageElement, [ element theAttachToElement ] )",
+		"prefix": "dgs3DImageDetachFromElement",
+		"body": "dgs3DImageDetachFromElement"
+	},
+	"dgs3DImageGetNativeSize": {
+		"scope": "lua",
+		"description": "int, int dgs3DImageGetNativeSize( element dgs3DImage)",
+		"prefix": "dgs3DImageGetNativeSize",
+		"body": "dgs3DImageGetNativeSize"
+	},
+	"dgs3DImageSetUVPosition": {
+		"scope": "lua",
+		"description": "bool dgs3DImageSetUVPosition ( element dgs3DImage, float UPos, float VPos, bool relative )",
+		"prefix": "dgs3DImageSetUVPosition",
+		"body": "dgs3DImageSetUVPosition"
+	},
+	"dgs3DImageGetUVPosition": {
+		"scope": "lua",
+		"description": "float, float dgs3DImageGetUVPosition ( element dgs3DImage, bool relative )",
+		"prefix": "dgs3DImageGetUVPosition",
+		"body": "dgs3DImageGetUVPosition"
+	},
+	"dgs3DImageSetUVSize": {
+		"scope": "lua",
+		"description": "bool dgs3DImageSetUVSize ( element dgs3DImage, float UPos, float VPos, bool relative )",
+		"prefix": "dgs3DImageSetUVSize",
+		"body": "dgs3DImageSetUVSize"
+	},
+	"dgs3DImageGetUVSize": {
+		"scope": "lua",
+		"description": "float, float dgs3DImageGetUVSize ( element dgs3DImage, bool relative )",
+		"prefix": "dgs3DImageGetUVSize",
+		"body": "dgs3DImageGetUVSize"
+	},
+	"dgsCreate3DText": {
+		"scope": "lua",
+		"description": "element dgsCreate3DText( float x, float y, float z, string text [, int color = 0xFFFFFFFF, dx-font/string font = nil, float scaleX = 1, float scaleY = 1, float maxDistance = 80, bool = colorcoded = false ] )",
+		"prefix": "dgsCreate3DText",
+		"body": "dgsCreate3DText"
+	},
+	"dgs3DTextIsAttached": {
+		"scope": "lua",
+		"description": "bool dgs3DTextIsAttached( element text3D )",
+		"prefix": "dgs3DTextIsAttached",
+		"body": "dgs3DTextIsAttached"
+	},
+	"dgs3DTextAttachToElement": {
+		"scope": "lua",
+		"description": "bool dgs3DTextAttachToElement( element text3D, element targetElement [, float offsetX = 0, float offsetY = 0, float offsetZ = 0 ] )",
+		"prefix": "dgs3DTextAttachToElement",
+		"body": "dgs3DTextAttachToElement"
+	},
+	"dgs3DTextDetachFromElement": {
+		"scope": "lua",
+		"description": "bool dgs3DTextDetachFromElement( element text3D )",
+		"prefix": "dgs3DTextDetachFromElement",
+		"body": "dgs3DTextDetachFromElement"
+	},
+	"dgs3DTextSetAttachedOffsets": {
+		"scope": "lua",
+		"description": "bool dgs3DTextSetAttachedOffsets( element text3D [, float offsetX = 0, float offsetY = 0, float offsetZ = 0 ] )",
+		"prefix": "dgs3DTextSetAttachedOffsets",
+		"body": "dgs3DTextSetAttachedOffsets"
+	},
+	"dgs3DTextGetAttachedOffsets": {
+		"scope": "lua",
+		"description": "float, float, float dgs3DTextGetAttachedOffsets( element text3D )",
+		"prefix": "dgs3DTextGetAttachedOffsets",
+		"body": "dgs3DTextGetAttachedOffsets"
+	},
+	"dgsCreateBrowser": {
+		"scope": "lua",
+		"description": "element dgsCreateBrowser ( float x, float y, float width, float height, bool relative [, element parent = nil, bool isLocal = false, bool isTransparent = false, float resolutionX = width, float resolutionY = height, int color = 0xFFFFFFFF ] )",
+		"prefix": "dgsCreateBrowser",
+		"body": "dgsCreateBrowser"
+	},
+	"dgsCreateButton": {
+		"scope": "lua",
+		"description": "element dgsCreateButton ( float x, float y, float width, float height, string text, bool relative [, element parent = nil, int textColor = 0xFFFFFFFF, float scaleX = 1, float scaleY = 1, element normalImage = nil, element hoveringImage = nil, element clickedImage = nil, int normalColor = 0xC80078C8, int hoveringColor = 0xC8005AFF, int clickedColor = 0xC8325A] )",
+		"prefix": "dgsCreateButton",
+		"body": "dgsCreateButton"
+	},
+	"dgsButtonGetTextExtent": {
+		"scope": "lua",
+		"description": "float dgsButtonGetTextExtent ( element theButton )",
+		"prefix": "dgsButtonGetTextExtent",
+		"body": "dgsButtonGetTextExtent"
+	},
+	"dgsButtonGetFontHeight": {
+		"scope": "lua",
+		"description": "float dgsButtonGetFontHeight ( element theButton )",
+		"prefix": "dgsButtonGetFontHeight",
+		"body": "dgsButtonGetFontHeight"
+	},
+	"dgsButtonGetTextSize": {
+		"scope": "lua",
+		"description": "float, float dgsButtonGetTextSize( element theButton )",
+		"prefix": "dgsButtonGetTextSize",
+		"body": "dgsButtonGetTextSize"
+	},
+	"dgsCreateCheckBox": {
+		"scope": "lua",
+		"description": "element dgsCreateCheckBox ( float x, float y, float width, float height, string text, bool selected, bool relative [, element parent = nil, int textColor, float scaleX = 1.0, float scaleY = 1.0, element normalUncheckedImage = nil, element hoveringUncheckedImage = nil, element clickedUnCheckedImage = nil, int normalUnCheckedColor = 0xFFFFFFFF, int hoveringUnCheckedColor = 0xFFFFFFFF, int clickedUnCheckedColor = 0xFFB4B4B4, element normalCheckedImage = nil, element  hoveringCheckedImage = nil, element clickedCheckedImage = nil, int normalCheckedColor = 0xFFFFFFFF, int hoveringCheckedColor = 0xFFFFFFFF,int clickedCheckedColor = 0xFFB4B4B4, element normalIndeterminateImage = nil, element  hoveringIndeterminateImage = nil, element clickedIndeterminateImage = nil, int normalIndeterminateColor = 0xFFFFFFFF, int hoveringIndeterminateColor = 0xFFFFFFFF,int clickedIndeterminateColor = 0xFFB4B4B4 ] )",
+		"prefix": "dgsCreateCheckBox",
+		"body": "dgsCreateCheckBox"
+	},
+	"dgsCheckBoxGetSelected": {
+		"scope": "lua",
+		"description": "bool dgsCheckBoxGetSelected ( element theCheckbox )",
+		"prefix": "dgsCheckBoxGetSelected",
+		"body": "dgsCheckBoxGetSelected"
+	},
+	"dgsCheckBoxSetSelected": {
+		"scope": "lua",
+		"description": "bool dgsCheckBoxSetSelected ( element theCheckbox, bool state )",
+		"prefix": "dgsCheckBoxSetSelected",
+		"body": "dgsCheckBoxSetSelected"
+	},
+	"dgsCheckBoxSetHorizontalAlign": {
+		"scope": "lua",
+		"description": "bool dgsCheckBoxSetHorizontalAlign ( element checkBox, string align )",
+		"prefix": "dgsCheckBoxSetHorizontalAlign",
+		"body": "dgsCheckBoxSetHorizontalAlign"
+	},
+	"dgsCheckBoxGetHorizontalAlign": {
+		"scope": "lua",
+		"description": "string dgsCheckBoxGetHorizontalAlign ( element checkBox )",
+		"prefix": "dgsCheckBoxGetHorizontalAlign",
+		"body": "dgsCheckBoxGetHorizontalAlign"
+	},
+	"dgsCheckBoxSetVerticalAlign": {
+		"scope": "lua",
+		"description": "bool dgsCheckBoxSetVerticalAlign ( element checkBox, string align )",
+		"prefix": "dgsCheckBoxSetVerticalAlign",
+		"body": "dgsCheckBoxSetVerticalAlign"
+	},
+	"dgsCheckBoxGetVerticalAlign": {
+		"scope": "lua",
+		"description": "string dgsCheckBoxGetVerticalAlign ( element checkBox )",
+		"prefix": "dgsCheckBoxGetVerticalAlign",
+		"body": "dgsCheckBoxGetVerticalAlign"
+	},
+	"dgsCheckBoxGetButtonSide": {
+		"scope": "lua",
+		"description": "string dgsCheckBoxGetButtonSide ( dgsCheckBox [, string side = \"left\" ] )",
+		"prefix": "dgsCheckBoxGetButtonSide",
+		"body": "dgsCheckBoxGetButtonSide"
+	},
+	"dgsCheckBoxSetButtonSide": {
+		"scope": "lua",
+		"description": "bool dgsCheckBoxSetButtonSide ( dgsCheckBox [, string side = \"left\" ] )",
+		"prefix": "dgsCheckBoxSetButtonSide",
+		"body": "dgsCheckBoxSetButtonSide"
+	},
+	"dgsCheckBoxGetButtonAlign": {
+		"scope": "lua",
+		"description": "string dgsCheckBoxGetButtonAlign ( dgsCheckBox )",
+		"prefix": "dgsCheckBoxGetButtonAlign",
+		"body": "dgsCheckBoxGetButtonAlign"
+	},
+	"dgsCheckBoxSetButtonAlign": {
+		"scope": "lua",
+		"description": "bool dgsCheckBoxSetButtonAlign ( dgsCheckBox [, string alignment = \"left\" ] )",
+		"prefix": "dgsCheckBoxSetButtonAlign",
+		"body": "dgsCheckBoxSetButtonAlign"
+	},
+	"dgsCreateComboBox": {
+		"scope": "lua",
+		"description": "element dgsCreateComboBox( float x, float y, float width, float height, string caption, bool relative [, element parent = nil, element itemHeight = 20, int textColor = 0xFF000000, float scaleX = 1, float scaleY = 1, element normalImage = nil, element hoveringImage = nil, element clickedImage = nil, int normalColor = 0x0078C8C8, int hoveringColor = 0xC8005AFF, int clickedColor = 0xC8325AFA] )",
+		"prefix": "dgsCreateComboBox",
+		"body": "dgsCreateComboBox"
+	},
+	"dgsComboBoxAddItem": {
+		"scope": "lua",
+		"description": "int dgsComboBoxAddItem( element comboBox, string value )",
+		"prefix": "dgsComboBoxAddItem",
+		"body": "dgsComboBoxAddItem"
+	},
+	"dgsComboBoxRemoveItem": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxRemoveItem( element comboBox, int itemId )",
+		"prefix": "dgsComboBoxRemoveItem",
+		"body": "dgsComboBoxRemoveItem"
+	},
+	"dgsComboBoxSetItemText": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxSetItemText ( element comboBox, int itemId, string/number text )",
+		"prefix": "dgsComboBoxSetItemText",
+		"body": "dgsComboBoxSetItemText"
+	},
+	"dgsComboBoxGetItemText": {
+		"scope": "lua",
+		"description": "string dgsComboBoxGetItemText ( element comboBox, int itemId )",
+		"prefix": "dgsComboBoxGetItemText",
+		"body": "dgsComboBoxGetItemText"
+	},
+	"dgsComboBoxSetItemData": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxSetItemData ( element combobox, int itemIndex, mixed key, mixed data )",
+		"prefix": "dgsComboBoxSetItemData",
+		"body": "dgsComboBoxSetItemData"
+	},
+	"dgsComboBoxGetItemData": {
+		"scope": "lua",
+		"description": "mixed dgsComboBoxGetItemData ( element combobox, int itemIndex, mixed key )",
+		"prefix": "dgsComboBoxGetItemData",
+		"body": "dgsComboBoxGetItemData"
+	},
+	"dgsComboBoxGetItemCount": {
+		"scope": "lua",
+		"description": "int dgsComboBoxGetItemCount ( element comboBox )",
+		"prefix": "dgsComboBoxGetItemCount",
+		"body": "dgsComboBoxGetItemCount"
+	},
+	"dgsComboBoxClear": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxClear ( element comboBox )",
+		"prefix": "dgsComboBoxClear",
+		"body": "dgsComboBoxClear"
+	},
+	"dgsComboBoxSetSelectedItem": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxSetSelectedItem ( element comboBox, int itemIndex )",
+		"prefix": "dgsComboBoxSetSelectedItem",
+		"body": "dgsComboBoxSetSelectedItem"
+	},
+	"dgsComboBoxGetSelectedItem": {
+		"scope": "lua",
+		"description": "int dgsComboBoxGetSelectedItem ( element comboBox )",
+		"prefix": "dgsComboBoxGetSelectedItem",
+		"body": "dgsComboBoxGetSelectedItem"
+	},
+	"dgsComboBoxSetItemColor": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxSetItemColor ( element comboBox, int item, int color)",
+		"prefix": "dgsComboBoxSetItemColor",
+		"body": "dgsComboBoxSetItemColor"
+	},
+	"dgsComboBoxGetItemColor": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxGetItemColor ( element comboBox, int item )",
+		"prefix": "dgsComboBoxGetItemColor",
+		"body": "dgsComboBoxGetItemColor"
+	},
+	"dgsComboBoxSetItemFont": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxSetItemFont ( element comboBox, int itemId, mixed font )",
+		"prefix": "dgsComboBoxSetItemFont",
+		"body": "dgsComboBoxSetItemFont"
+	},
+	"dgsComboBoxGetState": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxGetState( element comboBox )",
+		"prefix": "dgsComboBoxGetState",
+		"body": "dgsComboBoxGetState"
+	},
+	"dgsComboBoxSetState": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxSetState( element comboBox, bool state )",
+		"prefix": "dgsComboBoxSetState",
+		"body": "dgsComboBoxSetState"
+	},
+	"dgsComboBoxGetBoxHeight": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxGetBoxHeight( element comboBox, bool relative )",
+		"prefix": "dgsComboBoxGetBoxHeight",
+		"body": "dgsComboBoxGetBoxHeight"
+	},
+	"dgsComboBoxSetBoxHeight": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxSetBoxHeight( element comboBox, float height, bool relative )",
+		"prefix": "dgsComboBoxSetBoxHeight",
+		"body": "dgsComboBoxSetBoxHeight"
+	},
+	"dgsComboBoxSetViewCount": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxSetViewCount( element comboBox [, int viewCount ] )",
+		"prefix": "dgsComboBoxSetViewCount",
+		"body": "dgsComboBoxSetViewCount"
+	},
+	"dgsComboBoxGetViewCount": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxGetViewCount( element comboBox )",
+		"prefix": "dgsComboBoxGetViewCount",
+		"body": "dgsComboBoxGetViewCount"
+	},
+	"dgsComboBoxGetScrollBar": {
+		"scope": "lua",
+		"description": "element dgsComboBoxGetScrollBar( element comboBox )",
+		"prefix": "dgsComboBoxGetScrollBar",
+		"body": "dgsComboBoxGetScrollBar"
+	},
+	"dgsComboBoxSetScrollPosition": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxSetScrollPosition( element comboBox [, float vertical = nil ] )",
+		"prefix": "dgsComboBoxSetScrollPosition",
+		"body": "dgsComboBoxSetScrollPosition"
+	},
+	"dgsComboBoxGetScrollPosition": {
+		"scope": "lua",
+		"description": "float dgsComboBoxGetScrollPosition( element comboBox )",
+		"prefix": "dgsComboBoxGetScrollPosition",
+		"body": "dgsComboBoxGetScrollPosition"
+	},
+	"dgsComboBoxSetCaptionText": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxSetCaptionText( element combobox, string captain )",
+		"prefix": "dgsComboBoxSetCaptionText",
+		"body": "dgsComboBoxSetCaptionText"
+	},
+	"dgsComboBoxGetCaptionText": {
+		"scope": "lua",
+		"description": "string dgsComboBoxGetCaptionText( element combobox )",
+		"prefix": "dgsComboBoxGetCaptionText",
+		"body": "dgsComboBoxGetCaptionText"
+	},
+	"dgsComboBoxSetEditEnabled": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxSetEditEnabled( element comboBox, bool enabled )",
+		"prefix": "dgsComboBoxSetEditEnabled",
+		"body": "dgsComboBoxSetEditEnabled"
+	},
+	"dgsComboBoxGetEditEnabled": {
+		"scope": "lua",
+		"description": "bool dgsComboBoxGetEditEnabled( element comboBox )",
+		"prefix": "dgsComboBoxGetEditEnabled",
+		"body": "dgsComboBoxGetEditEnabled"
+	},
+	"dgsComboBoxGetText": {
+		"scope": "lua",
+		"description": "string dgsComboBoxGetText( element comboBox )",
+		"prefix": "dgsComboBoxGetText",
+		"body": "dgsComboBoxGetText"
+	},
+	"dgsCreateCustomRenderer": {
+		"scope": "lua",
+		"description": "element dgsCreateCustomRenderer( [ string renderFunction ] )",
+		"prefix": "dgsCreateCustomRenderer",
+		"body": "dgsCreateCustomRenderer"
+	},
+	"dgsCustomRendererSetFunction": {
+		"scope": "lua",
+		"description": "bool dgsCustomRendererSetFunction( element customRenderer, string renderFunction )",
+		"prefix": "dgsCustomRendererSetFunction",
+		"body": "dgsCustomRendererSetFunction"
+	},
+	"dgsCreateEdit": {
+		"scope": "lua",
+		"description": "element dgsCreateEdit ( float x, float y, float width, float height, string text, bool relative [, element parent = nil, int textColor = FF000000, float scaleX = 1, float scaleY = 1,element bgImage = nil, int bgColor = 0xFFC8C8C8, bool selectMode = false ] )",
+		"prefix": "dgsCreateEdit",
+		"body": "dgsCreateEdit"
+	},
+	"dgsEditMoveCaret": {
+		"scope": "lua",
+		"description": "bool dgsEditMoveCaret ( element theElement, int indexoffset [, bool selectText = false ] )",
+		"prefix": "dgsEditMoveCaret",
+		"body": "dgsEditMoveCaret"
+	},
+	"dgsEditGetCaretPosition": {
+		"scope": "lua",
+		"description": "int dgsEditGetCaretPosition ( element theElement )",
+		"prefix": "dgsEditGetCaretPosition",
+		"body": "dgsEditGetCaretPosition"
+	},
+	"dgsEditSetCaretPosition": {
+		"scope": "lua",
+		"description": "bool dgsEditSetCaretPosition ( element theElement, int index [, bool selectText = false ] )",
+		"prefix": "dgsEditSetCaretPosition",
+		"body": "dgsEditSetCaretPosition"
+	},
+	"dgsEditSetCaretStyle": {
+		"scope": "lua",
+		"description": "bool dgsEditSetCaretStyle( element dgsElement, int style )",
+		"prefix": "dgsEditSetCaretStyle",
+		"body": "dgsEditSetCaretStyle"
+	},
+	"dgsEditGetCaretStyle": {
+		"scope": "lua",
+		"description": "int dgsEditGetCaretStyle( element dgsElement )",
+		"prefix": "dgsEditGetCaretStyle",
+		"body": "dgsEditGetCaretStyle"
+	},
+	"dgsEditSetTextFilter": {
+		"scope": "lua",
+		"description": "bool dgsEditSetTextFilter( element edit, string filter )",
+		"prefix": "dgsEditSetTextFilter",
+		"body": "dgsEditSetTextFilter"
+	},
+	"dgsEditGetMaxLength": {
+		"scope": "lua",
+		"description": "bool dgsEditGetMaxLength ( element theElement )",
+		"prefix": "dgsEditGetMaxLength",
+		"body": "dgsEditGetMaxLength"
+	},
+	"dgsEditSetMaxLength": {
+		"scope": "lua",
+		"description": "bool dgsEditSetMaxLength ( element theElement, int length )",
+		"prefix": "dgsEditSetMaxLength",
+		"body": "dgsEditSetMaxLength"
+	},
+	"dgsEditSetReadOnly": {
+		"scope": "lua",
+		"description": "bool dgsEditSetReadOnly ( element edit, bool status )",
+		"prefix": "dgsEditSetReadOnly",
+		"body": "dgsEditSetReadOnly"
+	},
+	"dgsEditGetReadOnly": {
+		"scope": "lua",
+		"description": "bool dgsEditGetReadOnly ( element edit )",
+		"prefix": "dgsEditGetReadOnly",
+		"body": "dgsEditGetReadOnly"
+	},
+	"dgsEditSetMasked": {
+		"scope": "lua",
+		"description": "bool dgsEditSetMasked ( element theElement, bool status )",
+		"prefix": "dgsEditSetMasked",
+		"body": "dgsEditSetMasked"
+	},
+	"dgsEditGetMasked": {
+		"scope": "lua",
+		"description": "bool dgsEditGetMasked ( element theElement )",
+		"prefix": "dgsEditGetMasked",
+		"body": "dgsEditGetMasked"
+	},
+	"dgsEditSetUnderlined": {
+		"scope": "lua",
+		"description": "bool dgsEditSetUnderlined( element edit, bool state )",
+		"prefix": "dgsEditSetUnderlined",
+		"body": "dgsEditSetUnderlined"
+	},
+	"dgsEditGetUnderlined": {
+		"scope": "lua",
+		"description": "bool dgsEditGetUnderlined( element edit )",
+		"prefix": "dgsEditGetUnderlined",
+		"body": "dgsEditGetUnderlined"
+	},
+	"dgsEditSetHorizontalAlign": {
+		"scope": "lua",
+		"description": "bool dgsEditSetHorizontalAlign ( element theEdit, string align )",
+		"prefix": "dgsEditSetHorizontalAlign",
+		"body": "dgsEditSetHorizontalAlign"
+	},
+	"dgsEditSetVerticalAlign": {
+		"scope": "lua",
+		"description": "bool dgsEditSetVerticalAlign ( element theEdit, string align )",
+		"prefix": "dgsEditSetVerticalAlign",
+		"body": "dgsEditSetVerticalAlign"
+	},
+	"dgsEditGetHorizontalAlign": {
+		"scope": "lua",
+		"description": "bool dgsEditGetHorizontalAlign ( element theEdit )",
+		"prefix": "dgsEditGetHorizontalAlign",
+		"body": "dgsEditGetHorizontalAlign"
+	},
+	"dgsEditGetVerticalAlign": {
+		"scope": "lua",
+		"description": "bool dgsEditGetVerticalAlign ( element theEdit )",
+		"prefix": "dgsEditGetVerticalAlign",
+		"body": "dgsEditGetVerticalAlign"
+	},
+	"dgsEditSetAlignment": {
+		"scope": "lua",
+		"description": "bool dgsEditSetAlignment ( element theEdit [, string horizontalAlignment, string verticalAlignment ] )",
+		"prefix": "dgsEditSetAlignment",
+		"body": "dgsEditSetAlignment"
+	},
+	"dgsEditGetAlignment": {
+		"scope": "lua",
+		"description": "string,string dgsEditGetAlignment ( element theEdit )",
+		"prefix": "dgsEditGetAlignment",
+		"body": "dgsEditGetAlignment"
+	},
+	"dgsEditInsertText": {
+		"scope": "lua",
+		"description": "bool dgsEditInsertText ( element theElement, int index, string text )",
+		"prefix": "dgsEditInsertText",
+		"body": "dgsEditInsertText"
+	},
+	"dgsEditDeleteText": {
+		"scope": "lua",
+		"description": "bool dgsEditDeleteText ( element theElement, int startIndex, int endIndex [, bool noAffectCaret = false ] )",
+		"prefix": "dgsEditDeleteText",
+		"body": "dgsEditDeleteText"
+	},
+	"dgsEditGetPartOfText": {
+		"scope": "lua",
+		"description": "string dgsEditGetPartOfText ( element theElement [, int startIndex = 0, int endIndex, bool deleteText = false ] )",
+		"prefix": "dgsEditGetPartOfText",
+		"body": "dgsEditGetPartOfText"
+	},
+	"dgsEditClearText": {
+		"scope": "lua",
+		"description": "bool dgsEditClearText ( element theElement )",
+		"prefix": "dgsEditClearText",
+		"body": "dgsEditClearText"
+	},
+	"dgsEditReplaceText": {
+		"scope": "lua",
+		"description": "bool dgsEditReplaceText ( element theElement, int startIndex, int endIndex, string text [, bool noAffectCaret = false ] )",
+		"prefix": "dgsEditReplaceText",
+		"body": "dgsEditReplaceText"
+	},
+	"dgsEditSetTypingSound": {
+		"scope": "lua",
+		"description": "bool dgsEditSetTypingSound( element dxEdit, string soundPath )",
+		"prefix": "dgsEditSetTypingSound",
+		"body": "dgsEditSetTypingSound"
+	},
+	"dgsEditGetTypingSound": {
+		"scope": "lua",
+		"description": "string dgsEditGetTypingSound( element dxEdit )",
+		"prefix": "dgsEditGetTypingSound",
+		"body": "dgsEditGetTypingSound"
+	},
+	"dgsEditSetTypingSoundVolume": {
+		"scope": "lua",
+		"description": "bool dgsEditSetTypingSoundVolume( element edit, float volume )",
+		"prefix": "dgsEditSetTypingSoundVolume",
+		"body": "dgsEditSetTypingSoundVolume"
+	},
+	"dgsEditGetTypingSoundVolume": {
+		"scope": "lua",
+		"description": "float dgsEditGetTypingSoundVolume( element edit )",
+		"prefix": "dgsEditGetTypingSoundVolume",
+		"body": "dgsEditGetTypingSoundVolume"
+	},
+	"dgsEditSetPlaceHolder": {
+		"scope": "lua",
+		"description": "bool dgsEditSetPlaceHolder( element theEdit, string placeHolder )",
+		"prefix": "dgsEditSetPlaceHolder",
+		"body": "dgsEditSetPlaceHolder"
+	},
+	"dgsEditGetPlaceHolder": {
+		"scope": "lua",
+		"description": "string dgsEditGetPlaceHolder( element theEdit )",
+		"prefix": "dgsEditGetPlaceHolder",
+		"body": "dgsEditGetPlaceHolder"
+	},
+	"dgsEditAddAutoComplete": {
+		"scope": "lua",
+		"description": "element dgsEditAddAutoComplete( bool editBox, string str [, bool isSensitive] )",
+		"prefix": "dgsEditAddAutoComplete",
+		"body": "dgsEditAddAutoComplete"
+	},
+	"dgsEditRemoveAutoComplete": {
+		"scope": "lua",
+		"description": "bool dgsEditRemoveAutoComplete( element edit, string autoCompleteText )",
+		"prefix": "dgsEditRemoveAutoComplete",
+		"body": "dgsEditRemoveAutoComplete"
+	},
+	"dgsEditSetAutoComplete": {
+		"scope": "lua",
+		"description": "bool dgsEditSetAutoComplete( element edit, table autoCompleteTable )",
+		"prefix": "dgsEditSetAutoComplete",
+		"body": "dgsEditSetAutoComplete"
+	},
+	"dgsEditGetAutoComplete": {
+		"scope": "lua",
+		"description": "table dgsEditGetAutoComplete( element edit )",
+		"prefix": "dgsEditGetAutoComplete",
+		"body": "dgsEditGetAutoComplete"
+	},
+	"dgsCreateDetectArea": {
+		"scope": "lua",
+		"description": "element dgsCreateDetectArea ( float x, float y, float width, float height, bool relative [, element parent = nil ] )",
+		"prefix": "dgsCreateDetectArea",
+		"body": "dgsCreateDetectArea"
+	},
+	"dgsGetDetectArea": {
+		"scope": "lua",
+		"description": "element dgsGetDetectArea( element dgsElement )",
+		"prefix": "dgsGetDetectArea",
+		"body": "dgsGetDetectArea"
+	},
+	"dgsApplyDetectArea": {
+		"scope": "lua",
+		"description": "bool dgsApplyDetectArea( element dgsElement, element detectArea )",
+		"prefix": "dgsApplyDetectArea",
+		"body": "dgsApplyDetectArea"
+	},
+	"dgsRemoveDetectArea": {
+		"scope": "lua",
+		"description": "bool dgsRemoveDetectArea( element dgsElement )",
+		"prefix": "dgsRemoveDetectArea",
+		"body": "dgsRemoveDetectArea"
+	},
+	"dgsDetectAreaSetFunction": {
+		"scope": "lua",
+		"description": "bool dgsDetectAreaSetFunction( element da, string/texture detectingFnc )",
+		"prefix": "dgsDetectAreaSetFunction",
+		"body": "dgsDetectAreaSetFunction"
+	},
+	"dgsDetectAreaSetDebugModeEnabled": {
+		"scope": "lua",
+		"description": "bool dgsDetectAreaSetDebugModeEnabled( element da, bool state )",
+		"prefix": "dgsDetectAreaSetDebugModeEnabled",
+		"body": "dgsDetectAreaSetDebugModeEnabled"
+	},
+	"dgsDetectAreaGetDebugModeEnabled": {
+		"scope": "lua",
+		"description": "bool dgsDetectAreaGetDebugModeEnabled( element da )",
+		"prefix": "dgsDetectAreaGetDebugModeEnabled",
+		"body": "dgsDetectAreaGetDebugModeEnabled"
+	},
+	"dgsSendDragNDropData": {
+		"scope": "lua",
+		"description": "bool dgsSendDragNDropData ( mixed dragData [, material preview = nil, int previewColor = tocolor(255,255,255,255), float previewOffsetX = 0, float previewOffsetY = 0, float previewWidth = 20, float previewHeight = 20, string previewHorizontalAlign = \"center\", string previewVerticalAlign = \"center\" ] )",
+		"prefix": "dgsSendDragNDropData",
+		"body": "dgsSendDragNDropData"
+	},
+	"dgsRetrieveDragNDropData": {
+		"scope": "lua",
+		"description": "mixed dgsRetrieveDragNDropData ( [ bool retainData = false ] )",
+		"prefix": "dgsRetrieveDragNDropData",
+		"body": "dgsRetrieveDragNDropData"
+	},
+	"dgsIsDragNDropData": {
+		"scope": "lua",
+		"description": "bool dgsIsDragNDropData (  )",
+		"prefix": "dgsIsDragNDropData",
+		"body": "dgsIsDragNDropData"
+	},
+	"dgsCreateGridList": {
+		"scope": "lua",
+		"description": "element dgsCreateGridList( float x, float y, float width, float height, bool relative [, element parent = nil, float columnHeight = 20, int bgColor = 0xFFD2D2D2, int columnTextColor = 0xFF000000, int columnColor = 0xFFDCDCDC, int normalRowColor = 0xFFC8C8C8, int hoveringRowColor = 0xFF969696, int selectedRowColor = 0xFF00ACF2, element bgImage = nil, element columnImage = nil, element normalRowImage = nil, element hoveringRowImage = nil, element selectedRowImage = nil] )",
+		"prefix": "dgsCreateGridList",
+		"body": "dgsCreateGridList"
+	},
+	"dgsGridListClear": {
+		"scope": "lua",
+		"description": "bool dgsGridListClear ( element gridList [, bool clearRow = true, bool clearColumn = false ] )",
+		"prefix": "dgsGridListClear",
+		"body": "dgsGridListClear"
+	},
+	"dgsGridListGetScrollBar": {
+		"scope": "lua",
+		"description": "table dgsGridListGetScrollBar( element gridList )",
+		"prefix": "dgsGridListGetScrollBar",
+		"body": "dgsGridListGetScrollBar"
+	},
+	"dgsGridListSetScrollPosition": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetScrollPosition( element gridList[, float vertical = nil, float horizontal = nil ] )",
+		"prefix": "dgsGridListSetScrollPosition",
+		"body": "dgsGridListSetScrollPosition"
+	},
+	"dgsGridListGetScrollPosition": {
+		"scope": "lua",
+		"description": "float, float dgsGridListGetScrollPosition( element gridList )",
+		"prefix": "dgsGridListGetScrollPosition",
+		"body": "dgsGridListGetScrollPosition"
+	},
+	"dgsGridListScrollTo": {
+		"scope": "lua",
+		"description": "bool dgsGridListScrollTo( element gridList, int row, int column )",
+		"prefix": "dgsGridListScrollTo",
+		"body": "dgsGridListScrollTo"
+	},
+	"dgsGridListSetHorizontalScrollPosition": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetHorizontalScrollPosition ( element dgsGridList, float position )",
+		"prefix": "dgsGridListSetHorizontalScrollPosition",
+		"body": "dgsGridListSetHorizontalScrollPosition"
+	},
+	"dgsGridListGetHorizontalScrollPosition": {
+		"scope": "lua",
+		"description": "float dgsGridListGetHorizontalScrollPosition( element dgsGridList)",
+		"prefix": "dgsGridListGetHorizontalScrollPosition",
+		"body": "dgsGridListGetHorizontalScrollPosition"
+	},
+	"dgsGridListSetVerticalScrollPosition": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetVerticalScrollPosition( element dgsGridList, float position )",
+		"prefix": "dgsGridListSetVerticalScrollPosition",
+		"body": "dgsGridListSetVerticalScrollPosition"
+	},
+	"dgsGridListGetVerticalScrollPosition": {
+		"scope": "lua",
+		"description": "float dgsGridListGetVerticalScrollPosition( element dgsGridList )",
+		"prefix": "dgsGridListGetVerticalScrollPosition",
+		"body": "dgsGridListGetVerticalScrollPosition"
+	},
+	"dgsGridListResetScrollBarPosition": {
+		"scope": "lua",
+		"description": "bool dgsGridListResetScrollBarPosition( element gridList [, bool remainVertical = false, bool remainHorizontal = false ] )",
+		"prefix": "dgsGridListResetScrollBarPosition",
+		"body": "dgsGridListResetScrollBarPosition"
+	},
+	"dgsGridListSetColumnRelative": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetColumnRelative( element gridList [, bool relative = false, bool transformColumn = true ] )",
+		"prefix": "dgsGridListSetColumnRelative",
+		"body": "dgsGridListSetColumnRelative"
+	},
+	"dgsGridListGetColumnRelative": {
+		"scope": "lua",
+		"description": "bool dgsGridListGetColumnRelative( element gridList )",
+		"prefix": "dgsGridListGetColumnRelative",
+		"body": "dgsGridListGetColumnRelative"
+	},
+	"dgsGridListAddColumn": {
+		"scope": "lua",
+		"description": "int dgsGridListAddColumn ( element gridList, string title, float width [, int insertPosition = nil, string horizontalAlign = \"left\" ] )",
+		"prefix": "dgsGridListAddColumn",
+		"body": "dgsGridListAddColumn"
+	},
+	"dgsGridListRemoveColumn": {
+		"scope": "lua",
+		"description": "bool dgsGridListRemoveColumn ( element gridList, int columnIndex )",
+		"prefix": "dgsGridListRemoveColumn",
+		"body": "dgsGridListRemoveColumn"
+	},
+	"dgsGridListClearColumn": {
+		"scope": "lua",
+		"description": "bool dgsGridListClearColumn ( element gridList, bool notResetSelectedItem, bool notResetScrollBar )",
+		"prefix": "dgsGridListClearColumn",
+		"body": "dgsGridListClearColumn"
+	},
+	"dgsGridListGetColumnCount": {
+		"scope": "lua",
+		"description": "int dgsGridListGetColumnCount ( element gridList )",
+		"prefix": "dgsGridListGetColumnCount",
+		"body": "dgsGridListGetColumnCount"
+	},
+	"dgsGridListGetColumnAllWidth": {
+		"scope": "lua",
+		"description": "float dgsGridListGetColumnAllWidth( element dgsGridlist, int columnIndex [, bool relative = false, bool fastFind = false ] )",
+		"prefix": "dgsGridListGetColumnAllWidth",
+		"body": "dgsGridListGetColumnAllWidth"
+	},
+	"dgsGridListGetColumnHeight": {
+		"scope": "lua",
+		"description": "int dgsGridListGetColumnHeight( element dgsGridlist )",
+		"prefix": "dgsGridListGetColumnHeight",
+		"body": "dgsGridListGetColumnHeight"
+	},
+	"dgsGridListSetColumnHeight": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetColumnHeight( element dgsGridlist, int height )",
+		"prefix": "dgsGridListSetColumnHeight",
+		"body": "dgsGridListSetColumnHeight"
+	},
+	"dgsGridListGetColumnWidth": {
+		"scope": "lua",
+		"description": "float dgsGridListGetColumnWidth( element dgsGridlist, int columnIndex [, bool relative = false ] )",
+		"prefix": "dgsGridListGetColumnWidth",
+		"body": "dgsGridListGetColumnWidth"
+	},
+	"dgsGridListSetColumnWidth": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetColumnWidth( element dgsGridlist, int columnIndex, float/int width [, bool relative = false ] )",
+		"prefix": "dgsGridListSetColumnWidth",
+		"body": "dgsGridListSetColumnWidth"
+	},
+	"dgsGridListAutoSizeColumn": {
+		"scope": "lua",
+		"description": "bool dgsGridListAutoSizeColumn ( element gridList, int columnIndex [, float additionalLength, bool relative, bool isByItem ] )",
+		"prefix": "dgsGridListAutoSizeColumn",
+		"body": "dgsGridListAutoSizeColumn"
+	},
+	"dgsGridListGetColumnTitle": {
+		"scope": "lua",
+		"description": "string dgsGridListGetColumnTitle( element dgsGridlist, int columnIndex )",
+		"prefix": "dgsGridListGetColumnTitle",
+		"body": "dgsGridListGetColumnTitle"
+	},
+	"dgsGridListSetColumnTitle": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetColumnTitle( element dgsGridlist, int columnIndex, string title )",
+		"prefix": "dgsGridListSetColumnTitle",
+		"body": "dgsGridListSetColumnTitle"
+	},
+	"dgsGridListGetColumnFont": {
+		"scope": "lua",
+		"description": "dx-font/string dgsGridListGetColumnFont( element dgsGridlist, int columnIndex )",
+		"prefix": "dgsGridListGetColumnFont",
+		"body": "dgsGridListGetColumnFont"
+	},
+	"dgsGridListSetColumnFont": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetColumnFont( element dgsGridlist, int columnIndex, dx-font/string font [, affectRow = false ] )",
+		"prefix": "dgsGridListSetColumnFont",
+		"body": "dgsGridListSetColumnFont"
+	},
+	"dgsGridListSetColumnTextColor": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetColumnTextColor( element gridList, int columnIndex, int r, int g, int b [, int a = 255 ] )",
+		"prefix": "dgsGridListSetColumnTextColor",
+		"body": "dgsGridListSetColumnTextColor"
+	},
+	"dgsGridListSetSortColumn": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetSortColumn( element gridlist, int sortedColumn )",
+		"prefix": "dgsGridListSetSortColumn",
+		"body": "dgsGridListSetSortColumn"
+	},
+	"dgsGridListGetSortColumn": {
+		"scope": "lua",
+		"description": "int dgsGridListGetSortColumn( element gridlist )",
+		"prefix": "dgsGridListGetSortColumn",
+		"body": "dgsGridListGetSortColumn"
+	},
+	"dgsGridListGetEnterColumn": {
+		"scope": "lua",
+		"description": "int dgsGridListGetEnterColumn( element gridList )",
+		"prefix": "dgsGridListGetEnterColumn",
+		"body": "dgsGridListGetEnterColumn"
+	},
+	"dgsGridListAddRow": {
+		"scope": "lua",
+		"description": "int dgsGridListAddRow ( element gridList [,int pos, int/string itemText1, int/string itemText2, ...] )",
+		"prefix": "dgsGridListAddRow",
+		"body": "dgsGridListAddRow"
+	},
+	"dgsGridListRemoveRow": {
+		"scope": "lua",
+		"description": "bool dgsGridListRemoveRow ( element gridList, int rowIndex )",
+		"prefix": "dgsGridListRemoveRow",
+		"body": "dgsGridListRemoveRow"
+	},
+	"dgsGridListClearRow": {
+		"scope": "lua",
+		"description": "bool dgsGridListClearRow ( element gridList, bool notResetSelectedItem, bool notResetScrollBar )",
+		"prefix": "dgsGridListClearRow",
+		"body": "dgsGridListClearRow"
+	},
+	"dgsGridListGetRowCount": {
+		"scope": "lua",
+		"description": "int dgsGridListGetRowCount ( element gridList )",
+		"prefix": "dgsGridListGetRowCount",
+		"body": "dgsGridListGetRowCount"
+	},
+	"dgsGridListGetRowBackGroundImage": {
+		"scope": "lua",
+		"description": "texture/nil, texture/nil, texture/nil dgsGridListGetRowBackGroundImage( element gridList, int rowIndex )",
+		"prefix": "dgsGridListGetRowBackGroundImage",
+		"body": "dgsGridListGetRowBackGroundImage"
+	},
+	"dgsGridListSetRowBackGroundImage": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetRowBackGroundImage( element gridList, int rowIndex, texture imageDefault, texture imageHoving, texture imageSelected )",
+		"prefix": "dgsGridListSetRowBackGroundImage",
+		"body": "dgsGridListSetRowBackGroundImage"
+	},
+	"dgsGridListSetRowBackGroundColor": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetRowBackGroundColor( element gridList, int rowIndex, int colorDefault, int colorHoving, int colorSelected )",
+		"prefix": "dgsGridListSetRowBackGroundColor",
+		"body": "dgsGridListSetRowBackGroundColor"
+	},
+	"dgsGridListGetRowBackGroundColor": {
+		"scope": "lua",
+		"description": "int, int, int  dgsGridListGetRowBackGroundColor( element gridList, int rowIndex )",
+		"prefix": "dgsGridListGetRowBackGroundColor",
+		"body": "dgsGridListGetRowBackGroundColor"
+	},
+	"dgsGridListSetRowAsSection": {
+		"scope": "lua",
+		"description": "string dgsGridListSetRowAsSection( element gridlist, int row [, bool enable = false, bool enableClickAndSelect = false ] )",
+		"prefix": "dgsGridListSetRowAsSection",
+		"body": "dgsGridListSetRowAsSection"
+	},
+	"dgsGridListGetRowSelectable": {
+		"scope": "lua",
+		"description": "bool dgsGridListGetRowSelectable( element gridlist, int row )",
+		"prefix": "dgsGridListGetRowSelectable",
+		"body": "dgsGridListGetRowSelectable"
+	},
+	"dgsGridListSetRowSelectable": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetRowSelectable( element gridlist, int row, boolean state )",
+		"prefix": "dgsGridListSetRowSelectable",
+		"body": "dgsGridListSetRowSelectable"
+	},
+	"dgsGridListGetRowHoverable": {
+		"scope": "lua",
+		"description": "string dgsGridListGetRowHoverable( element gridlist, int row )",
+		"prefix": "dgsGridListGetRowHoverable",
+		"body": "dgsGridListGetRowHoverable"
+	},
+	"dgsGridListSetRowHoverable": {
+		"scope": "lua",
+		"description": "string dgsGridListSetRowHoverable( element gridlist, int row, boolean state )",
+		"prefix": "dgsGridListSetRowHoverable",
+		"body": "dgsGridListSetRowHoverable"
+	},
+	"dgsGridListSetItemColor": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetItemColor ( element gridList, int rowIndex, int columnIndex,int r, int g, int b [, int a = 255 ] )",
+		"prefix": "dgsGridListSetItemColor",
+		"body": "dgsGridListSetItemColor"
+	},
+	"dgsGridListGetItemColor": {
+		"scope": "lua",
+		"description": "bool dgsGridListGetItemColor ( element gridList, int rowIndex, int columnIndex [, bool notSplitColor = false ] )",
+		"prefix": "dgsGridListGetItemColor",
+		"body": "dgsGridListGetItemColor"
+	},
+	"dgsGridListSetItemText": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetItemText( element gridList, int rowIndex, int columnIndex, string text [, bool isSection ] )",
+		"prefix": "dgsGridListSetItemText",
+		"body": "dgsGridListSetItemText"
+	},
+	"dgsGridListGetItemText": {
+		"scope": "lua",
+		"description": "string dgsGridListGetItemText ( element gridList, int rowIndex, int columnIndex )",
+		"prefix": "dgsGridListGetItemText",
+		"body": "dgsGridListGetItemText"
+	},
+	"dgsGridListSetItemFont": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetItemFont( element gridList, int rowIndex, int columnIndex, string/dx-font font )",
+		"prefix": "dgsGridListSetItemFont",
+		"body": "dgsGridListSetItemFont"
+	},
+	"dgsGridListSetItemData": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetItemData ( element gridList, int rowIndex, int columnIndex, mixed key, mixed data )",
+		"prefix": "dgsGridListSetItemData",
+		"body": "dgsGridListSetItemData"
+	},
+	"dgsGridListGetItemData": {
+		"scope": "lua",
+		"description": "var dgsGridListGetItemData ( element gridList, int rowIndex, int columnIndex, mixed key )",
+		"prefix": "dgsGridListGetItemData",
+		"body": "dgsGridListGetItemData"
+	},
+	"dgsGridListSetItemImage": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetItemImage( element gridList, int rowIndex, int columnIndex, element texture [, int color = 0xFFFFFFFF, float offsetX = 0, float offsetY = 0, float width, float height, bool relative ] )",
+		"prefix": "dgsGridListSetItemImage",
+		"body": "dgsGridListSetItemImage"
+	},
+	"dgsGridListGetItemImage": {
+		"scope": "lua",
+		"description": "texture, int, float, float, float, float dgsGridListGetItemImage( element gridList, int rowIndex, int columnIndex )",
+		"prefix": "dgsGridListGetItemImage",
+		"body": "dgsGridListGetItemImage"
+	},
+	"dgsGridListRemoveItemImage": {
+		"scope": "lua",
+		"description": "bool dgsGridListRemoveItemImage( element gridList, int rowIndex, int columnIndex )",
+		"prefix": "dgsGridListRemoveItemImage",
+		"body": "dgsGridListRemoveItemImage"
+	},
+	"dgsGridListSelectItem": {
+		"scope": "lua",
+		"description": "int dgsGridListSelectItem ( element gridList, int row, int column, bool state  )",
+		"prefix": "dgsGridListSelectItem",
+		"body": "dgsGridListSelectItem"
+	},
+	"dgsGridListItemIsSelected": {
+		"scope": "lua",
+		"description": "int dgsGridListItemIsSelected( element gridList, int row, int column )",
+		"prefix": "dgsGridListItemIsSelected",
+		"body": "dgsGridListItemIsSelected"
+	},
+	"dgsGridListGetSelectedCount": {
+		"scope": "lua",
+		"description": "int dgsGridListGetSelectedCount ( element gridList [, int inRow = -1, int inColumn = -1 ] )",
+		"prefix": "dgsGridListGetSelectedCount",
+		"body": "dgsGridListGetSelectedCount"
+	},
+	"dgsGridListGetPreselectedItem": {
+		"scope": "lua",
+		"description": "int, int dgsGridListGetPreselectedItem( element gridList )",
+		"prefix": "dgsGridListGetPreselectedItem",
+		"body": "dgsGridListGetPreselectedItem"
+	},
+	"dgsGridListGetSelectedItem": {
+		"scope": "lua",
+		"description": "int, int dgsGridListGetSelectedItem ( element gridList )",
+		"prefix": "dgsGridListGetSelectedItem",
+		"body": "dgsGridListGetSelectedItem"
+	},
+	"dgsGridListSetSelectedItem": {
+		"scope": "lua",
+		"description": "int dgsGridListSetSelectedItem ( element gridList, int rowID )",
+		"prefix": "dgsGridListSetSelectedItem",
+		"body": "dgsGridListSetSelectedItem"
+	},
+	"dgsGridListGetSelectedItems": {
+		"scope": "lua",
+		"description": "table dgsGridListGetSelectedItems ( element gridList )",
+		"prefix": "dgsGridListGetSelectedItems",
+		"body": "dgsGridListGetSelectedItems"
+	},
+	"dgsGridListSetSelectedItems": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetSelectedItems ( element gridList , table items )",
+		"prefix": "dgsGridListSetSelectedItems",
+		"body": "dgsGridListSetSelectedItems"
+	},
+	"dgsGridListGetItemSelectable": {
+		"scope": "lua",
+		"description": "bool dgsGridListGetItemSelectable( element gridlist, int row, int column )",
+		"prefix": "dgsGridListGetItemSelectable",
+		"body": "dgsGridListGetItemSelectable"
+	},
+	"dgsGridListSetItemSelectable": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetItemSelectable( element gridlist, int row, int column, boolean state )",
+		"prefix": "dgsGridListSetItemSelectable",
+		"body": "dgsGridListSetItemSelectable"
+	},
+	"dgsGridListGetItemHoverable": {
+		"scope": "lua",
+		"description": "string dgsGridListGetItemHoverable( element gridlist, int row, int column )",
+		"prefix": "dgsGridListGetItemHoverable",
+		"body": "dgsGridListGetItemHoverable"
+	},
+	"dgsGridListSetItemHoverable": {
+		"scope": "lua",
+		"description": "string dgsGridListSetItemHoverable( element gridlist, int row, int column, boolean state )",
+		"prefix": "dgsGridListSetItemHoverable",
+		"body": "dgsGridListSetItemHoverable"
+	},
+	"dgsGridListSetSelectionMode": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetSelectionMode ( element gridlist, int mode )",
+		"prefix": "dgsGridListSetSelectionMode",
+		"body": "dgsGridListSetSelectionMode"
+	},
+	"dgsGridListGetSelectionMode": {
+		"scope": "lua",
+		"description": "int dgsGridListGetSelectionMode ( element gridlist )",
+		"prefix": "dgsGridListGetSelectionMode",
+		"body": "dgsGridListGetSelectionMode"
+	},
+	"dgsGridListSetNavigationEnabled": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetNavigationEnabled( element gridList, bool state )",
+		"prefix": "dgsGridListSetNavigationEnabled",
+		"body": "dgsGridListSetNavigationEnabled"
+	},
+	"dgsGridListGetNavigationEnabled": {
+		"scope": "lua",
+		"description": "bool dgsGridListGetNavigationEnabled( element gridList )",
+		"prefix": "dgsGridListGetNavigationEnabled",
+		"body": "dgsGridListGetNavigationEnabled"
+	},
+	"dgsGridListSetMultiSelectionEnabled": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetMultiSelectionEnabled( element gridlist, bool state )",
+		"prefix": "dgsGridListSetMultiSelectionEnabled",
+		"body": "dgsGridListSetMultiSelectionEnabled"
+	},
+	"dgsGridListGetMultiSelectionEnabled": {
+		"scope": "lua",
+		"description": "bool dgsGridListGetMultiSelectionEnabled( element gridlist )",
+		"prefix": "dgsGridListGetMultiSelectionEnabled",
+		"body": "dgsGridListGetMultiSelectionEnabled"
+	},
+	"dgsGridListSetAutoSortEnabled": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetAutoSortEnabled( element gridlist, bool state )",
+		"prefix": "dgsGridListSetAutoSortEnabled",
+		"body": "dgsGridListSetAutoSortEnabled"
+	},
+	"dgsGridListGetAutoSortEnabled": {
+		"scope": "lua",
+		"description": "bool dgsGridListGetAutoSortEnabled( element gridlist )",
+		"prefix": "dgsGridListGetAutoSortEnabled",
+		"body": "dgsGridListGetAutoSortEnabled"
+	},
+	"dgsGridListSetSortFunction": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetSortFunction( dgsElement gridlist, string func )",
+		"prefix": "dgsGridListSetSortFunction",
+		"body": "dgsGridListSetSortFunction"
+	},
+	"dgsGridListSetSortEnabled": {
+		"scope": "lua",
+		"description": "bool dgsGridListSetSortEnabled( element gridlist, bool state )",
+		"prefix": "dgsGridListSetSortEnabled",
+		"body": "dgsGridListSetSortEnabled"
+	},
+	"dgsGridListGetSortEnabled": {
+		"scope": "lua",
+		"description": "bool dgsGridListGetSortEnabled( element gridlist )",
+		"prefix": "dgsGridListGetSortEnabled",
+		"body": "dgsGridListGetSortEnabled"
+	},
+	"dgsGridListSort": {
+		"scope": "lua",
+		"description": "bool dgsGridListSort( delement gridlist )",
+		"prefix": "dgsGridListSort",
+		"body": "dgsGridListSort"
+	},
+	"dgsAttachToGridList": {
+		"scope": "lua",
+		"description": "bool dgsAttachToGridList( element dgsElement, element gridList, int rowIndex, int columnIndex )",
+		"prefix": "dgsAttachToGridList",
+		"body": "dgsAttachToGridList"
+	},
+	"dgsDetachFromGridList": {
+		"scope": "lua",
+		"description": "bool dgsDetachFromGridList( element dgsElement )",
+		"prefix": "dgsDetachFromGridList",
+		"body": "dgsDetachFromGridList"
+	},
+	"dgsCreateImage": {
+		"scope": "lua",
+		"description": "element dgsCreateImage ( float x, float y, float width, float height, element/string image = nil, bool relative [, element parent = nil, int color = 0xFFFFFFFF ] )",
+		"prefix": "dgsCreateImage",
+		"body": "dgsCreateImage"
+	},
+	"dgsImageSetImage": {
+		"scope": "lua",
+		"description": "bool dgsImageSetImage ( element theElement, element/string texture )",
+		"prefix": "dgsImageSetImage",
+		"body": "dgsImageSetImage"
+	},
+	"dgsImageGetImage": {
+		"scope": "lua",
+		"description": "texture dgsImageGetImage ( element theElement )",
+		"prefix": "dgsImageGetImage",
+		"body": "dgsImageGetImage"
+	},
+	"dgsImageSetUVSize": {
+		"scope": "lua",
+		"description": "bool dgsImageSetUVSize ( element dgsImage, float UPos, float VPos, bool relative )",
+		"prefix": "dgsImageSetUVSize",
+		"body": "dgsImageSetUVSize"
+	},
+	"dgsImageGetUVSize": {
+		"scope": "lua",
+		"description": "float, float dgsImageGetUVSize ( element dgsImage, bool relative )",
+		"prefix": "dgsImageGetUVSize",
+		"body": "dgsImageGetUVSize"
+	},
+	"dgsImageSetUVPosition": {
+		"scope": "lua",
+		"description": "bool dgsImageSetUVPosition ( element dgsImage, float UPos, float VPos, bool relative )",
+		"prefix": "dgsImageSetUVPosition",
+		"body": "dgsImageSetUVPosition"
+	},
+	"dgsImageGetUVPosition": {
+		"scope": "lua",
+		"description": "float, float dgsImageGetUVPosition ( element dgsImage, bool relative )",
+		"prefix": "dgsImageGetUVPosition",
+		"body": "dgsImageGetUVPosition"
+	},
+	"dgsImageGetNativeSize": {
+		"scope": "lua",
+		"description": "int, int dgsImageGetNativeSize( element dgsImage )",
+		"prefix": "dgsImageGetNativeSize",
+		"body": "dgsImageGetNativeSize"
+	},
+	"dgsCreateMemo": {
+		"scope": "lua",
+		"description": "element dgsCreateMemo ( float x, float y, float width, float height, string text, bool relative [, element parent = nil, int textColor = 0x000000FF, int scaleX = 1, int scaleY = 1, element bgImage = nil, int bgColor = 0xFFFFFFFF ] )",
+		"prefix": "dgsCreateMemo",
+		"body": "dgsCreateMemo"
+	},
+	"dgsMemoMoveCaret": {
+		"scope": "lua",
+		"description": "bool dgsMemoMoveCaret ( element theElement, int indexoffset [, int lineoffset = 0, bool selectText = false, bool noChangeLine = false ] )",
+		"prefix": "dgsMemoMoveCaret",
+		"body": "dgsMemoMoveCaret"
+	},
+	"dgsMemoSeekPosition": {
+		"scope": "lua",
+		"description": "int int dgsMemoSeekPosition ( element dxMemo, int index, int line [, bool transformLine = true ] )",
+		"prefix": "dgsMemoSeekPosition",
+		"body": "dgsMemoSeekPosition"
+	},
+	"dgsMemoGetScrollBar": {
+		"scope": "lua",
+		"description": "table dgsMemoGetScrollBar( element memo )",
+		"prefix": "dgsMemoGetScrollBar",
+		"body": "dgsMemoGetScrollBar"
+	},
+	"dgsMemoSetScrollPosition": {
+		"scope": "lua",
+		"description": "bool dgsMemoSetScrollPosition( element memo [, float vertical = nil, float horizontal = nil ] )",
+		"prefix": "dgsMemoSetScrollPosition",
+		"body": "dgsMemoSetScrollPosition"
+	},
+	"dgsMemoGetScrollPosition": {
+		"scope": "lua",
+		"description": "float,float dgsMemoGetScrollPosition( element memo  )",
+		"prefix": "dgsMemoGetScrollPosition",
+		"body": "dgsMemoGetScrollPosition"
+	},
+	"dgsMemoSetHorizontalScrollPosition": {
+		"scope": "lua",
+		"description": "bool dgsMemoSetHorizontalScrollPosition ( element dgsMemo, float position )",
+		"prefix": "dgsMemoSetHorizontalScrollPosition",
+		"body": "dgsMemoSetHorizontalScrollPosition"
+	},
+	"dgsMemoGetHorizontalScrollPosition": {
+		"scope": "lua",
+		"description": "float dgsMemoGetHorizontalScrollPosition ( element dgsMemo )",
+		"prefix": "dgsMemoGetHorizontalScrollPosition",
+		"body": "dgsMemoGetHorizontalScrollPosition"
+	},
+	"dgsMemoSetVerticalScrollPosition": {
+		"scope": "lua",
+		"description": "bool dgsMemoSetVerticalScrollPosition( element dgsMemo, float position )",
+		"prefix": "dgsMemoSetVerticalScrollPosition",
+		"body": "dgsMemoSetVerticalScrollPosition"
+	},
+	"dgsMemoGetVerticalScrollPosition": {
+		"scope": "lua",
+		"description": "float dgsMemoGetVerticalScrollPosition ( element dgsMemo )",
+		"prefix": "dgsMemoGetVerticalScrollPosition",
+		"body": "dgsMemoGetVerticalScrollPosition"
+	},
+	"dgsMemoSetCaretPosition": {
+		"scope": "lua",
+		"description": "bool dgsMemoSetCaretPosition ( element theElement, int index [, int line = 0, bool selectText = false, bool noChangeLine = false ] )",
+		"prefix": "dgsMemoSetCaretPosition",
+		"body": "dgsMemoSetCaretPosition"
+	},
+	"dgsMemoGetCaretPosition": {
+		"scope": "lua",
+		"description": "int int dgsMemoGetCaretPosition ( element theElement )",
+		"prefix": "dgsMemoGetCaretPosition",
+		"body": "dgsMemoGetCaretPosition"
+	},
+	"dgsMemoSetCaretStyle": {
+		"scope": "lua",
+		"description": "bool dgsMemoSetCaretStyle( element dgsElement, int style )",
+		"prefix": "dgsMemoSetCaretStyle",
+		"body": "dgsMemoSetCaretStyle"
+	},
+	"dgsMemoGetCaretStyle": {
+		"scope": "lua",
+		"description": "int dgsMemoGetCaretStyle( element dgsElement )",
+		"prefix": "dgsMemoGetCaretStyle",
+		"body": "dgsMemoGetCaretStyle"
+	},
+	"dgsMemoSetReadOnly": {
+		"scope": "lua",
+		"description": "bool dgsMemoSetReadOnly ( element memo, bool status )",
+		"prefix": "dgsMemoSetReadOnly",
+		"body": "dgsMemoSetReadOnly"
+	},
+	"dgsMemoGetReadOnly": {
+		"scope": "lua",
+		"description": "bool dgsMemoGetReadOnly ( element memo )",
+		"prefix": "dgsMemoGetReadOnly",
+		"body": "dgsMemoGetReadOnly"
+	},
+	"dgsMemoGetPartOfText": {
+		"scope": "lua",
+		"description": "string dgsMemoGetPartOfText ( element theElement [, int startIndex = 0, int startLine = 1, int endIndex, int endLine, bool deleteText = false ] )",
+		"prefix": "dgsMemoGetPartOfText",
+		"body": "dgsMemoGetPartOfText"
+	},
+	"dgsMemoAppendText": {
+		"scope": "lua",
+		"description": "bool dgsMemoAppendText( element memo, string text )",
+		"prefix": "dgsMemoAppendText",
+		"body": "dgsMemoAppendText"
+	},
+	"dgsMemoDeleteText": {
+		"scope": "lua",
+		"description": "bool dgsMemoDeleteText ( element theElement, int fromindex, int fromline, int toindex, int toline [, bool noAffectCaret = false ] )",
+		"prefix": "dgsMemoDeleteText",
+		"body": "dgsMemoDeleteText"
+	},
+	"dgsMemoInsertText": {
+		"scope": "lua",
+		"description": "bool dgsMemoInsertText ( element theElement, int index, int line, string text )",
+		"prefix": "dgsMemoInsertText",
+		"body": "dgsMemoInsertText"
+	},
+	"dgsMemoClearText": {
+		"scope": "lua",
+		"description": "bool dgsMemoClearText ( element theElement )",
+		"prefix": "dgsMemoClearText",
+		"body": "dgsMemoClearText"
+	},
+	"dgsMemoGetTextBoundingBox": {
+		"scope": "lua",
+		"description": "float, float dgsMemoGetTextBoundingBox( element dgsMemo [, bool excludePadding = false ]  )",
+		"prefix": "dgsMemoGetTextBoundingBox",
+		"body": "dgsMemoGetTextBoundingBox"
+	},
+	"dgsMemoSetTypingSound": {
+		"scope": "lua",
+		"description": "bool dgsMemoSetTypingSound( element dxMemo, string soundPath )",
+		"prefix": "dgsMemoSetTypingSound",
+		"body": "dgsMemoSetTypingSound"
+	},
+	"dgsMemoGetTypingSound": {
+		"scope": "lua",
+		"description": "string dgsMemoGetTypingSound( element dxMemo )",
+		"prefix": "dgsMemoGetTypingSound",
+		"body": "dgsMemoGetTypingSound"
+	},
+	"dgsMemoSetTypingSoundVolume": {
+		"scope": "lua",
+		"description": "bool dgsMemoSetTypingSoundVolume( element memo, number volume )",
+		"prefix": "dgsMemoSetTypingSoundVolume",
+		"body": "dgsMemoSetTypingSoundVolume"
+	},
+	"dgsMemoGetTypingSoundVolume": {
+		"scope": "lua",
+		"description": "number dgsMemoGetTypingSoundVolume( element memo )",
+		"prefix": "dgsMemoGetTypingSoundVolume",
+		"body": "dgsMemoGetTypingSoundVolume"
+	},
+	"dgsMemoGetLineCount": {
+		"scope": "lua",
+		"description": "int dgsMemoGetLineCount( element memo [, bool forceStrongLine = false ] )",
+		"prefix": "dgsMemoGetLineCount",
+		"body": "dgsMemoGetLineCount"
+	},
+	"dgsMemoSetWordWrapState": {
+		"scope": "lua",
+		"description": "bool dgsMemoSetWordWrapState( element memo, int/bool state )",
+		"prefix": "dgsMemoSetWordWrapState",
+		"body": "dgsMemoSetWordWrapState"
+	},
+	"dgsMemoGetWordWrapState": {
+		"scope": "lua",
+		"description": "int/bool dgsMemoGetWordWrapState( element memo )",
+		"prefix": "dgsMemoGetWordWrapState",
+		"body": "dgsMemoGetWordWrapState"
+	},
+	"dgsMemoSetScrollBarState": {
+		"scope": "lua",
+		"description": "bool dgsMemoSetScrollBarState( element memo [, bool/nil verticalState = nil, bool/nil horizontalState = nil ] )",
+		"prefix": "dgsMemoSetScrollBarState",
+		"body": "dgsMemoSetScrollBarState"
+	},
+	"dgsMemoGetScrollBarState": {
+		"scope": "lua",
+		"description": "bool/nil, bool/nil dgsMemoGetScrollBarState( element memo )",
+		"prefix": "dgsMemoGetScrollBarState",
+		"body": "dgsMemoGetScrollBarState"
+	},
+	"dgsMemoSetMaxLength": {
+		"scope": "lua",
+		"description": "bool dgsMemoSetMaxLength ( element theElement, int length )",
+		"prefix": "dgsMemoSetMaxLength",
+		"body": "dgsMemoSetMaxLength"
+	},
+	"dgsMemoGetMaxLength": {
+		"scope": "lua",
+		"description": "bool dgsMemoGetMaxLength ( element theElement )",
+		"prefix": "dgsMemoGetMaxLength",
+		"body": "dgsMemoGetMaxLength"
+	},
+	"dgsCreateLabel": {
+		"scope": "lua",
+		"description": "element dgsCreateLabel ( float x, float y, float width, float height, string text, bool relative [, element parent = nil, int textColor = 0xFFFFFFFF, float scaleX = 1, float scaleY = 1, float shadowOffsetX = nil, float shadowOffsetY = nil, int shadowColor = nil, string horizontalAlign = \"left\", string verticalAlign = \"top\"] )",
+		"prefix": "dgsCreateLabel",
+		"body": "dgsCreateLabel"
+	},
+	"dgsLabelSetColor": {
+		"scope": "lua",
+		"description": "bool dgsLabelSetColor ( element theElement, int color, bool notSplitColor )",
+		"prefix": "dgsLabelSetColor",
+		"body": "dgsLabelSetColor"
+	},
+	"dgsLabelGetColor": {
+		"scope": "lua",
+		"description": "int, int, int dgsLabelGetColor ( element theLabel [, bool notSplit = false ] )",
+		"prefix": "dgsLabelGetColor",
+		"body": "dgsLabelGetColor"
+	},
+	"dgsLabelSetHorizontalAlign": {
+		"scope": "lua",
+		"description": "bool dgsLabelSetHorizontalAlign ( element theLabel, string align [, bool wordwrap = false ] )",
+		"prefix": "dgsLabelSetHorizontalAlign",
+		"body": "dgsLabelSetHorizontalAlign"
+	},
+	"dgsLabelGetHorizontalAlign": {
+		"scope": "lua",
+		"description": "bool dgsLabelGetHorizontalAlign ( element theLabel )",
+		"prefix": "dgsLabelGetHorizontalAlign",
+		"body": "dgsLabelGetHorizontalAlign"
+	},
+	"dgsLabelSetVerticalAlign": {
+		"scope": "lua",
+		"description": "bool dgsLabelSetVerticalAlign ( element theLabel, string align )",
+		"prefix": "dgsLabelSetVerticalAlign",
+		"body": "dgsLabelSetVerticalAlign"
+	},
+	"dgsLabelGetVerticalAlign": {
+		"scope": "lua",
+		"description": "bool dgsLabelGetVerticalAlign ( element theLabel )",
+		"prefix": "dgsLabelGetVerticalAlign",
+		"body": "dgsLabelGetVerticalAlign"
+	},
+	"dgsLabelGetTextExtent": {
+		"scope": "lua",
+		"description": "float dgsLabelGetTextExtent ( element theLabel )",
+		"prefix": "dgsLabelGetTextExtent",
+		"body": "dgsLabelGetTextExtent"
+	},
+	"dgsLabelGetFontHeight": {
+		"scope": "lua",
+		"description": "float dgsLabelGetFontHeight ( element theLabel )",
+		"prefix": "dgsLabelGetFontHeight",
+		"body": "dgsLabelGetFontHeight"
+	},
+	"dgsLabelGetTextSize": {
+		"scope": "lua",
+		"description": "float, float dgsLabelGetTextSize( element theLabel )",
+		"prefix": "dgsLabelGetTextSize",
+		"body": "dgsLabelGetTextSize"
+	},
+	"dgsCreateLine": {
+		"scope": "lua",
+		"description": "element dgsCreateLine ( float x, float y, float w, float h, bool relative [, element parent = nil, float lineWidth = 1, int color = 0xFFFFFFFF ])",
+		"prefix": "dgsCreateLine",
+		"body": "dgsCreateLine"
+	},
+	"dgsLineAddItem": {
+		"scope": "lua",
+		"description": "int dgsLineAddItem( element line , float startX, float startY, float endX, float endY [, float lineWidth = dgsLineWidth, int lineColor = dgsLineColor, bool relative = false ] )",
+		"prefix": "dgsLineAddItem",
+		"body": "dgsLineAddItem"
+	},
+	"dgsLineRemoveItem": {
+		"scope": "lua",
+		"description": "bool dgsLineRemoveItem( element line, int itemIndex )",
+		"prefix": "dgsLineRemoveItem",
+		"body": "dgsLineRemoveItem"
+	},
+	"dgsLineSetItemPosition": {
+		"scope": "lua",
+		"description": "bool dgsLineSetItemPosition (element line, int index, float startX = previousEndX, float startY = previousEndY, float endX, float endY [, float relative = false ] )",
+		"prefix": "dgsLineSetItemPosition",
+		"body": "dgsLineSetItemPosition"
+	},
+	"dgsLineGetItemPosition": {
+		"scope": "lua",
+		"description": "float/nil, float/nil, float, float, bool dgsLineGetItemPosition (element line, int index )",
+		"prefix": "dgsLineGetItemPosition",
+		"body": "dgsLineGetItemPosition"
+	},
+	"dgsLineSetItemWidth": {
+		"scope": "lua",
+		"description": "bool dgsLineSetItemWidth( element line, int index, int width )",
+		"prefix": "dgsLineSetItemWidth",
+		"body": "dgsLineSetItemWidth"
+	},
+	"dgsLineGetItemWidth": {
+		"scope": "lua",
+		"description": "float dgsLineGetItemWidth( element line, int index )",
+		"prefix": "dgsLineGetItemWidth",
+		"body": "dgsLineGetItemWidth"
+	},
+	"dgsLineSetItemColor": {
+		"scope": "lua",
+		"description": "bool dgsLineSetItemColor( element line, int index, int color )",
+		"prefix": "dgsLineSetItemColor",
+		"body": "dgsLineSetItemColor"
+	},
+	"dgsLineGetItemColor": {
+		"scope": "lua",
+		"description": "int dgsLineGetItemColor( element line, int index )",
+		"prefix": "dgsLineGetItemColor",
+		"body": "dgsLineGetItemColor"
+	},
+	"dgsCreateProgressBar": {
+		"scope": "lua",
+		"description": "element dgsCreateProgressBar ( float x, float y, float width, float height, bool relative [, element parent = nil, texture bgImage = nil, int bgColor = nil, texture indicatorImage = nil, int indicatorColor = nil, bool indicatorMode = false ] )",
+		"prefix": "dgsCreateProgressBar",
+		"body": "dgsCreateProgressBar"
+	},
+	"dgsProgressBarGetProgress": {
+		"scope": "lua",
+		"description": "float dgsProgressBarGetProgress ( progressBar theProgressbar )",
+		"prefix": "dgsProgressBarGetProgress",
+		"body": "dgsProgressBarGetProgress"
+	},
+	"dgsProgressBarSetProgress": {
+		"scope": "lua",
+		"description": "bool dgsProgressBarSetProgress ( progressBar theProgressbar, float progress )",
+		"prefix": "dgsProgressBarSetProgress",
+		"body": "dgsProgressBarSetProgress"
+	},
+	"dgsProgressBarGetMode": {
+		"scope": "lua",
+		"description": "bool dgsProgressBarGetMode ( element progressBar )",
+		"prefix": "dgsProgressBarGetMode",
+		"body": "dgsProgressBarGetMode"
+	},
+	"dgsProgressBarSetMode": {
+		"scope": "lua",
+		"description": "bool dgsProgressBarSetMode ( element progressBar, bool mode )",
+		"prefix": "dgsProgressBarSetMode",
+		"body": "dgsProgressBarSetMode"
+	},
+	"dgsProgressBarGetStyle": {
+		"scope": "lua",
+		"description": "string dgsProgressBarGetStyle ( element progressbar )",
+		"prefix": "dgsProgressBarGetStyle",
+		"body": "dgsProgressBarGetStyle"
+	},
+	"dgsProgressBarSetStyle": {
+		"scope": "lua",
+		"description": "bool dgsProgressBarSetStyle( element progressbar, string style [, table settingTable ] )",
+		"prefix": "dgsProgressBarSetStyle",
+		"body": "dgsProgressBarSetStyle"
+	},
+	"dgsCreateRadioButton": {
+		"scope": "lua",
+		"description": "element dgsCreateRadioButton ( float x, float y, float width, float height, string text, bool relative [, element parent = nil, int textcolor, float scaleX = 1.0, float scaleY = 1.0, element normalUncheckedImage = nil, element hoveringUncheckedImage = nil, element clickedUnCheckedImage = nil, int normalUnCheckedColor = 0xFFFFFFFF, int hoveringUnCheckedColor = 0xFFFFFFFF, int clickedUnCheckedColor = 0xFFB4B4B4, element normalCheckedImage = nil, element  hoveringCheckedImage = nil, element clickedCheckedImage = nil, int normalCheckedColor = 0xFFFFFFFF, int hoveringCheckedColor = 0xFFFFFFFF,int clickedCheckedColor = 0xFFB4B4B4 ] )",
+		"prefix": "dgsCreateRadioButton",
+		"body": "dgsCreateRadioButton"
+	},
+	"dgsRadioButtonGetSelected": {
+		"scope": "lua",
+		"description": "bool dgsRadioButtonGetSelected( element RadioButton )",
+		"prefix": "dgsRadioButtonGetSelected",
+		"body": "dgsRadioButtonGetSelected"
+	},
+	"dgsRadioButtonSetSelected": {
+		"scope": "lua",
+		"description": "bool dgsRadioButtonSetSelected( element RadioButton, bool state )",
+		"prefix": "dgsRadioButtonSetSelected",
+		"body": "dgsRadioButtonSetSelected"
+	},
+	"dgsRadioButtonSetHorizontalAlign": {
+		"scope": "lua",
+		"description": "bool dgsRadioButtonSetHorizontalAlign ( element radioButton, string align )",
+		"prefix": "dgsRadioButtonSetHorizontalAlign",
+		"body": "dgsRadioButtonSetHorizontalAlign"
+	},
+	"dgsRadioButtonGetHorizontalAlign": {
+		"scope": "lua",
+		"description": "bool dgsRadioButtonGetHorizontalAlign ( element radioButton )",
+		"prefix": "dgsRadioButtonGetHorizontalAlign",
+		"body": "dgsRadioButtonGetHorizontalAlign"
+	},
+	"dgsRadioButtonSetVerticalAlign": {
+		"scope": "lua",
+		"description": "bool dgsRadioButtonSetVerticalAlign ( element radioButton, string align )",
+		"prefix": "dgsRadioButtonSetVerticalAlign",
+		"body": "dgsRadioButtonSetVerticalAlign"
+	},
+	"dgsRadioButtonGetVerticalAlign": {
+		"scope": "lua",
+		"description": "bool dgsRadioButtonGetVerticalAlign ( element radioButton )",
+		"prefix": "dgsRadioButtonGetVerticalAlign",
+		"body": "dgsRadioButtonGetVerticalAlign"
+	},
+	"dgsRadioButtonGetButtonSide": {
+		"scope": "lua",
+		"description": "string dgsRadioButtonGetButtonSide ( dgsRadioButton [, string side = \"left\" ] )",
+		"prefix": "dgsRadioButtonGetButtonSide",
+		"body": "dgsRadioButtonGetButtonSide"
+	},
+	"dgsRadioButtonSetButtonSide": {
+		"scope": "lua",
+		"description": "bool dgsRadioButtonSetButtonSide ( dgsRadioButton [, string side = \"left\" ] )",
+		"prefix": "dgsRadioButtonSetButtonSide",
+		"body": "dgsRadioButtonSetButtonSide"
+	},
+	"dgsRadioButtonGetButtonAlign": {
+		"scope": "lua",
+		"description": "string dgsRadioButtonGetButtonAlign ( dgsRadioButton )",
+		"prefix": "dgsRadioButtonGetButtonAlign",
+		"body": "dgsRadioButtonGetButtonAlign"
+	},
+	"dgsRadioButtonSetButtonAlign": {
+		"scope": "lua",
+		"description": "bool dgsRadioButtonSetButtonAlign ( dgsRadioButton [, string alignment = \"left\" ] )",
+		"prefix": "dgsRadioButtonSetButtonAlign",
+		"body": "dgsRadioButtonSetButtonAlign"
+	},
+	"dgsCreateScrollBar": {
+		"scope": "lua",
+		"description": "element dgsCreateScrollBar( float x, float y, float width, float height, bool isHorizontal, bool relative [, element parent = nil, element arrowImage = nil, element troughImage = nil, element cursorImage = nil, int normalArrowColor = 0xAARRGGBB , int hoveringArrowColor = 0xAARRGGBB, int clickedArrowColor = 0xAARRGGBB, int troughColor = 0xAARRGGBB, int normalCursorColor = 0xAARRGGBB, int hoveringCursorColor = 0xAARRGGBB, int clickedCursorColor = 0xAARRGGBB ] )",
+		"prefix": "dgsCreateScrollBar",
+		"body": "dgsCreateScrollBar"
+	},
+	"dgsScrollBarSetScrollPosition": {
+		"scope": "lua",
+		"description": "bool dgsScrollBarSetScrollPosition ( element theScrollBar, float amount [, bool isGrade = false ] )",
+		"prefix": "dgsScrollBarSetScrollPosition",
+		"body": "dgsScrollBarSetScrollPosition"
+	},
+	"dgsScrollBarGetScrollPosition": {
+		"scope": "lua",
+		"description": "float dgsScrollBarGetScrollPosition ( element theScrollBar [, bool isGrade = false ] )",
+		"prefix": "dgsScrollBarGetScrollPosition",
+		"body": "dgsScrollBarGetScrollPosition"
+	},
+	"dgsScrollBarSetCursorLength": {
+		"scope": "lua",
+		"description": "bool dgsScrollBarSetCursorLength( element scrollBar, float size [, bool relative])",
+		"prefix": "dgsScrollBarSetCursorLength",
+		"body": "dgsScrollBarSetCursorLength"
+	},
+	"dgsScrollBarGetCursorLength": {
+		"scope": "lua",
+		"description": "bool dgsScrollBarGetCursorLength( element scrollBar [, bool relative ] )",
+		"prefix": "dgsScrollBarGetCursorLength",
+		"body": "dgsScrollBarGetCursorLength"
+	},
+	"dgsScrollBarSetGrades": {
+		"scope": "lua",
+		"description": "bool dgsScrollBarSetGrades( element scrollBar, int grades [, bool remainMultipler = false ] )",
+		"prefix": "dgsScrollBarSetGrades",
+		"body": "dgsScrollBarSetGrades"
+	},
+	"dgsScrollBarGetGrades": {
+		"scope": "lua",
+		"description": "int dgsScrollBarGetGrades( element scrollBar )",
+		"prefix": "dgsScrollBarGetGrades",
+		"body": "dgsScrollBarGetGrades"
+	},
+	"dgsScrollBarSetLocked": {
+		"scope": "lua",
+		"description": "bool dgsScrollBarSetLocked( element theScrollBar, bool state )",
+		"prefix": "dgsScrollBarSetLocked",
+		"body": "dgsScrollBarSetLocked"
+	},
+	"dgsScrollBarGetLocked": {
+		"scope": "lua",
+		"description": "bool dgsScrollBarGetLocked( element theScrollBar )",
+		"prefix": "dgsScrollBarGetLocked",
+		"body": "dgsScrollBarGetLocked"
+	},
+	"dgsScrollBarSetCursorWidth": {
+		"scope": "lua",
+		"description": "bool dgsScrollBarSetCursorWidth( element scrollBar, float width [, bool relative ] )",
+		"prefix": "dgsScrollBarSetCursorWidth",
+		"body": "dgsScrollBarSetCursorWidth"
+	},
+	"dgsScrollBarGetCursorWidth": {
+		"scope": "lua",
+		"description": "float dgsScrollBarGetCursorWidth( element scrollBar [, bool relative ] )",
+		"prefix": "dgsScrollBarGetCursorWidth",
+		"body": "dgsScrollBarGetCursorWidth"
+	},
+	"dgsScrollBarSetTroughWidth": {
+		"scope": "lua",
+		"description": "bool dgsScrollBarSetTroughWidth( element scrollBar, float width [, bool relative ] )",
+		"prefix": "dgsScrollBarSetTroughWidth",
+		"body": "dgsScrollBarSetTroughWidth"
+	},
+	"dgsScrollBarGetTroughWidth": {
+		"scope": "lua",
+		"description": "float dgsScrollBarGetTroughWidth( element scrollBar [, bool relative ] )",
+		"prefix": "dgsScrollBarGetTroughWidth",
+		"body": "dgsScrollBarGetTroughWidth"
+	},
+	"dgsScrollBarSetArrowSize": {
+		"scope": "lua",
+		"description": "bool dgsScrollBarSetArrowSize( element scrollBar, float size [, bool relative ] )",
+		"prefix": "dgsScrollBarSetArrowSize",
+		"body": "dgsScrollBarSetArrowSize"
+	},
+	"dgsScrollBarGetArrowSize": {
+		"scope": "lua",
+		"description": "float dgsScrollBarGetArrowSize( element scrollBar [, bool relative ] )",
+		"prefix": "dgsScrollBarGetArrowSize",
+		"body": "dgsScrollBarGetArrowSize"
+	},
+	"dgsCreateScrollPane": {
+		"scope": "lua",
+		"description": "element dgsCreateScrollPane( float x, float y, float width, float height, bool relative [, element parent = nil ] )",
+		"prefix": "dgsCreateScrollPane",
+		"body": "dgsCreateScrollPane"
+	},
+	"dgsScrollPaneGetScrollBar": {
+		"scope": "lua",
+		"description": "table dgsScrollPaneGetScrollBar( element scrollPane )",
+		"prefix": "dgsScrollPaneGetScrollBar",
+		"body": "dgsScrollPaneGetScrollBar"
+	},
+	"dgsScrollPaneSetScrollPosition": {
+		"scope": "lua",
+		"description": "bool dgsScrollPaneSetScrollPosition( element scrollPane[, float vertical = nil, float horizontal = nil ] )",
+		"prefix": "dgsScrollPaneSetScrollPosition",
+		"body": "dgsScrollPaneSetScrollPosition"
+	},
+	"dgsScrollPaneGetScrollPosition": {
+		"scope": "lua",
+		"description": "float, float dgsScrollPaneGetScrollPosition( element scrollPane )",
+		"prefix": "dgsScrollPaneGetScrollPosition",
+		"body": "dgsScrollPaneGetScrollPosition"
+	},
+	"dgsScrollPaneSetHorizontalScrollPosition": {
+		"scope": "lua",
+		"description": "bool dgsScrollPaneSetHorizontalScrollPosition ( element dgsScrollPane, float position )",
+		"prefix": "dgsScrollPaneSetHorizontalScrollPosition",
+		"body": "dgsScrollPaneSetHorizontalScrollPosition"
+	},
+	"dgsScrollPaneGetHorizontalScrollPosition": {
+		"scope": "lua",
+		"description": "float dgsScrollPaneGetHorizontalScrollPosition ( element dgsScrollPane )",
+		"prefix": "dgsScrollPaneGetHorizontalScrollPosition",
+		"body": "dgsScrollPaneGetHorizontalScrollPosition"
+	},
+	"dgsScrollPaneSetVerticalScrollPosition": {
+		"scope": "lua",
+		"description": "bool dgsScrollPaneSetVerticalScrollPosition ( element dgsScrollPane, float position )",
+		"prefix": "dgsScrollPaneSetVerticalScrollPosition",
+		"body": "dgsScrollPaneSetVerticalScrollPosition"
+	},
+	"dgsScrollPaneGetVerticalScrollPosition": {
+		"scope": "lua",
+		"description": "float dgsScrollPaneGetVerticalScrollPosition ( element dgsScrollPane )",
+		"prefix": "dgsScrollPaneGetVerticalScrollPosition",
+		"body": "dgsScrollPaneGetVerticalScrollPosition"
+	},
+	"dgsScrollPaneSetScrollBarState": {
+		"scope": "lua",
+		"description": "bool dgsScrollPaneSetScrollBarState( element scrollPane [, bool/nil verticalState = nil, bool/nil horizontalState = nil ] )",
+		"prefix": "dgsScrollPaneSetScrollBarState",
+		"body": "dgsScrollPaneSetScrollBarState"
+	},
+	"dgsScrollPaneGetScrollBarState": {
+		"scope": "lua",
+		"description": "bool/nil, bool/nil dgsScrollPaneGetScrollBarState( element scrollPane )",
+		"prefix": "dgsScrollPaneGetScrollBarState",
+		"body": "dgsScrollPaneGetScrollBarState"
+	},
+	"dgsCreateSelector": {
+		"scope": "lua",
+		"description": "element dgsCreateSelector( float x, float y, float width, float height, bool relative [, element parent = nil, int textColor = 0xFFFFFFFF, float scaleX = 1, float scaleY = 1, float shadowOffsetX = nil, float shadowOffsetY = nil, int shadowColor = nil ] )",
+		"prefix": "dgsCreateSelector",
+		"body": "dgsCreateSelector"
+	},
+	"dgsSelectorAddItem": {
+		"scope": "lua",
+		"description": "int dgsSelectorAddItem( element selector [, string text ] )",
+		"prefix": "dgsSelectorAddItem",
+		"body": "dgsSelectorAddItem"
+	},
+	"dgsSelectorRemoveItem": {
+		"scope": "lua",
+		"description": "bool dgsSelectorRemoveItem( element selector, int item )",
+		"prefix": "dgsSelectorRemoveItem",
+		"body": "dgsSelectorRemoveItem"
+	},
+	"dgsSelectorClear": {
+		"scope": "lua",
+		"description": "bool dgsSelectorClear ( element selector )",
+		"prefix": "dgsSelectorClear",
+		"body": "dgsSelectorClear"
+	},
+	"dgsSelectorSetSelectedItem": {
+		"scope": "lua",
+		"description": "bool dgsSelectorSetSelectedItem( element selector, int item )",
+		"prefix": "dgsSelectorSetSelectedItem",
+		"body": "dgsSelectorSetSelectedItem"
+	},
+	"dgsSelectorGetSelectedItem": {
+		"scope": "lua",
+		"description": "int dgsSelectorGetSelectedItem( element selector )",
+		"prefix": "dgsSelectorGetSelectedItem",
+		"body": "dgsSelectorGetSelectedItem"
+	},
+	"dgsSelectorGetItemText": {
+		"scope": "lua",
+		"description": "string dgsSelectorGetItemText ( element selector, int item )",
+		"prefix": "dgsSelectorGetItemText",
+		"body": "dgsSelectorGetItemText"
+	},
+	"dgsSelectorSetItemText": {
+		"scope": "lua",
+		"description": "bool dgsSelectorSetItemText ( element selector, int itemId, string/number text )",
+		"prefix": "dgsSelectorSetItemText",
+		"body": "dgsSelectorSetItemText"
+	},
+	"dgsSelectorSetItemFont": {
+		"scope": "lua",
+		"description": "bool dgsSelectorSetItemFont( element selector, int itemId, string/dx-font font )",
+		"prefix": "dgsSelectorSetItemFont",
+		"body": "dgsSelectorSetItemFont"
+	},
+	"dgsAddStyle": {
+		"scope": "lua",
+		"description": "bool dgsAddStyle( string styleName, string stylePath [, resource-data/string bindResource = resource ] )",
+		"prefix": "dgsAddStyle",
+		"body": "dgsAddStyle"
+	},
+	"dgsLoadStyle": {
+		"scope": "lua",
+		"description": "bool dgsLoadStyle( string styleName [, resource-data/string bindResource = resource ] )",
+		"prefix": "dgsLoadStyle",
+		"body": "dgsLoadStyle"
+	},
+	"dgsUnloadStyle": {
+		"scope": "lua",
+		"description": "bool dgsUnloadStyle( string styleName [, resource-data/string bindResource = resource ] )",
+		"prefix": "dgsUnloadStyle",
+		"body": "dgsUnloadStyle"
+	},
+	"dgsSetStyle": {
+		"scope": "lua",
+		"description": "bool dgsSetStyle( string styleName [, resource-data/string bindResource = resource ] )",
+		"prefix": "dgsSetStyle",
+		"body": "dgsSetStyle"
+	},
+	"dgsGetStyle": {
+		"scope": "lua",
+		"description": "bool dgsGetStyle( [ resource-data/string bindResource = resource ] )",
+		"prefix": "dgsGetStyle",
+		"body": "dgsGetStyle"
+	},
+	"dgsGetLoadedStyleList": {
+		"scope": "lua",
+		"description": "bool dgsGetLoadedStyleList( [ bool includeGlobal = false, resource-data/string bindResource = resource ] )",
+		"prefix": "dgsGetLoadedStyleList",
+		"body": "dgsGetLoadedStyleList"
+	},
+	"dgsGetAddedStyleList": {
+		"scope": "lua",
+		"description": "bool dgsGetAddedStyleList( [ bool includeGlobal = false, resource-data/string bindResource = resource ] )",
+		"prefix": "dgsGetAddedStyleList",
+		"body": "dgsGetAddedStyleList"
+	},
+	"dgsGetValueFromStyle": {
+		"scope": "lua",
+		"description": "mixed dgsGetValueFromStyle( string elementType, string key [, string styleName = dgsGetStyle(), resource-data/string bindResource = resource ] )",
+		"prefix": "dgsGetValueFromStyle",
+		"body": "dgsGetValueFromStyle"
+	},
+	"dgsCreateSwitchButton": {
+		"scope": "lua",
+		"description": "element dgsCreateSwitchButton( float x, float y, float width, float height [, string textOn = \"\", string textOff = \"\", bool state = false, bool relative = false, element parent = nil, int textColorOn = 0x5AA0E6FF, int textColorOff = 0x3C3C3CFF, float scaleX = 1, float scaleY = 1 ] )",
+		"prefix": "dgsCreateSwitchButton",
+		"body": "dgsCreateSwitchButton"
+	},
+	"dgsSwitchButtonGetState": {
+		"scope": "lua",
+		"description": "bool dgsSwitchButtonGetState( element switchButton )",
+		"prefix": "dgsSwitchButtonGetState",
+		"body": "dgsSwitchButtonGetState"
+	},
+	"dgsSwitchButtonSetState": {
+		"scope": "lua",
+		"description": "bool dgsSwitchButtonSetState( element switchButton, bool state )",
+		"prefix": "dgsSwitchButtonSetState",
+		"body": "dgsSwitchButtonSetState"
+	},
+	"dgsSwitchButtonSetText": {
+		"scope": "lua",
+		"description": "bool dgsSwitchButtonSetText( element switchbutton, string textOn, string textOff )",
+		"prefix": "dgsSwitchButtonSetText",
+		"body": "dgsSwitchButtonSetText"
+	},
+	"dgsSwitchButtonGetText": {
+		"scope": "lua",
+		"description": "string,string dgsSwitchButtonGetText( element switchButton )",
+		"prefix": "dgsSwitchButtonGetText",
+		"body": "dgsSwitchButtonGetText"
+	},
+	"dgsCreateTabPanel": {
+		"scope": "lua",
+		"description": "element dgsCreateTabPanel( float x, float y, float width, float height, bool relative [, element parent = nil, int tabHeight = 20, element bgImage = nil, int bgColor = 0xB4000000 ] )",
+		"prefix": "dgsCreateTabPanel",
+		"body": "dgsCreateTabPanel"
+	},
+	"dgsCreateTab": {
+		"scope": "lua",
+		"description": "element dgsCreateTab ( string text, element parent [,int scaleX = 1, int scaleY = 1, int textColor = 0xFFFFFFFF, element bgImage = nil, int bgColor = 0x000000C8, element normalImage = nil, element hoveringImage = nil, element clickedImage = nil, int normalColor = 282828B4, int hoveringColor = 0x505050BE, int clickedColor = 0X000000C8])",
+		"prefix": "dgsCreateTab",
+		"body": "dgsCreateTab"
+	},
+	"dgsGetSelectedTab": {
+		"scope": "lua",
+		"description": "dgsElement dgsGetSelectedTab ( dgsElement tabPanel )",
+		"prefix": "dgsGetSelectedTab",
+		"body": "dgsGetSelectedTab"
+	},
+	"dgsSetSelectedTab": {
+		"scope": "lua",
+		"description": "bool dgsSetSelectedTab ( dgsElement tabPanel, dgsElement tab )",
+		"prefix": "dgsSetSelectedTab",
+		"body": "dgsSetSelectedTab"
+	},
+	"dgsTabPanelGetTabFromID": {
+		"scope": "lua",
+		"description": "bool dgsTabPanelGetTabFromID ( element tabpanel, int ID )",
+		"prefix": "dgsTabPanelGetTabFromID",
+		"body": "dgsTabPanelGetTabFromID"
+	},
+	"dgsTabPanelMoveTab": {
+		"scope": "lua",
+		"description": "bool dgsTabPanelMoveTab ( element tabpanel, int from, int to )",
+		"prefix": "dgsTabPanelMoveTab",
+		"body": "dgsTabPanelMoveTab"
+	},
+	"dgsTabPanelGetTabID": {
+		"scope": "lua",
+		"description": "bool dgsTabPanelGetTabID ( element tab )",
+		"prefix": "dgsTabPanelGetTabID",
+		"body": "dgsTabPanelGetTabID"
+	},
+	"dgsDeleteTab": {
+		"scope": "lua",
+		"description": "bool dgsDeleteTab ( element tabToDelete )",
+		"prefix": "dgsDeleteTab",
+		"body": "dgsDeleteTab"
+	},
+	"dgsCreateWindow": {
+		"scope": "lua",
+		"description": "element dgsCreateWindow ( float x, float y, float width, float height, string text, bool relative[, int textColor = 0xFFFFFFFF, float titleHeight = 25, element titleImage = nil, int titleColor = 0xC8141414, element image = nil, int color = 0x96141414, float borderSize = 5, bool noCloseButton = false ] )",
+		"prefix": "dgsCreateWindow",
+		"body": "dgsCreateWindow"
+	},
+	"dgsWindowSetSizable": {
+		"scope": "lua",
+		"description": "bool dgsWindowSetSizable ( element theElement, bool status )",
+		"prefix": "dgsWindowSetSizable",
+		"body": "dgsWindowSetSizable"
+	},
+	"dgsWindowSetMovable": {
+		"scope": "lua",
+		"description": "bool dgsWindowSetMovable ( element theElement, bool status )",
+		"prefix": "dgsWindowSetMovable",
+		"body": "dgsWindowSetMovable"
+	},
+	"dgsWindowGetSizable": {
+		"scope": "lua",
+		"description": "bool dgsWindowGetSizable( element dgsWindow )",
+		"prefix": "dgsWindowGetSizable",
+		"body": "dgsWindowGetSizable"
+	},
+	"dgsWindowGetMovable": {
+		"scope": "lua",
+		"description": "bool dgsWindowGetMovable( element dgsWindow )",
+		"prefix": "dgsWindowGetMovable",
+		"body": "dgsWindowGetMovable"
+	},
+	"dgsCloseWindow": {
+		"scope": "lua",
+		"description": "bool dgsCloseWindow ( element theElement )",
+		"prefix": "dgsCloseWindow",
+		"body": "dgsCloseWindow"
+	},
+	"dgsWindowSetCloseButtonEnabled": {
+		"scope": "lua",
+		"description": "bool dgsWindowSetCloseButtonEnabled ( element window, bool enabled )",
+		"prefix": "dgsWindowSetCloseButtonEnabled",
+		"body": "dgsWindowSetCloseButtonEnabled"
+	},
+	"dgsWindowGetCloseButtonEnabled": {
+		"scope": "lua",
+		"description": "bool dgsWindowGetCloseButtonEnabled ( element window )",
+		"prefix": "dgsWindowGetCloseButtonEnabled",
+		"body": "dgsWindowGetCloseButtonEnabled"
+	},
+	"dgsWindowSetCloseButtonSize": {
+		"scope": "lua",
+		"description": "bool dgsWindowSetCloseButtonSize( element dgsElement, int width, int height[, bool relative] )",
+		"prefix": "dgsWindowSetCloseButtonSize",
+		"body": "dgsWindowSetCloseButtonSize"
+	},
+	"dgsWindowGetCloseButtonSize": {
+		"scope": "lua",
+		"description": "bool dgsWindowGetCloseButtonSize( element dgsElement [, bool relative ] )",
+		"prefix": "dgsWindowGetCloseButtonSize",
+		"body": "dgsWindowGetCloseButtonSize"
+	},
+	"dgsWindowGetCloseButton": {
+		"scope": "lua",
+		"description": "element dgsWindowGetCloseButton( element dgsWindow)",
+		"prefix": "dgsWindowGetCloseButton",
+		"body": "dgsWindowGetCloseButton"
+	},
+	"dgsWindowSetHorizontalAlign": {
+		"scope": "lua",
+		"description": "bool dgsWindowSetHorizontalAlign ( element window, string align )",
+		"prefix": "dgsWindowSetHorizontalAlign",
+		"body": "dgsWindowSetHorizontalAlign"
+	},
+	"dgsWindowSetVerticalAlign": {
+		"scope": "lua",
+		"description": "bool dgsWindowSetVerticalAlign ( element window, string align )",
+		"prefix": "dgsWindowSetVerticalAlign",
+		"body": "dgsWindowSetVerticalAlign"
+	},
+	"dgsWindowGetHorizontalAlign": {
+		"scope": "lua",
+		"description": "string dgsWindowGetHorizontalAlign ( element window )",
+		"prefix": "dgsWindowGetHorizontalAlign",
+		"body": "dgsWindowGetHorizontalAlign"
+	},
+	"dgsWindowGetVerticalAlign": {
+		"scope": "lua",
+		"description": "string dgsWindowGetVerticalAlign ( element window )",
+		"prefix": "dgsWindowGetVerticalAlign",
+		"body": "dgsWindowGetVerticalAlign"
+	},
+	"dgsWindowGetTextExtent": {
+		"scope": "lua",
+		"description": "float dgsWindowGetTextExtent ( element theWIndow )",
+		"prefix": "dgsWindowGetTextExtent",
+		"body": "dgsWindowGetTextExtent"
+	},
+	"dgsWindowGetFontHeight": {
+		"scope": "lua",
+		"description": "float dgsWindowGetFontHeight ( element theWindow )",
+		"prefix": "dgsWindowGetFontHeight",
+		"body": "dgsWindowGetFontHeight"
+	},
+	"dgsWindowGetTextSize": {
+		"scope": "lua",
+		"description": "float, float dgsWindowGetTextSize( element theWindow )",
+		"prefix": "dgsWindowGetTextSize",
+		"body": "dgsWindowGetTextSize"
+	},
+	"dgsCreateBlurBox": {
+		"scope": "lua",
+		"description": "element dgsCreateBlurBox( int resolutionX, int resolutionY [, texture sourceTexture = nil ] )",
+		"prefix": "dgsCreateBlurBox",
+		"body": "dgsCreateBlurBox"
+	},
+	"dgsBlurBoxSetTexture": {
+		"scope": "lua",
+		"description": "bool dgsBlurBoxSetTexture( element blurbox [, texture sourceTexture ] )",
+		"prefix": "dgsBlurBoxSetTexture",
+		"body": "dgsBlurBoxSetTexture"
+	},
+	"dgsBlurBoxGetTexture": {
+		"scope": "lua",
+		"description": "texture dgsBlurBoxGetTexture( element blurbox )",
+		"prefix": "dgsBlurBoxGetTexture",
+		"body": "dgsBlurBoxGetTexture"
+	},
+	"dgsBlurBoxSetResolution": {
+		"scope": "lua",
+		"description": "bool dgsBlurBoxSetResolution( element blurBox, int width, int height)",
+		"prefix": "dgsBlurBoxSetResolution",
+		"body": "dgsBlurBoxSetResolution"
+	},
+	"dgsBlurBoxSetIntensity": {
+		"scope": "lua",
+		"description": "bool dgsBlurBoxSetIntensity( element blurBox, float intensity )",
+		"prefix": "dgsBlurBoxSetIntensity",
+		"body": "dgsBlurBoxSetIntensity"
+	},
+	"dgsBlurBoxSetLevel": {
+		"scope": "lua",
+		"description": "bool dgsBlurBoxSetLevel( element blurBox, int level )",
+		"prefix": "dgsBlurBoxSetLevel",
+		"body": "dgsBlurBoxSetLevel"
+	},
+	"dgsBlurBoxGetResolution": {
+		"scope": "lua",
+		"description": "int, int dgsBlurBoxGetResolution( element blurBox )",
+		"prefix": "dgsBlurBoxGetResolution",
+		"body": "dgsBlurBoxGetResolution"
+	},
+	"dgsBlurBoxGetLevel": {
+		"scope": "lua",
+		"description": "int dgsBlurBoxGetLevel( element blurBox )",
+		"prefix": "dgsBlurBoxGetLevel",
+		"body": "dgsBlurBoxGetLevel"
+	},
+	"dgsBlurBoxGetIntensity": {
+		"scope": "lua",
+		"description": "float dgsBlurBoxGetIntensity( element blurBox )",
+		"prefix": "dgsBlurBoxGetIntensity",
+		"body": "dgsBlurBoxGetIntensity"
+	},
+	"dgsBlurBoxSetFilter": {
+		"scope": "lua",
+		"description": "bool dgsBlurBoxSetFilter( element blurbox [, shader shapePlugin] )",
+		"prefix": "dgsBlurBoxSetFilter",
+		"body": "dgsBlurBoxSetFilter"
+	},
+	"dgsCreateCanvas": {
+		"scope": "lua",
+		"description": "element dgsCreateCanvas( element renderSource, int width, int height [, int color ] )",
+		"prefix": "dgsCreateCanvas",
+		"body": "dgsCreateCanvas"
+	},
+	"dgsCreateChart": {
+		"scope": "lua",
+		"description": "element dgsCreateChart ( float x, float y, float width, float height, string chartType, bool relative [, element parent = nil ] )",
+		"prefix": "dgsCreateChart",
+		"body": "dgsCreateChart"
+	},
+	"dgsCreateCircle": {
+		"scope": "lua",
+		"description": "element dgsCreateCircle( [ float outsideRadius = 0.5, float insideRadius = 0.2, float angle = 360, int color = 0xFFFFFFFF, element texture = nil ] )",
+		"prefix": "dgsCreateCircle",
+		"body": "dgsCreateCircle"
+	},
+	"dgsCircleSetRadius": {
+		"scope": "lua",
+		"description": "bool dgsCircleSetRadius( element circle, float outsideRadius = 0.5, float insideRadius = 0.2 )",
+		"prefix": "dgsCircleSetRadius",
+		"body": "dgsCircleSetRadius"
+	},
+	"dgsCircleGetRadius": {
+		"scope": "lua",
+		"description": "float,float dgsCircleGetRadius( element circle )",
+		"prefix": "dgsCircleGetRadius",
+		"body": "dgsCircleGetRadius"
+	},
+	"dgsCircleSetTexture": {
+		"scope": "lua",
+		"description": "bool dgsCircleSetTexture( element circle [ element texture = nil ] )",
+		"prefix": "dgsCircleSetTexture",
+		"body": "dgsCircleSetTexture"
+	},
+	"dgsCircleGetTexture": {
+		"scope": "lua",
+		"description": "element dgsCircleGetTexture( element circle )",
+		"prefix": "dgsCircleGetTexture",
+		"body": "dgsCircleGetTexture"
+	},
+	"dgsCircleSetTextureRotation": {
+		"scope": "lua",
+		"description": "bool dgsCircleSetTextureRotation( element circle, float rotDegree [, float rotCenterX = rotCenterX, float rotCenterY = rotCenterY ] )",
+		"prefix": "dgsCircleSetTextureRotation",
+		"body": "dgsCircleSetTextureRotation"
+	},
+	"dgsCreateColorPicker": {
+		"scope": "lua",
+		"description": "element dgsCreateColorPicker( string style, float x, float y, float w, float h, bool relative [, element parent = nil ] )",
+		"prefix": "dgsCreateColorPicker",
+		"body": "dgsCreateColorPicker"
+	},
+	"dgsColorPickerSetColor": {
+		"scope": "lua",
+		"description": "bool dgsColorPickerSetColor( element colorPicker [, int color1, int color2, int color3, int alpha, string colorType = \"RGB\" ] )",
+		"prefix": "dgsColorPickerSetColor",
+		"body": "dgsColorPickerSetColor"
+	},
+	"dgsColorPickerGetColor": {
+		"scope": "lua",
+		"description": "int color1, int color2, int color3, int alpha dgsColorPickerGetColor( element colorPicker [, string colorType = \"RGB\" ] )",
+		"prefix": "dgsColorPickerGetColor",
+		"body": "dgsColorPickerGetColor"
+	},
+	"dgsBindToColorPicker": {
+		"scope": "lua",
+		"description": "bool dgsBindToColorPicker( element boundSource, element targetColorPicker, string colorType, string colorAttribute [, bool isStatic = false, bool isReversed = false ] )",
+		"prefix": "dgsBindToColorPicker",
+		"body": "dgsBindToColorPicker"
+	},
+	"dgsUnbindFromColorPicker": {
+		"scope": "lua",
+		"description": "bool dgsUnbindFromColorPicker( element boundSource )",
+		"prefix": "dgsUnbindFromColorPicker",
+		"body": "dgsUnbindFromColorPicker"
+	},
+	"dgsColorPickerCreateComponentSelector": {
+		"scope": "lua",
+		"description": "element dgsColorPickerCreateComponentSelector( float x, float y, float w, float h, bool isHorizontal, bool relative [, element parent ] )",
+		"prefix": "dgsColorPickerCreateComponentSelector",
+		"body": "dgsColorPickerCreateComponentSelector"
+	},
+	"dgsColorPickerGetComponentSelectorValue": {
+		"scope": "lua",
+		"description": "float dgsColorPickerGetComponentSelectorValue( element componentSelector )",
+		"prefix": "dgsColorPickerGetComponentSelectorValue",
+		"body": "dgsColorPickerGetComponentSelectorValue"
+	},
+	"dgsColorPickerSetComponentSelectorValue": {
+		"scope": "lua",
+		"description": "bool dgsColorPickerSetComponentSelectorValue( element componentSelector, float value )",
+		"prefix": "dgsColorPickerSetComponentSelectorValue",
+		"body": "dgsColorPickerSetComponentSelectorValue"
+	},
+	"dgsCreateEffect3D": {
+		"scope": "lua",
+		"description": "element dgsCreateEffect3D( float rotateFactor )",
+		"prefix": "dgsCreateEffect3D",
+		"body": "dgsCreateEffect3D"
+	},
+	"dgsEffect3DApplyToScrollPane": {
+		"scope": "lua",
+		"description": "bool dgsEffect3DApplyToScrollPane( element effect3d, element scrollpane )",
+		"prefix": "dgsEffect3DApplyToScrollPane",
+		"body": "dgsEffect3DApplyToScrollPane"
+	},
+	"dgsEffect3DRemoveFromScrollPane": {
+		"scope": "lua",
+		"description": "bool dgsEffect3DRemoveFromScrollPane( element scrollpane )",
+		"prefix": "dgsEffect3DRemoveFromScrollPane",
+		"body": "dgsEffect3DRemoveFromScrollPane"
+	},
+	"dgsCreateGradient": {
+		"scope": "lua",
+		"description": "element dgsCreateGradient( int colorFrom, int colorTo [, float rotation = 0 ] )",
+		"prefix": "dgsCreateGradient",
+		"body": "dgsCreateGradient"
+	},
+	"dgsGradientSetColorOverwritten": {
+		"scope": "lua",
+		"description": "bool dgsGradientSetColorOverwritten( element gradient, bool isOverwritten )",
+		"prefix": "dgsGradientSetColorOverwritten",
+		"body": "dgsGradientSetColorOverwritten"
+	},
+	"dgsGradientGetColorOverwritten": {
+		"scope": "lua",
+		"description": "bool dgsGradientGetColorOverwritten( element gradient )",
+		"prefix": "dgsGradientGetColorOverwritten",
+		"body": "dgsGradientGetColorOverwritten"
+	},
+	"dgsCreateMask": {
+		"scope": "lua",
+		"description": "element dgsCreateMask( texture sourceTexture, texture/shader/string mask [, table settings ] )",
+		"prefix": "dgsCreateMask",
+		"body": "dgsCreateMask"
+	},
+	"dgsMaskGetTexture": {
+		"scope": "lua",
+		"description": "element dgsMaskGetTexture( element mask )",
+		"prefix": "dgsMaskGetTexture",
+		"body": "dgsMaskGetTexture"
+	},
+	"dgsMaskSetTexture": {
+		"scope": "lua",
+		"description": "bool dgsMaskSetTexture( element mask, element texture )",
+		"prefix": "dgsMaskSetTexture",
+		"body": "dgsMaskSetTexture"
+	},
+	"dgsMaskCenterTexturePosition": {
+		"scope": "lua",
+		"description": "bool dgsMaskCenterTexturePosition( element mask, int w, int h )",
+		"prefix": "dgsMaskCenterTexturePosition",
+		"body": "dgsMaskCenterTexturePosition"
+	},
+	"dgsMaskAdaptTextureSize": {
+		"scope": "lua",
+		"description": "bool dgsMaskAdaptTextureSize( element mask, int w, int h )",
+		"prefix": "dgsMaskAdaptTextureSize",
+		"body": "dgsMaskAdaptTextureSize"
+	},
+	"dgsCreateMediaBrowser": {
+		"scope": "lua",
+		"description": "element dgsCreateMediaBrowser( int width, int height, bool transparent )",
+		"prefix": "dgsCreateMediaBrowser",
+		"body": "dgsCreateMediaBrowser"
+	},
+	"dgsMediaLoadMedia": {
+		"scope": "lua",
+		"description": "element dgsMediaLoadMedia ( element media, string path, string theType )",
+		"prefix": "dgsMediaLoadMedia",
+		"body": "dgsMediaLoadMedia"
+	},
+	"dgsMediaGetMediaPath": {
+		"scope": "lua",
+		"description": "string dgsMediaGetMediaPath ( element media )",
+		"prefix": "dgsMediaGetMediaPath",
+		"body": "dgsMediaGetMediaPath"
+	},
+	"dgsMediaClearMedia": {
+		"scope": "lua",
+		"description": "bool dgsMediaClearMedia ( element media )",
+		"prefix": "dgsMediaClearMedia",
+		"body": "dgsMediaClearMedia"
+	},
+	"dgsMediaIsStreamMedia": {
+		"scope": "lua",
+		"description": "bool dgsMediaIsStreamMedia ( element media )",
+		"prefix": "dgsMediaIsStreamMedia",
+		"body": "dgsMediaIsStreamMedia"
+	},
+	"dgsMediaPlay": {
+		"scope": "lua",
+		"description": "bool dgsMediaPlay( element multiMediaBrowser )",
+		"prefix": "dgsMediaPlay",
+		"body": "dgsMediaPlay"
+	},
+	"dgsMediaPause": {
+		"scope": "lua",
+		"description": "bool dgsMediaPause( element multiMediaBrowser )",
+		"prefix": "dgsMediaPause",
+		"body": "dgsMediaPause"
+	},
+	"dgsMediaStop": {
+		"scope": "lua",
+		"description": "bool dgsMediaStop( element multiMediaBrowser )",
+		"prefix": "dgsMediaStop",
+		"body": "dgsMediaStop"
+	},
+	"dgsMediaGetDuration": {
+		"scope": "lua",
+		"description": "int dgsMediaGetDuration( element multiMediaBrowser )",
+		"prefix": "dgsMediaGetDuration",
+		"body": "dgsMediaGetDuration"
+	},
+	"dgsMediaGetCurrentPosition": {
+		"scope": "lua",
+		"description": "int dgsMediaGetCurrentPosition( element multiMediaBrowser )",
+		"prefix": "dgsMediaGetCurrentPosition",
+		"body": "dgsMediaGetCurrentPosition"
+	},
+	"dgsMediaGetLooped": {
+		"scope": "lua",
+		"description": "bool dgsMediaGetLooped( element multiMediaBrowser )",
+		"prefix": "dgsMediaGetLooped",
+		"body": "dgsMediaGetLooped"
+	},
+	"dgsMediaSetLooped": {
+		"scope": "lua",
+		"description": "bool dgsMediaSetLooped( element multiMediaBrowser, bool state )",
+		"prefix": "dgsMediaSetLooped",
+		"body": "dgsMediaSetLooped"
+	},
+	"dgsCreateNineSlice": {
+		"scope": "lua",
+		"description": "element dgsCreateNineSlice( element texture, float gridXLeft, float gridXRight, float gridYTop, float gridYBottom [, bool relative = false ] )",
+		"prefix": "dgsCreateNineSlice",
+		"body": "dgsCreateNineSlice"
+	},
+	"dgsNineSliceSetGrid": {
+		"scope": "lua",
+		"description": "bool dgsNineSliceSetGrid( element nineSlice [, float gridXLeft, float gridXRight, float gridYTop, float gridYBottom, bool relative = false ] )",
+		"prefix": "dgsNineSliceSetGrid",
+		"body": "dgsNineSliceSetGrid"
+	},
+	"dgsNineSliceGetGrid": {
+		"scope": "lua",
+		"description": "float, float, float, float dgsNineSliceGetGrid( element nineSlice [, relative = false ] )",
+		"prefix": "dgsNineSliceGetGrid",
+		"body": "dgsNineSliceGetGrid"
+	},
+	"dgsCreateObjectPreviewHandle": {
+		"scope": "lua",
+		"description": "element dgsCreateObjectPreviewHandle( element theElementToShow, float rotX, float rotY, float rotZ [, bool isSecRT = true] )",
+		"prefix": "dgsCreateObjectPreviewHandle",
+		"body": "dgsCreateObjectPreviewHandle"
+	},
+	"dgsLocateObjectPreviewResource": {
+		"scope": "lua",
+		"description": "bool dgsLocateObjectPreviewResource( string name )",
+		"prefix": "dgsLocateObjectPreviewResource",
+		"body": "dgsLocateObjectPreviewResource"
+	},
+	"dgsAttachObjectPreviewToImage": {
+		"scope": "lua",
+		"description": "bool dgsAttachObjectPreviewToImage( element SOVElement, element dgsImage )",
+		"prefix": "dgsAttachObjectPreviewToImage",
+		"body": "dgsAttachObjectPreviewToImage"
+	},
+	"dgsRemoveObjectPreviewFromImage": {
+		"scope": "lua",
+		"description": "bool dgsRemoveObjectPreviewFromImage( element dgsImage )",
+		"prefix": "dgsRemoveObjectPreviewFromImage",
+		"body": "dgsRemoveObjectPreviewFromImage"
+	},
+	"dgsObjectPreviewGetHandleByID": {
+		"scope": "lua",
+		"description": "element dgsObjectPreviewGetHandleByID( string elementID )",
+		"prefix": "dgsObjectPreviewGetHandleByID",
+		"body": "dgsObjectPreviewGetHandleByID"
+	},
+	"dgsConfigureObjectPreview": {
+		"scope": "lua",
+		"description": "string dgsConfigureObjectPreview( )",
+		"prefix": "dgsConfigureObjectPreview",
+		"body": "dgsConfigureObjectPreview"
+	},
+	"dgsPasteHandlerSetEnabled": {
+		"scope": "lua",
+		"description": "bool dgsPasteHandlerSetEnabled( bool state )",
+		"prefix": "dgsPasteHandlerSetEnabled",
+		"body": "dgsPasteHandlerSetEnabled"
+	},
+	"dgsPasteHandlerIsEnabled": {
+		"scope": "lua",
+		"description": "bool dgsPasteHandlerIsEnabled ( )",
+		"prefix": "dgsPasteHandlerIsEnabled",
+		"body": "dgsPasteHandlerIsEnabled"
+	},
+	"dgsPasteHandlerSetFocused": {
+		"scope": "lua",
+		"description": "bool dgsPasteHandlerSetFocused( bool state )",
+		"prefix": "dgsPasteHandlerSetFocused",
+		"body": "dgsPasteHandlerSetFocused"
+	},
+	"dgsPasteHandlerIsFocused": {
+		"scope": "lua",
+		"description": "bool dgsPasteHandlerIsFocused ( )",
+		"prefix": "dgsPasteHandlerIsFocused",
+		"body": "dgsPasteHandlerIsFocused"
+	},
+	"dgsRequestQRCode": {
+		"scope": "lua",
+		"description": "element dgsRequestQRCode( string dataString [, int width = 128, int height = 128 ] )",
+		"prefix": "dgsRequestQRCode",
+		"body": "dgsRequestQRCode"
+	},
+	"dgsGetQRCodeLoaded": {
+		"scope": "lua",
+		"description": "bool dgsGetQRCodeLoaded( element QRCode )",
+		"prefix": "dgsGetQRCodeLoaded",
+		"body": "dgsGetQRCodeLoaded"
+	},
+	"dgsCreateRemoteImage": {
+		"scope": "lua",
+		"description": "element dgsCreateRemoteImage( string URL )",
+		"prefix": "dgsCreateRemoteImage",
+		"body": "dgsCreateRemoteImage"
+	},
+	"dgsRemoteImageRequest": {
+		"scope": "lua",
+		"description": "bool dgsRemoteImageRequest( element remoteImage, string URL )",
+		"prefix": "dgsRemoteImageRequest",
+		"body": "dgsRemoteImageRequest"
+	},
+	"dgsRemoteImageAbort": {
+		"scope": "lua",
+		"description": "element dgsRemoteImageAbort( element remoteImage )",
+		"prefix": "dgsRemoteImageAbort",
+		"body": "dgsRemoteImageAbort"
+	},
+	"dgsRemoteImageGetTexture": {
+		"scope": "lua",
+		"description": "texture dgsRemoteImageGetTexture( element remoteImage )",
+		"prefix": "dgsRemoteImageGetTexture",
+		"body": "dgsRemoteImageGetTexture"
+	},
+	"dgsGetRemoteImageLoadState": {
+		"scope": "lua",
+		"description": "bool dgsGetRemoteImageLoadState( element imageTexture )",
+		"prefix": "dgsGetRemoteImageLoadState",
+		"body": "dgsGetRemoteImageLoadState"
+	},
+	"dgsCreateRoundRect": {
+		"scope": "lua",
+		"description": "element dgsCreateRoundRect( table multiArguments [, int color = 0xFFFFFFFF, texture background = nil, bool colorOverwritten = true, bool isBorderOnly, float borderHorizontalThickness, float borderVerticalThickness ] )",
+		"prefix": "dgsCreateRoundRect",
+		"body": "dgsCreateRoundRect"
+	},
+	"dgsRoundRectSetTexture": {
+		"scope": "lua",
+		"description": "bool dgsRoundRectSetTexture( element rndRect, texture sourceTexture )",
+		"prefix": "dgsRoundRectSetTexture",
+		"body": "dgsRoundRectSetTexture"
+	},
+	"dgsRoundRectGetTexture": {
+		"scope": "lua",
+		"description": "texture dgsRoundRectGetTexture( element rndRect )",
+		"prefix": "dgsRoundRectGetTexture",
+		"body": "dgsRoundRectGetTexture"
+	},
+	"dgsRoundRectSetRadius": {
+		"scope": "lua",
+		"description": "bool dgsRoundRectSetRadius( element rndRect, float radius [, bool isRelative = true] )",
+		"prefix": "dgsRoundRectSetRadius",
+		"body": "dgsRoundRectSetRadius"
+	},
+	"dgsRoundRectGetRadius": {
+		"scope": "lua",
+		"description": "float dgsRoundRectGetRadius( element rndRect )",
+		"prefix": "dgsRoundRectGetRadius",
+		"body": "dgsRoundRectGetRadius"
+	},
+	"dgsRoundRectSetColor": {
+		"scope": "lua",
+		"description": "bool dgsRoundRectSetColor( element rndRect, int color)",
+		"prefix": "dgsRoundRectSetColor",
+		"body": "dgsRoundRectSetColor"
+	},
+	"dgsRoundRectGetColor": {
+		"scope": "lua",
+		"description": "int dgsRoundRectGetColor( element rndRect )",
+		"prefix": "dgsRoundRectGetColor",
+		"body": "dgsRoundRectGetColor"
+	},
+	"dgsRoundRectSetColorOverwritten": {
+		"scope": "lua",
+		"description": "bool dgsRoundRectSetColorOverwritten( element rndRect, bool isOverwritten )",
+		"prefix": "dgsRoundRectSetColorOverwritten",
+		"body": "dgsRoundRectSetColorOverwritten"
+	},
+	"dgsRoundRectGetColorOverwritten": {
+		"scope": "lua",
+		"description": "bool dgsRoundRectGetColorOverwritten( element rndRect )",
+		"prefix": "dgsRoundRectGetColorOverwritten",
+		"body": "dgsRoundRectGetColorOverwritten"
+	},
+	"dgsRoundRectSetBorderThickness": {
+		"scope": "lua",
+		"description": "bool dgsRoundRectSetBorderThickness( element rndRect, float horizontal [, float vertical = horizontal ] )",
+		"prefix": "dgsRoundRectSetBorderThickness",
+		"body": "dgsRoundRectSetBorderThickness"
+	},
+	"dgsRoundRectGetBorderThickness": {
+		"scope": "lua",
+		"description": "bool dgsRoundRectGetBorderThickness( element rndRect )",
+		"prefix": "dgsRoundRectGetBorderThickness",
+		"body": "dgsRoundRectGetBorderThickness"
+	},
+	"dgsRoundRectGetBorderOnly": {
+		"scope": "lua",
+		"description": "bool dgsRoundRectGetBorderOnly( element rndRect )",
+		"prefix": "dgsRoundRectGetBorderOnly",
+		"body": "dgsRoundRectGetBorderOnly"
+	},
+	"dgsCreateSVG": {
+		"scope": "lua",
+		"description": " svg dgsCreateSVG ( int width, int height [, string pathORrawData ] )",
+		"prefix": "dgsCreateSVG",
+		"body": "dgsCreateSVG"
+	},
+	"dgsSVGGetRawDocument": {
+		"scope": "lua",
+		"description": "string dgsSVGGetRawDocument( mixed svgNode )",
+		"prefix": "dgsSVGGetRawDocument",
+		"body": "dgsSVGGetRawDocument"
+	},
+	"dgsSVGGetDocument": {
+		"scope": "lua",
+		"description": " xmlnode dgsSVGGetDocument( svg svgElement )",
+		"prefix": "dgsSVGGetDocument",
+		"body": "dgsSVGGetDocument"
+	},
+	"dgsSVGCreateNode": {
+		"scope": "lua",
+		"description": "xmlnode dgsSVGCreateNode ( xmlnode xmlNode, string nodeType, ... )",
+		"prefix": "dgsSVGCreateNode",
+		"body": "dgsSVGCreateNode"
+	},
+	"dgsSVGDestroyNode": {
+		"scope": "lua",
+		"description": "bool dgsSVGDestroyNode ( xmlnode theXMLNode )",
+		"prefix": "dgsSVGDestroyNode",
+		"body": "dgsSVGDestroyNode"
+	},
+	"dgsSVGNodeSetAttribute": {
+		"scope": "lua",
+		"description": "bool dgsSVGNodeSetAttribute( xmlnode xmlNode, string attributeName, string value)",
+		"prefix": "dgsSVGNodeSetAttribute",
+		"body": "dgsSVGNodeSetAttribute"
+	},
+	"dgsSVGNodeGetAttribute": {
+		"scope": "lua",
+		"description": "string dgsSVGNodeGetAttribute( xmlnode xmlNode, string attributeName)",
+		"prefix": "dgsSVGNodeGetAttribute",
+		"body": "dgsSVGNodeGetAttribute"
+	},
+	"dgsSVGNodeSetAttributes": {
+		"scope": "lua",
+		"description": " bool dgsSVGNodeSetAttributes( xmlnode xmlNode, table attributesWithValue)",
+		"prefix": "dgsSVGNodeSetAttributes",
+		"body": "dgsSVGNodeSetAttributes"
+	},
+	"dgsSVGNodeGetAttributes": {
+		"scope": "lua",
+		"description": "table dgsSVGNodeGetAttributes( xmlnode xmlNode [, table attributes ] )",
+		"prefix": "dgsSVGNodeGetAttributes",
+		"body": "dgsSVGNodeGetAttributes"
+	},
+	"dgsCreateToolTip": {
+		"scope": "lua",
+		"description": "element dgsCreateToolTip( [ int textColor = 0xFFFFFFFF, int bgColor = 0x80000000, texture bgImage = nil ] )",
+		"prefix": "dgsCreateToolTip",
+		"body": "dgsCreateToolTip"
+	},
+	"dgsTooltipApplyTo": {
+		"scope": "lua",
+		"description": "bool dgsTooltipApplyTo( element tooltip, element targetElement, string text [, string/dx-font font = tooltipFont, number maxWidth = tooltipMaxWidth ] )",
+		"prefix": "dgsTooltipApplyTo",
+		"body": "dgsTooltipApplyTo"
+	},
+	"dgsTooltipRemoveFrom": {
+		"scope": "lua",
+		"description": "bool dgsTooltipRemoveFrom( element targetElement )",
+		"prefix": "dgsTooltipRemoveFrom",
+		"body": "dgsTooltipRemoveFrom"
+	}
+}
