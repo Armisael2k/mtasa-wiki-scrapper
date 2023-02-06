@@ -18,8 +18,8 @@ import { writeJsonFile } from 'write-json-file';
             await page.goto(link, { waitUntil: 'networkidle0' });
             await page.waitForSelector('.mw-page-title-main', { timeout: 2000});
             await page.waitForSelector('h2 + pre', { timeout: 2000});
-            const functionName = await page.$eval('.mw-page-title-main', el => el.textContent);
-            const syntax = await page.$$eval('h2 + pre', el => el.map(row => row.previousElementSibling.textContent == 'Syntax' ? { isFunction: true, syntax: row.textContent } : { isFunction: false } ));
+            const functionName = await page.$eval('.mw-page-title-main', el => el.textContent).trim();
+            const syntax = await page.$$eval('h2 + pre', el => el.map(row => row.previousElementSibling.textContent == 'Syntax' ? { isFunction: true, syntax: row.textContent.trim() } : { isFunction: false } ));
             log.push({
                 ...syntax,
                 link: link,
