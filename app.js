@@ -1,5 +1,3 @@
-// Arreglar cuando son varias sintaxis de la misma funcion
-
 import puppeteer from 'puppeteer';
 import { writeJsonFile } from 'write-json-file';
 
