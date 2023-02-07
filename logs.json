@@ -1,0 +1,3477 @@
+[
+	{
+		"name": "dgsGetPosition",
+		"href": "/wiki/DgsGetPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetPosition",
+		"href": "/wiki/DgsSetPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetParent",
+		"href": "/wiki/DgsSetParent",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetParent",
+		"href": "/wiki/DgsGetParent",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetChild",
+		"href": "/wiki/DgsGetChild",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetChildren",
+		"href": "/wiki/DgsGetChildren",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetSize",
+		"href": "/wiki/DgsGetSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetSize",
+		"href": "/wiki/DgsSetSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetType",
+		"href": "/wiki/DgsGetType",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetLayer",
+		"href": "/wiki/DgsSetLayer",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetLayer",
+		"href": "/wiki/DgsGetLayer",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetCurrentLayerIndex",
+		"href": "/wiki/DgsSetCurrentLayerIndex",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetCurrentLayerIndex",
+		"href": "/wiki/DgsGetCurrentLayerIndex",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetLayerElements",
+		"href": "/wiki/DgsGetLayerElements",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetProperty",
+		"href": "/wiki/DgsGetProperty",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetProperty",
+		"href": "/wiki/DgsSetProperty",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetPropertyInherit",
+		"href": "/wiki/DgsSetPropertyInherit",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetProperties",
+		"href": "/wiki/DgsGetProperties",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetProperties",
+		"href": "/wiki/DgsSetProperties",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetVisible",
+		"href": "/wiki/DgsGetVisible",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetVisible",
+		"href": "/wiki/DgsSetVisible",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetEnabled",
+		"href": "/wiki/DgsGetEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetEnabled",
+		"href": "/wiki/DgsSetEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetPositionAlignment",
+		"href": "/wiki/DgsGetPositionAlignment",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetPositionAlignment",
+		"href": "/wiki/DgsSetPositionAlignment",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetAlpha",
+		"href": "/wiki/DgsGetAlpha",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetAlpha",
+		"href": "/wiki/DgsSetAlpha",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetFont",
+		"href": "/wiki/DgsGetFont",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetFont",
+		"href": "/wiki/DgsSetFont",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetText",
+		"href": "/wiki/DgsGetText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetText",
+		"href": "/wiki/DgsSetText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetPostGUI",
+		"href": "/wiki/DgsGetPostGUI",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetPostGUI",
+		"href": "/wiki/DgsSetPostGUI",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetInputEnabled",
+		"href": "/wiki/DgsGetInputEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetInputEnabled",
+		"href": "/wiki/DgsSetInputEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetInputMode",
+		"href": "/wiki/DgsGetInputMode",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetInputMode",
+		"href": "/wiki/DgsSetInputMode",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsAttachToAutoDestroy",
+		"href": "/wiki/DgsAttachToAutoDestroy",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsDetachFromAutoDestroy",
+		"href": "/wiki/DgsDetachFromAutoDestroy",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsFocus",
+		"href": "/wiki/DgsFocus",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsBlur",
+		"href": "/wiki/DgsBlur",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateFont",
+		"href": "/wiki/DgsCreateFont",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsBringToFront",
+		"href": "/wiki/DgsBringToFront",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMoveToBack",
+		"href": "/wiki/DgsMoveToBack",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetScreenSize",
+		"href": "/wiki/DgsGetScreenSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetCursorPosition",
+		"href": "/wiki/DgsGetCursorPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetMouseEnterGUI",
+		"href": "/wiki/DgsGetMouseEnterGUI",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetMouseLeaveGUI",
+		"href": "/wiki/DgsGetMouseLeaveGUI",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsIsMouseWithinGUI",
+		"href": "/wiki/DgsIsMouseWithinGUI",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetSystemFont",
+		"href": "/wiki/DgsSetSystemFont",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetSystemFont",
+		"href": "/wiki/DgsGetSystemFont",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetElementsInLayer",
+		"href": "/wiki/DgsGetElementsInLayer",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetElementsFromResource",
+		"href": "/wiki/DgsGetElementsFromResource",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetFocusedGUI",
+		"href": "/wiki/DgsGetFocusedGUI",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetExportedFunctionName",
+		"href": "/wiki/DgsGetExportedFunctionName",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsImportFunction",
+		"href": "/wiki/DgsImportFunction",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsImportOOPClass",
+		"href": "/wiki/DgsImportOOPClass",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsG2DLoadHooker",
+		"href": "/wiki/DgsG2DLoadHooker",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetRenderSetting",
+		"href": "/wiki/DgsSetRenderSetting",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetRenderSetting",
+		"href": "/wiki/DgsGetRenderSetting",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSimulateClick",
+		"href": "/wiki/DgsSimulateClick",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetRootElement",
+		"href": "/wiki/DgsGetRootElement",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsAddMoveHandler",
+		"href": "/wiki/DgsAddMoveHandler",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRemoveMoveHandler",
+		"href": "/wiki/DgsRemoveMoveHandler",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsIsMoveHandled",
+		"href": "/wiki/DgsIsMoveHandled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsAddSizeHandler",
+		"href": "/wiki/DgsAddSizeHandler",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRemoveSizeHandler",
+		"href": "/wiki/DgsRemoveSizeHandler",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsIsSizeHandled",
+		"href": "/wiki/DgsIsSizeHandled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsAttachElements",
+		"href": "/wiki/DgsAttachElements",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsDetachElements",
+		"href": "/wiki/DgsDetachElements",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsElementIsAttached",
+		"href": "/wiki/DgsElementIsAttached",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsAddPropertyListener",
+		"href": "/index.php?title=DgsAddPropertyListener&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsRemovePropertyListener",
+		"href": "/index.php?title=DgsRemovePropertyListener&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGetListenedProperties",
+		"href": "/index.php?title=DgsGetListenedProperties&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsSetMultiClickInterval",
+		"href": "/wiki/DgsSetMultiClickInterval",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetMultiClickInterval",
+		"href": "/wiki/DgsGetMultiClickInterval",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetMouseStayDelay",
+		"href": "/wiki/DgsSetMouseStayDelay",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetMouseStayDelay",
+		"href": "/wiki/DgsGetMouseStayDelay",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCenterElement",
+		"href": "/wiki/DgsCenterElement",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetElementKeeperEnabled",
+		"href": "/wiki/DgsSetElementKeeperEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetElementKeeperEnabled",
+		"href": "/wiki/DgsGetElementKeeperEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetClickingSound",
+		"href": "/wiki/DgsSetClickingSound",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetClickingSound",
+		"href": "/wiki/DgsGetClickingSound",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetClickingSoundVolume",
+		"href": "/wiki/DgsSetClickingSoundVolume",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetClickingSoundVolume",
+		"href": "/wiki/DgsGetClickingSoundVolume",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetCustomCursorEnabled",
+		"href": "/wiki/DgsSetCustomCursorEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetCustomCursorEnabled",
+		"href": "/wiki/DgsGetCustomCursorEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetCustomCursorImage",
+		"href": "/wiki/DgsSetCustomCursorImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetCustomCursorImage",
+		"href": "/wiki/DgsGetCustomCursorImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetCustomCursorSize",
+		"href": "/wiki/DgsSetCustomCursorSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetCustomCursorSize",
+		"href": "/wiki/DgsGetCustomCursorSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetCustomCursorType",
+		"href": "/wiki/DgsGetCustomCursorType",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetCustomCursorColor",
+		"href": "/wiki/DgsSetCustomCursorColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetCustomCursorColor",
+		"href": "/wiki/DgsGetCustomCursorColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsTranslationTableExists",
+		"href": "/wiki/DgsTranslationTableExists",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetTranslationTable",
+		"href": "/wiki/DgsSetTranslationTable",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsAttachToTranslation",
+		"href": "/wiki/DgsAttachToTranslation",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsDetachFromTranslation",
+		"href": "/wiki/DgsDetachFromTranslation",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetAttachTranslation",
+		"href": "/wiki/DgsSetAttachTranslation",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetTranslationName",
+		"href": "/wiki/DgsGetTranslationName",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsTranslationAddPropertyListener",
+		"href": "/index.php?title=DgsTranslationAddPropertyListener&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsTranslationRemovePropertyListener",
+		"href": "/index.php?title=DgsTranslationRemovePropertyListener&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsAnimTo",
+		"href": "/wiki/DgsAnimTo",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsIsAniming",
+		"href": "/wiki/DgsIsAniming",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsStopAniming",
+		"href": "/wiki/DgsStopAniming",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMoveTo",
+		"href": "/wiki/DgsMoveTo",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsIsMoving",
+		"href": "/wiki/DgsIsMoving",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsStopMoving",
+		"href": "/wiki/DgsStopMoving",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSizeTo",
+		"href": "/wiki/DgsSizeTo",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsIsSizing",
+		"href": "/wiki/DgsIsSizing",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsStopSizing",
+		"href": "/wiki/DgsStopSizing",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsAlphaTo",
+		"href": "/wiki/DgsAlphaTo",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsIsAlphaing",
+		"href": "/wiki/DgsIsAlphaing",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsStopAlphaing",
+		"href": "/wiki/DgsStopAlphaing",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsAddEasingFunction",
+		"href": "/wiki/DgsAddEasingFunction",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRemoveEasingFunction",
+		"href": "/wiki/DgsRemoveEasingFunction",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEasingFunctionExists",
+		"href": "/wiki/DgsEasingFunctionExists",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DGetPosition",
+		"href": "/wiki/Dgs3DGetPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DSetPosition",
+		"href": "/wiki/Dgs3DSetPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DGetInterior",
+		"href": "/wiki/Dgs3DGetInterior",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DSetInterior",
+		"href": "/wiki/Dgs3DSetInterior",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DSetDimension",
+		"href": "/wiki/Dgs3DSetDimension",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DGetDimension",
+		"href": "/wiki/Dgs3DGetDimension",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreate3DInterface",
+		"href": "/wiki/DgsCreate3DInterface",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DInterfaceProcessLineOfSight",
+		"href": "/index.php?title=Dgs3DInterfaceProcessLineOfSight&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgs3DInterfaceGetBlendMode",
+		"href": "/wiki/Dgs3DInterfaceGetBlendMode",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DInterfaceSetBlendMode",
+		"href": "/wiki/Dgs3DInterfaceSetBlendMode",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DInterfaceGetDoublesided",
+		"href": "/index.php?title=Dgs3DInterfaceGetDoublesided&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgs3DInterfaceSetDoublesided",
+		"href": "/index.php?title=Dgs3DInterfaceSetDoublesided&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgs3DInterfaceGetFaceTo",
+		"href": "/wiki/Dgs3DInterfaceGetFaceTo",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DInterfaceSetFaceTo",
+		"href": "/wiki/Dgs3DInterfaceSetFaceTo",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DInterfaceGetResolution",
+		"href": "/wiki/Dgs3DInterfaceGetResolution",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DInterfaceSetResolution",
+		"href": "/wiki/Dgs3DInterfaceSetResolution",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DInterfaceSetRoll",
+		"href": "/wiki/Dgs3DInterfaceSetRoll",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DInterfaceGetRoll",
+		"href": "/wiki/Dgs3DInterfaceGetRoll",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DInterfaceGetSize",
+		"href": "/wiki/Dgs3DInterfaceGetSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DInterfaceSetSize",
+		"href": "/wiki/Dgs3DInterfaceSetSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DInterfaceIsAttached",
+		"href": "/wiki/Dgs3DInterfaceIsAttached",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DInterfaceAttachToElement",
+		"href": "/wiki/Dgs3DInterfaceAttachToElement",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DInterfaceDetachFromElement",
+		"href": "/wiki/Dgs3DInterfaceDetachFromElement",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DInterfaceSetAttachedOffsets",
+		"href": "/wiki/Dgs3DInterfaceSetAttachedOffsets",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DInterfaceGetAttachedOffsets",
+		"href": "/wiki/Dgs3DInterfaceGetAttachedOffsets",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreate3DLine",
+		"href": "/wiki/DgsCreate3DLine",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DLineSetLineType",
+		"href": "/index.php?title=Dgs3DLineSetLineType&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgs3DLineGetLineType",
+		"href": "/index.php?title=Dgs3DLineGetLineType&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgs3DLineAddItem",
+		"href": "/wiki/Dgs3DLineAddItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DLineRemoveItem",
+		"href": "/wiki/Dgs3DLineRemoveItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DLineSetItemPosition",
+		"href": "/wiki/Dgs3DLineSetItemPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DLineGetItemPosition",
+		"href": "/wiki/Dgs3DLineGetItemPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DLineSetItemWidth",
+		"href": "/wiki/Dgs3DLineSetItemWidth",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DLineGetItemWidth",
+		"href": "/wiki/Dgs3DLineGetItemWidth",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DLineSetItemColor",
+		"href": "/wiki/Dgs3DLineSetItemColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DLineGetItemColor",
+		"href": "/wiki/Dgs3DLineGetItemColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DLineAttachToElement",
+		"href": "/index.php?title=Dgs3DLineAttachToElement&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgs3DLineIsAttached",
+		"href": "/index.php?title=Dgs3DLineIsAttached&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgs3DLineDetachFromElement",
+		"href": "/index.php?title=Dgs3DLineDetachFromElement&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgs3DLineSetAttachedOffsets",
+		"href": "/index.php?title=Dgs3DLineSetAttachedOffsets&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgs3DLineGetAttachedOffsets",
+		"href": "/index.php?title=Dgs3DLineGetAttachedOffsets&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgs3DLineSetRotation",
+		"href": "/index.php?title=Dgs3DLineSetRotation&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgs3DLineGetRotation",
+		"href": "/index.php?title=Dgs3DLineGetRotation&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCreate3DImage",
+		"href": "/wiki/DgsCreate3DImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DImageSetSize",
+		"href": "/wiki/Dgs3DImageSetSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DImageGetSize",
+		"href": "/wiki/Dgs3DImageGetSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DImageSetImage",
+		"href": "/wiki/Dgs3DImageSetImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DImageGetImage",
+		"href": "/wiki/Dgs3DImageGetImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DImageAttachToElement",
+		"href": "/wiki/Dgs3DImageAttachToElement",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DImageIsAttached",
+		"href": "/wiki/Dgs3DImageIsAttached",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DImageDetachFromElement",
+		"href": "/wiki/Dgs3DImageDetachFromElement",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DImageSetAttachedOffsets",
+		"href": "/index.php?title=Dgs3DImageSetAttachedOffsets&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgs3DImageGetAttachedOffsets",
+		"href": "/index.php?title=Dgs3DImageGetAttachedOffsets&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgs3DImageGetNativeSize",
+		"href": "/wiki/Dgs3DImageGetNativeSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DImageSetUVPosition",
+		"href": "/wiki/Dgs3DImageSetUVPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DImageGetUVPosition",
+		"href": "/wiki/Dgs3DImageGetUVPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DImageSetUVSize",
+		"href": "/wiki/Dgs3DImageSetUVSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DImageGetUVSize",
+		"href": "/wiki/Dgs3DImageGetUVSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreate3DText",
+		"href": "/wiki/DgsCreate3DText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DTextIsAttached",
+		"href": "/wiki/Dgs3DTextIsAttached",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DTextAttachToElement",
+		"href": "/wiki/Dgs3DTextAttachToElement",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DTextDetachFromElement",
+		"href": "/wiki/Dgs3DTextDetachFromElement",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DTextSetAttachedOffsets",
+		"href": "/wiki/Dgs3DTextSetAttachedOffsets",
+		"haveInfo": true
+	},
+	{
+		"name": "dgs3DTextGetAttachedOffsets",
+		"href": "/wiki/Dgs3DTextGetAttachedOffsets",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateBrowser",
+		"href": "/wiki/DgsCreateBrowser",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateButton",
+		"href": "/wiki/DgsCreateButton",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsButtonGetTextExtent",
+		"href": "/wiki/DgsButtonGetTextExtent",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsButtonGetFontHeight",
+		"href": "/wiki/DgsButtonGetFontHeight",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsButtonGetTextSize",
+		"href": "/wiki/DgsButtonGetTextSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsButtonMakeForm",
+		"href": "/index.php?title=DgsButtonMakeForm&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsButtonRemoveForm",
+		"href": "/index.php?title=DgsButtonRemoveForm&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCreateCheckBox",
+		"href": "/wiki/DgsCreateCheckBox",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCheckBoxGetSelected",
+		"href": "/wiki/DgsCheckBoxGetSelected",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCheckBoxSetSelected",
+		"href": "/wiki/DgsCheckBoxSetSelected",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCheckBoxSetHorizontalAlign",
+		"href": "/wiki/DgsCheckBoxSetHorizontalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCheckBoxGetHorizontalAlign",
+		"href": "/wiki/DgsCheckBoxGetHorizontalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCheckBoxSetVerticalAlign",
+		"href": "/wiki/DgsCheckBoxSetVerticalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCheckBoxGetVerticalAlign",
+		"href": "/wiki/DgsCheckBoxGetVerticalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCheckBoxGetButtonSide",
+		"href": "/wiki/DgsCheckBoxGetButtonSide",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCheckBoxSetButtonSide",
+		"href": "/wiki/DgsCheckBoxSetButtonSide",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCheckBoxGetButtonAlign",
+		"href": "/wiki/DgsCheckBoxGetButtonAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCheckBoxSetButtonAlign",
+		"href": "/wiki/DgsCheckBoxSetButtonAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateComboBox",
+		"href": "/wiki/DgsCreateComboBox",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxAddItem",
+		"href": "/wiki/DgsComboBoxAddItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxRemoveItem",
+		"href": "/wiki/DgsComboBoxRemoveItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxSetItemText",
+		"href": "/wiki/DgsComboBoxSetItemText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxGetItemText",
+		"href": "/wiki/DgsComboBoxGetItemText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxSetItemData",
+		"href": "/wiki/DgsComboBoxSetItemData",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxGetItemData",
+		"href": "/wiki/DgsComboBoxGetItemData",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxGetItemCount",
+		"href": "/wiki/DgsComboBoxGetItemCount",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxClear",
+		"href": "/wiki/DgsComboBoxClear",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxSetSelectedItem",
+		"href": "/wiki/DgsComboBoxSetSelectedItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxGetSelectedItem",
+		"href": "/wiki/DgsComboBoxGetSelectedItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxSetItemColor",
+		"href": "/wiki/DgsComboBoxSetItemColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxGetItemColor",
+		"href": "/wiki/DgsComboBoxGetItemColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxSetItemImage",
+		"href": "/index.php?title=DgsComboBoxSetItemImage&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsComboBoxGetItemImage",
+		"href": "/index.php?title=DgsComboBoxGetItemImage&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsComboBoxRemoveItemImage",
+		"href": "/index.php?title=DgsComboBoxRemoveItemImage&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsComboBoxSetItemFont",
+		"href": "/wiki/DgsComboBoxSetItemFont",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxGetItemFont",
+		"href": "/index.php?title=DgsComboBoxGetItemFont&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsComboBoxGetState",
+		"href": "/wiki/DgsComboBoxGetState",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxSetState",
+		"href": "/wiki/DgsComboBoxSetState",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxGetBoxHeight",
+		"href": "/wiki/DgsComboBoxGetBoxHeight",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxSetBoxHeight",
+		"href": "/wiki/DgsComboBoxSetBoxHeight",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxSetViewCount",
+		"href": "/wiki/DgsComboBoxSetViewCount",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxGetViewCount",
+		"href": "/wiki/DgsComboBoxGetViewCount",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxGetScrollBar",
+		"href": "/wiki/DgsComboBoxGetScrollBar",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxSetScrollPosition",
+		"href": "/wiki/DgsComboBoxSetScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxGetScrollPosition",
+		"href": "/wiki/DgsComboBoxGetScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxSetCaptionText",
+		"href": "/wiki/DgsComboBoxSetCaptionText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxGetCaptionText",
+		"href": "/wiki/DgsComboBoxGetCaptionText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxSetEditEnabled",
+		"href": "/wiki/DgsComboBoxSetEditEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxGetEditEnabled",
+		"href": "/wiki/DgsComboBoxGetEditEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxGetText",
+		"href": "/wiki/DgsComboBoxGetText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsComboBoxSetSortFunction",
+		"href": "/index.php?title=DgsComboBoxSetSortFunction&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsComboBoxGetSortFunction",
+		"href": "/index.php?title=DgsComboBoxGetSortFunction&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsComboBoxSetSortFunction",
+		"href": "/index.php?title=DgsComboBoxSetSortFunction&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsComboBoxSort",
+		"href": "/index.php?title=DgsComboBoxSort&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCreateCustomRenderer",
+		"href": "/wiki/DgsCreateCustomRenderer",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCustomRendererSetFunction",
+		"href": "/wiki/DgsCustomRendererSetFunction",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateEdit",
+		"href": "/wiki/DgsCreateEdit",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditMoveCaret",
+		"href": "/wiki/DgsEditMoveCaret",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditGetCaretPosition",
+		"href": "/wiki/DgsEditGetCaretPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditSetCaretPosition",
+		"href": "/wiki/DgsEditSetCaretPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditSetCaretStyle",
+		"href": "/wiki/DgsEditSetCaretStyle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditGetCaretStyle",
+		"href": "/wiki/DgsEditGetCaretStyle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditSetTextFilter",
+		"href": "/wiki/DgsEditSetTextFilter",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditGetMaxLength",
+		"href": "/wiki/DgsEditGetMaxLength",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditSetMaxLength",
+		"href": "/wiki/DgsEditSetMaxLength",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditSetReadOnly",
+		"href": "/wiki/DgsEditSetReadOnly",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditGetReadOnly",
+		"href": "/wiki/DgsEditGetReadOnly",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditSetMasked",
+		"href": "/wiki/DgsEditSetMasked",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditGetMasked",
+		"href": "/wiki/DgsEditGetMasked",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditSetUnderlined",
+		"href": "/wiki/DgsEditSetUnderlined",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditGetUnderlined",
+		"href": "/wiki/DgsEditGetUnderlined",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditSetHorizontalAlign",
+		"href": "/wiki/DgsEditSetHorizontalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditSetVerticalAlign",
+		"href": "/wiki/DgsEditSetVerticalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditGetHorizontalAlign",
+		"href": "/wiki/DgsEditGetHorizontalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditGetVerticalAlign",
+		"href": "/wiki/DgsEditGetVerticalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditSetAlignment",
+		"href": "/wiki/DgsEditSetAlignment",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditGetAlignment",
+		"href": "/wiki/DgsEditGetAlignment",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditInsertText",
+		"href": "/wiki/DgsEditInsertText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditDeleteText",
+		"href": "/wiki/DgsEditDeleteText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditGetPartOfText",
+		"href": "/wiki/DgsEditGetPartOfText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditClearText",
+		"href": "/wiki/DgsEditClearText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditReplaceText",
+		"href": "/wiki/DgsEditReplaceText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditSetTypingSound",
+		"href": "/wiki/DgsEditSetTypingSound",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditGetTypingSound",
+		"href": "/wiki/DgsEditGetTypingSound",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditSetTypingSoundVolume",
+		"href": "/wiki/DgsEditSetTypingSoundVolume",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditGetTypingSoundVolume",
+		"href": "/wiki/DgsEditGetTypingSoundVolume",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditSetPlaceHolder",
+		"href": "/wiki/DgsEditSetPlaceHolder",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditGetPlaceHolder",
+		"href": "/wiki/DgsEditGetPlaceHolder",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditAddAutoComplete",
+		"href": "/wiki/DgsEditAddAutoComplete",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditRemoveAutoComplete",
+		"href": "/wiki/DgsEditRemoveAutoComplete",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditSetAutoComplete",
+		"href": "/wiki/DgsEditSetAutoComplete",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditGetAutoComplete",
+		"href": "/wiki/DgsEditGetAutoComplete",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEditAutoCompleteAddParameterFunction",
+		"href": "/index.php?title=DgsEditAutoCompleteAddParameterFunction&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsEditAutoCompleteRemoveParameterFunction",
+		"href": "/index.php?title=DgsEditAutoCompleteRemoveParameterFunction&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCreateDetectArea",
+		"href": "/wiki/DgsCreateDetectArea",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetDetectArea",
+		"href": "/wiki/DgsGetDetectArea",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsApplyDetectArea",
+		"href": "/wiki/DgsApplyDetectArea",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRemoveDetectArea",
+		"href": "/wiki/DgsRemoveDetectArea",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsDetectAreaSetFunction",
+		"href": "/wiki/DgsDetectAreaSetFunction",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsDetectAreaSetDebugModeEnabled",
+		"href": "/wiki/DgsDetectAreaSetDebugModeEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsDetectAreaGetDebugModeEnabled",
+		"href": "/wiki/DgsDetectAreaGetDebugModeEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSendDragNDropData",
+		"href": "/wiki/DgsSendDragNDropData",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRetrieveDragNDropData",
+		"href": "/wiki/DgsRetrieveDragNDropData",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsIsDragNDropData",
+		"href": "/wiki/DgsIsDragNDropData",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsAddDragHandler",
+		"href": "/index.php?title=DgsAddDragHandler&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsRemoveDragHandler",
+		"href": "/index.php?title=DgsRemoveDragHandler&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCreateGridList",
+		"href": "/wiki/DgsCreateGridList",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListClear",
+		"href": "/wiki/DgsGridListClear",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetScrollBar",
+		"href": "/wiki/DgsGridListGetScrollBar",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetScrollPosition",
+		"href": "/wiki/DgsGridListSetScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetScrollPosition",
+		"href": "/wiki/DgsGridListGetScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListScrollTo",
+		"href": "/wiki/DgsGridListScrollTo",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetHorizontalScrollPosition",
+		"href": "/wiki/DgsGridListSetHorizontalScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetHorizontalScrollPosition",
+		"href": "/wiki/DgsGridListGetHorizontalScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetVerticalScrollPosition",
+		"href": "/wiki/DgsGridListSetVerticalScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetVerticalScrollPosition",
+		"href": "/wiki/DgsGridListGetVerticalScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListResetScrollBarPosition",
+		"href": "/wiki/DgsGridListResetScrollBarPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetColumnRelative",
+		"href": "/wiki/DgsGridListSetColumnRelative",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetColumnRelative",
+		"href": "/wiki/DgsGridListGetColumnRelative",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListAddColumn",
+		"href": "/wiki/DgsGridListAddColumn",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListRemoveColumn",
+		"href": "/wiki/DgsGridListRemoveColumn",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListClearColumn",
+		"href": "/wiki/DgsGridListClearColumn",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetColumnCount",
+		"href": "/wiki/DgsGridListGetColumnCount",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetColumnAllWidth",
+		"href": "/wiki/DgsGridListGetColumnAllWidth",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetColumnHeight",
+		"href": "/wiki/DgsGridListGetColumnHeight",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetColumnHeight",
+		"href": "/wiki/DgsGridListSetColumnHeight",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetColumnWidth",
+		"href": "/wiki/DgsGridListGetColumnWidth",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetColumnWidth",
+		"href": "/wiki/DgsGridListSetColumnWidth",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListAutoSizeColumn",
+		"href": "/wiki/DgsGridListAutoSizeColumn",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetColumnTextSize",
+		"href": "/index.php?title=DgsGridListGetColumnTextSize&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListSetColumnTextSize",
+		"href": "/index.php?title=DgsGridListSetColumnTextSize&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListGetColumnTitle",
+		"href": "/wiki/DgsGridListGetColumnTitle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetColumnTitle",
+		"href": "/wiki/DgsGridListSetColumnTitle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetColumnFont",
+		"href": "/wiki/DgsGridListGetColumnFont",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetColumnFont",
+		"href": "/wiki/DgsGridListSetColumnFont",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetColumnAlignment",
+		"href": "/index.php?title=DgsGridListGetColumnAlignment&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListSetColumnAlignment",
+		"href": "/index.php?title=DgsGridListSetColumnAlignment&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListSetColumnTextColor",
+		"href": "/wiki/DgsGridListSetColumnTextColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetColumnTextColor",
+		"href": "/index.php?title=DgsGridListGetColumnTextColor&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListSetSortColumn",
+		"href": "/wiki/DgsGridListSetSortColumn",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetSortColumn",
+		"href": "/wiki/DgsGridListGetSortColumn",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetEnterColumn",
+		"href": "/wiki/DgsGridListGetEnterColumn",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListAddRow",
+		"href": "/wiki/DgsGridListAddRow",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListAddRows",
+		"href": "/index.php?title=DgsGridListAddRows&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListRemoveRow",
+		"href": "/wiki/DgsGridListRemoveRow",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListClearRow",
+		"href": "/wiki/DgsGridListClearRow",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetRowCount",
+		"href": "/wiki/DgsGridListGetRowCount",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetRowBackGroundImage",
+		"href": "/wiki/DgsGridListGetRowBackGroundImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetRowBackGroundImage",
+		"href": "/wiki/DgsGridListSetRowBackGroundImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetRowBackGroundColor",
+		"href": "/wiki/DgsGridListSetRowBackGroundColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetRowBackGroundColor",
+		"href": "/wiki/DgsGridListGetRowBackGroundColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetRowAsSection",
+		"href": "/wiki/DgsGridListSetRowAsSection",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetRowSelectable",
+		"href": "/wiki/DgsGridListGetRowSelectable",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetRowSelectable",
+		"href": "/wiki/DgsGridListSetRowSelectable",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetRowHoverable",
+		"href": "/wiki/DgsGridListGetRowHoverable",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetRowHoverable",
+		"href": "/wiki/DgsGridListSetRowHoverable",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetItemAlignment",
+		"href": "/index.php?title=DgsGridListGetItemAlignment&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListSetItemAlignment",
+		"href": "/index.php?title=DgsGridListSetItemAlignment&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListSetItemTextSize",
+		"href": "/index.php?title=DgsGridListSetItemTextSize&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListGetItemTextSize",
+		"href": "/index.php?title=DgsGridListGetItemTextSize&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListSetItemColor",
+		"href": "/wiki/DgsGridListSetItemColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetItemColor",
+		"href": "/wiki/DgsGridListGetItemColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetItemTextOffset",
+		"href": "/index.php?title=DgsGridListSetItemTextOffset&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListGetItemTextOffset",
+		"href": "/index.php?title=DgsGridListGetItemTextOffset&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListSetItemText",
+		"href": "/wiki/DgsGridListSetItemText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetItemText",
+		"href": "/wiki/DgsGridListGetItemText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetItemFont",
+		"href": "/wiki/DgsGridListSetItemFont",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetItemFont",
+		"href": "/index.php?title=DgsGridListGetItemFont&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListSetItemData",
+		"href": "/wiki/DgsGridListSetItemData",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetItemData",
+		"href": "/wiki/DgsGridListGetItemData",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetItemImage",
+		"href": "/wiki/DgsGridListSetItemImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetItemImage",
+		"href": "/wiki/DgsGridListGetItemImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListRemoveItemImage",
+		"href": "/wiki/DgsGridListRemoveItemImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetItemBackGroundColorTemplate",
+		"href": "/index.php?title=DgsGridListSetItemBackGroundColorTemplate&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListSetItemBackGroundImage",
+		"href": "/index.php?title=DgsGridListSetItemBackGroundImage&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListGetItemBackGroundImage",
+		"href": "/index.php?title=DgsGridListGetItemBackGroundImage&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListSetItemBackGroundColor",
+		"href": "/index.php?title=DgsGridListSetItemBackGroundColor&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListGetItemBackGroundColor",
+		"href": "/index.php?title=DgsGridListGetItemBackGroundColor&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGridListSelectItem",
+		"href": "/wiki/DgsGridListSelectItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListItemIsSelected",
+		"href": "/wiki/DgsGridListItemIsSelected",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetSelectedCount",
+		"href": "/wiki/DgsGridListGetSelectedCount",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetPreselectedItem",
+		"href": "/wiki/DgsGridListGetPreselectedItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetSelectedItem",
+		"href": "/wiki/DgsGridListGetSelectedItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetSelectedItem",
+		"href": "/wiki/DgsGridListSetSelectedItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetSelectedItems",
+		"href": "/wiki/DgsGridListGetSelectedItems",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetSelectedItems",
+		"href": "/wiki/DgsGridListSetSelectedItems",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetItemSelectable",
+		"href": "/wiki/DgsGridListGetItemSelectable",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetItemSelectable",
+		"href": "/wiki/DgsGridListSetItemSelectable",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetItemHoverable",
+		"href": "/wiki/DgsGridListGetItemHoverable",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetItemHoverable",
+		"href": "/wiki/DgsGridListSetItemHoverable",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetSelectionMode",
+		"href": "/wiki/DgsGridListSetSelectionMode",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetSelectionMode",
+		"href": "/wiki/DgsGridListGetSelectionMode",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetNavigationEnabled",
+		"href": "/wiki/DgsGridListSetNavigationEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetNavigationEnabled",
+		"href": "/wiki/DgsGridListGetNavigationEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetMultiSelectionEnabled",
+		"href": "/wiki/DgsGridListSetMultiSelectionEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetMultiSelectionEnabled",
+		"href": "/wiki/DgsGridListGetMultiSelectionEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetAutoSortEnabled",
+		"href": "/wiki/DgsGridListSetAutoSortEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetAutoSortEnabled",
+		"href": "/wiki/DgsGridListGetAutoSortEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetSortFunction",
+		"href": "/wiki/DgsGridListSetSortFunction",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSetSortEnabled",
+		"href": "/wiki/DgsGridListSetSortEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListGetSortEnabled",
+		"href": "/wiki/DgsGridListGetSortEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGridListSort",
+		"href": "/wiki/DgsGridListSort",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsAttachToGridList",
+		"href": "/wiki/DgsAttachToGridList",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsDetachFromGridList",
+		"href": "/wiki/DgsDetachFromGridList",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateImage",
+		"href": "/wiki/DgsCreateImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsImageSetImage",
+		"href": "/wiki/DgsImageSetImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsImageGetImage",
+		"href": "/wiki/DgsImageGetImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsImageSetUVSize",
+		"href": "/wiki/DgsImageSetUVSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsImageGetUVSize",
+		"href": "/wiki/DgsImageGetUVSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsImageSetUVPosition",
+		"href": "/wiki/DgsImageSetUVPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsImageGetUVPosition",
+		"href": "/wiki/DgsImageGetUVPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsImageGetNativeSize",
+		"href": "/wiki/DgsImageGetNativeSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateMemo",
+		"href": "/wiki/DgsCreateMemo",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoMoveCaret",
+		"href": "/wiki/DgsMemoMoveCaret",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoSeekPosition",
+		"href": "/wiki/DgsMemoSeekPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoGetScrollBar",
+		"href": "/wiki/DgsMemoGetScrollBar",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoSetScrollPosition",
+		"href": "/wiki/DgsMemoSetScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoGetScrollPosition",
+		"href": "/wiki/DgsMemoGetScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoSetHorizontalScrollPosition",
+		"href": "/wiki/DgsMemoSetHorizontalScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoGetHorizontalScrollPosition",
+		"href": "/wiki/DgsMemoGetHorizontalScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoSetVerticalScrollPosition",
+		"href": "/wiki/DgsMemoSetVerticalScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoGetVerticalScrollPosition",
+		"href": "/wiki/DgsMemoGetVerticalScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoSetCaretPosition",
+		"href": "/wiki/DgsMemoSetCaretPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoGetCaretPosition",
+		"href": "/wiki/DgsMemoGetCaretPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoSetCaretStyle",
+		"href": "/wiki/DgsMemoSetCaretStyle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoGetCaretStyle",
+		"href": "/wiki/DgsMemoGetCaretStyle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoSetReadOnly",
+		"href": "/wiki/DgsMemoSetReadOnly",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoGetReadOnly",
+		"href": "/wiki/DgsMemoGetReadOnly",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoGetPartOfText",
+		"href": "/wiki/DgsMemoGetPartOfText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoAppendText",
+		"href": "/wiki/DgsMemoAppendText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoDeleteText",
+		"href": "/wiki/DgsMemoDeleteText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoInsertText",
+		"href": "/wiki/DgsMemoInsertText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoClearText",
+		"href": "/wiki/DgsMemoClearText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoGetTextBoundingBox",
+		"href": "/wiki/DgsMemoGetTextBoundingBox",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoSetTypingSound",
+		"href": "/wiki/DgsMemoSetTypingSound",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoGetTypingSound",
+		"href": "/wiki/DgsMemoGetTypingSound",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoSetTypingSoundVolume",
+		"href": "/wiki/DgsMemoSetTypingSoundVolume",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoGetTypingSoundVolume",
+		"href": "/wiki/DgsMemoGetTypingSoundVolume",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoGetLineCount",
+		"href": "/wiki/DgsMemoGetLineCount",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoSetWordWrapState",
+		"href": "/wiki/DgsMemoSetWordWrapState",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoGetWordWrapState",
+		"href": "/wiki/DgsMemoGetWordWrapState",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoSetScrollBarState",
+		"href": "/wiki/DgsMemoSetScrollBarState",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoGetScrollBarState",
+		"href": "/wiki/DgsMemoGetScrollBarState",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoSetMaxLength",
+		"href": "/wiki/DgsMemoSetMaxLength",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMemoGetMaxLength",
+		"href": "/wiki/DgsMemoGetMaxLength",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateLabel",
+		"href": "/wiki/DgsCreateLabel",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLabelSetColor",
+		"href": "/wiki/DgsLabelSetColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLabelGetColor",
+		"href": "/wiki/DgsLabelGetColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLabelSetHorizontalAlign",
+		"href": "/wiki/DgsLabelSetHorizontalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLabelGetHorizontalAlign",
+		"href": "/wiki/DgsLabelGetHorizontalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLabelSetVerticalAlign",
+		"href": "/wiki/DgsLabelSetVerticalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLabelGetVerticalAlign",
+		"href": "/wiki/DgsLabelGetVerticalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLabelGetTextExtent",
+		"href": "/wiki/DgsLabelGetTextExtent",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLabelGetFontHeight",
+		"href": "/wiki/DgsLabelGetFontHeight",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLabelGetTextSize",
+		"href": "/wiki/DgsLabelGetTextSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateLayout",
+		"href": "/index.php?title=DgsCreateLayout&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsLayoutAddItem",
+		"href": "/index.php?title=DgsLayoutAddItem&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsLayoutRemoveItem",
+		"href": "/index.php?title=DgsLayoutRemoveItem&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsLayoutGetItemIndex",
+		"href": "/index.php?title=DgsLayoutGetItemIndex&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCreateLine",
+		"href": "/wiki/DgsCreateLine",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLineAddItem",
+		"href": "/wiki/DgsLineAddItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLineRemoveItem",
+		"href": "/wiki/DgsLineRemoveItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLineSetItemPosition",
+		"href": "/wiki/DgsLineSetItemPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLineGetItemPosition",
+		"href": "/wiki/DgsLineGetItemPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLineSetItemWidth",
+		"href": "/wiki/DgsLineSetItemWidth",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLineGetItemWidth",
+		"href": "/wiki/DgsLineGetItemWidth",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLineSetItemColor",
+		"href": "/wiki/DgsLineSetItemColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLineGetItemColor",
+		"href": "/wiki/DgsLineGetItemColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateProgressBar",
+		"href": "/wiki/DgsCreateProgressBar",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsProgressBarGetProgress",
+		"href": "/wiki/DgsProgressBarGetProgress",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsProgressBarSetProgress",
+		"href": "/wiki/DgsProgressBarSetProgress",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsProgressBarGetMode",
+		"href": "/wiki/DgsProgressBarGetMode",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsProgressBarSetMode",
+		"href": "/wiki/DgsProgressBarSetMode",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsProgressBarGetStyle",
+		"href": "/wiki/DgsProgressBarGetStyle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsProgressBarSetStyle",
+		"href": "/wiki/DgsProgressBarSetStyle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateRadioButton",
+		"href": "/wiki/DgsCreateRadioButton",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRadioButtonGetSelected",
+		"href": "/wiki/DgsRadioButtonGetSelected",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRadioButtonSetSelected",
+		"href": "/wiki/DgsRadioButtonSetSelected",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRadioButtonSetHorizontalAlign",
+		"href": "/wiki/DgsRadioButtonSetHorizontalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRadioButtonGetHorizontalAlign",
+		"href": "/wiki/DgsRadioButtonGetHorizontalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRadioButtonSetVerticalAlign",
+		"href": "/wiki/DgsRadioButtonSetVerticalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRadioButtonGetVerticalAlign",
+		"href": "/wiki/DgsRadioButtonGetVerticalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRadioButtonGetButtonSide",
+		"href": "/wiki/DgsRadioButtonGetButtonSide",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRadioButtonSetButtonSide",
+		"href": "/wiki/DgsRadioButtonSetButtonSide",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRadioButtonGetButtonAlign",
+		"href": "/wiki/DgsRadioButtonGetButtonAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRadioButtonSetButtonAlign",
+		"href": "/wiki/DgsRadioButtonSetButtonAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateScalePane",
+		"href": "/index.php?title=DgsCreateScalePane&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsScalePaneGetScrollBar",
+		"href": "/index.php?title=DgsScalePaneGetScrollBar&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsScalePaneSetScrollBarState",
+		"href": "/index.php?title=DgsScalePaneSetScrollBarState&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsScalePaneGetScrollBarState",
+		"href": "/index.php?title=DgsScalePaneGetScrollBarState&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsScalePaneSetScrollPosition",
+		"href": "/index.php?title=DgsScalePaneSetScrollPosition&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsScalePaneGetScrollPosition",
+		"href": "/index.php?title=DgsScalePaneGetScrollPosition&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsScalePaneSetHorizontalScrollPosition",
+		"href": "/index.php?title=DgsScalePaneSetHorizontalScrollPosition&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsScalePaneGetHorizontalScrollPosition",
+		"href": "/index.php?title=DgsScalePaneGetHorizontalScrollPosition&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsScalePaneSetVerticalScrollPosition",
+		"href": "/index.php?title=DgsScalePaneSetVerticalScrollPosition&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsScalePaneGetVerticalScrollPosition",
+		"href": "/index.php?title=DgsScalePaneGetVerticalScrollPosition&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCreateScrollBar",
+		"href": "/wiki/DgsCreateScrollBar",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollBarSetScrollPosition",
+		"href": "/wiki/DgsScrollBarSetScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollBarGetScrollPosition",
+		"href": "/wiki/DgsScrollBarGetScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollBarSetCursorLength",
+		"href": "/wiki/DgsScrollBarSetCursorLength",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollBarGetCursorLength",
+		"href": "/wiki/DgsScrollBarGetCursorLength",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollBarSetGrades",
+		"href": "/wiki/DgsScrollBarSetGrades",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollBarGetGrades",
+		"href": "/wiki/DgsScrollBarGetGrades",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollBarSetLocked",
+		"href": "/wiki/DgsScrollBarSetLocked",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollBarGetLocked",
+		"href": "/wiki/DgsScrollBarGetLocked",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollBarSetCursorWidth",
+		"href": "/wiki/DgsScrollBarSetCursorWidth",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollBarGetCursorWidth",
+		"href": "/wiki/DgsScrollBarGetCursorWidth",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollBarSetTroughWidth",
+		"href": "/wiki/DgsScrollBarSetTroughWidth",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollBarGetTroughWidth",
+		"href": "/wiki/DgsScrollBarGetTroughWidth",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollBarSetArrowSize",
+		"href": "/wiki/DgsScrollBarSetArrowSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollBarGetArrowSize",
+		"href": "/wiki/DgsScrollBarGetArrowSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateScrollPane",
+		"href": "/wiki/DgsCreateScrollPane",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollPaneGetScrollBar",
+		"href": "/wiki/DgsScrollPaneGetScrollBar",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollPaneSetScrollPosition",
+		"href": "/wiki/DgsScrollPaneSetScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollPaneGetScrollPosition",
+		"href": "/wiki/DgsScrollPaneGetScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollPaneSetHorizontalScrollPosition",
+		"href": "/wiki/DgsScrollPaneSetHorizontalScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollPaneGetHorizontalScrollPosition",
+		"href": "/wiki/DgsScrollPaneGetHorizontalScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollPaneSetVerticalScrollPosition",
+		"href": "/wiki/DgsScrollPaneSetVerticalScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollPaneGetVerticalScrollPosition",
+		"href": "/wiki/DgsScrollPaneGetVerticalScrollPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollPaneSetScrollBarState",
+		"href": "/wiki/DgsScrollPaneSetScrollBarState",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsScrollPaneGetScrollBarState",
+		"href": "/wiki/DgsScrollPaneGetScrollBarState",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateSelector",
+		"href": "/wiki/DgsCreateSelector",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSelectorAddItem",
+		"href": "/wiki/DgsSelectorAddItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSelectorRemoveItem",
+		"href": "/wiki/DgsSelectorRemoveItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSelectorClear",
+		"href": "/wiki/DgsSelectorClear",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSelectorSetSelectedItem",
+		"href": "/wiki/DgsSelectorSetSelectedItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSelectorGetSelectedItem",
+		"href": "/wiki/DgsSelectorGetSelectedItem",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSelectorGetItemText",
+		"href": "/wiki/DgsSelectorGetItemText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSelectorSetItemText",
+		"href": "/wiki/DgsSelectorSetItemText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSelectorSetItemData",
+		"href": "/index.php?title=DgsSelectorSetItemData&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsSelectorGetItemData",
+		"href": "/index.php?title=DgsSelectorGetItemData&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsSelectorSetItemColor",
+		"href": "/index.php?title=DgsSelectorSetItemColor&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsSelectorGetItemColor",
+		"href": "/index.php?title=DgsSelectorGetItemColor&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsSelectorSetItemFont",
+		"href": "/wiki/DgsSelectorSetItemFont",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSelectorGetItemFont",
+		"href": "/index.php?title=DgsSelectorGetItemFont&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsSelectorSetItemTextSize",
+		"href": "/index.php?title=DgsSelectorSetItemTextSize&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsSelectorGetItemTextSize",
+		"href": "/index.php?title=DgsSelectorGetItemTextSize&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsSelectorSetItemAlignment",
+		"href": "/index.php?title=DgsSelectorSetItemAlignment&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsSelectorGetItemAlignment",
+		"href": "/index.php?title=DgsSelectorGetItemAlignment&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsSelectorSetItemImage",
+		"href": "/index.php?title=DgsSelectorSetItemImage&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsSelectorGetItemImage",
+		"href": "/index.php?title=DgsSelectorGetItemImage&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsSelectorRemoveItemImage",
+		"href": "/index.php?title=DgsSelectorRemoveItemImage&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsAddStyle",
+		"href": "/wiki/DgsAddStyle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLoadStyle",
+		"href": "/wiki/DgsLoadStyle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsUnloadStyle",
+		"href": "/wiki/DgsUnloadStyle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetStyle",
+		"href": "/wiki/DgsSetStyle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetStyle",
+		"href": "/wiki/DgsGetStyle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetLoadedStyleList",
+		"href": "/wiki/DgsGetLoadedStyleList",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetAddedStyleList",
+		"href": "/wiki/DgsGetAddedStyleList",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetValueFromStyle",
+		"href": "/wiki/DgsGetValueFromStyle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateSwitchButton",
+		"href": "/wiki/DgsCreateSwitchButton",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSwitchButtonGetState",
+		"href": "/wiki/DgsSwitchButtonGetState",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSwitchButtonSetState",
+		"href": "/wiki/DgsSwitchButtonSetState",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSwitchButtonSetText",
+		"href": "/wiki/DgsSwitchButtonSetText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSwitchButtonGetText",
+		"href": "/wiki/DgsSwitchButtonGetText",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateTabPanel",
+		"href": "/wiki/DgsCreateTabPanel",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateTab",
+		"href": "/wiki/DgsCreateTab",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetSelectedTab",
+		"href": "/wiki/DgsGetSelectedTab",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSetSelectedTab",
+		"href": "/wiki/DgsSetSelectedTab",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsTabPanelGetTabFromID",
+		"href": "/wiki/DgsTabPanelGetTabFromID",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsTabPanelMoveTab",
+		"href": "/wiki/DgsTabPanelMoveTab",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsTabPanelGetTabID",
+		"href": "/wiki/DgsTabPanelGetTabID",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsDeleteTab",
+		"href": "/wiki/DgsDeleteTab",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateWindow",
+		"href": "/wiki/DgsCreateWindow",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowSetSizable",
+		"href": "/wiki/DgsWindowSetSizable",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowSetMovable",
+		"href": "/wiki/DgsWindowSetMovable",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowGetSizable",
+		"href": "/wiki/DgsWindowGetSizable",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowGetMovable",
+		"href": "/wiki/DgsWindowGetMovable",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCloseWindow",
+		"href": "/wiki/DgsCloseWindow",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowSetCloseButtonEnabled",
+		"href": "/wiki/DgsWindowSetCloseButtonEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowGetCloseButtonEnabled",
+		"href": "/wiki/DgsWindowGetCloseButtonEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowSetCloseButtonSize",
+		"href": "/wiki/DgsWindowSetCloseButtonSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowGetCloseButtonSize",
+		"href": "/wiki/DgsWindowGetCloseButtonSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowGetCloseButton",
+		"href": "/wiki/DgsWindowGetCloseButton",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowSetHorizontalAlign",
+		"href": "/wiki/DgsWindowSetHorizontalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowSetVerticalAlign",
+		"href": "/wiki/DgsWindowSetVerticalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowGetHorizontalAlign",
+		"href": "/wiki/DgsWindowGetHorizontalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowGetVerticalAlign",
+		"href": "/wiki/DgsWindowGetVerticalAlign",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowGetTextExtent",
+		"href": "/wiki/DgsWindowGetTextExtent",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowGetFontHeight",
+		"href": "/wiki/DgsWindowGetFontHeight",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsWindowGetTextSize",
+		"href": "/wiki/DgsWindowGetTextSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateBlurBox",
+		"href": "/wiki/DgsCreateBlurBox",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsBlurBoxSetTexture",
+		"href": "/wiki/DgsBlurBoxSetTexture",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsBlurBoxGetTexture",
+		"href": "/wiki/DgsBlurBoxGetTexture",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsBlurBoxSetResolution",
+		"href": "/wiki/DgsBlurBoxSetResolution",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsBlurBoxSetIntensity",
+		"href": "/wiki/DgsBlurBoxSetIntensity",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsBlurBoxSetLevel",
+		"href": "/wiki/DgsBlurBoxSetLevel",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsBlurBoxGetResolution",
+		"href": "/wiki/DgsBlurBoxGetResolution",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsBlurBoxGetLevel",
+		"href": "/wiki/DgsBlurBoxGetLevel",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsBlurBoxGetIntensity",
+		"href": "/wiki/DgsBlurBoxGetIntensity",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsBlurBoxSetFilter",
+		"href": "/wiki/DgsBlurBoxSetFilter",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateCanvas",
+		"href": "/wiki/DgsCreateCanvas",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateChart",
+		"href": "/wiki/DgsCreateChart",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsChartAddDataset",
+		"href": "/index.php?title=DgsChartAddDataset&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsChartRemoveDataset",
+		"href": "/index.php?title=DgsChartRemoveDataset&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsChartSetLabels",
+		"href": "/index.php?title=DgsChartSetLabels&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsChartDatasetSetStyle",
+		"href": "/index.php?title=DgsChartDatasetSetStyle&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsChartDatasetSetLabel",
+		"href": "/index.php?title=DgsChartDatasetSetLabel&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsChartDatasetSetData",
+		"href": "/index.php?title=DgsChartDatasetSetData&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsChartDatasetAddData",
+		"href": "/index.php?title=DgsChartDatasetAddData&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsChartDatasetRemoveData",
+		"href": "/index.php?title=DgsChartDatasetRemoveData&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsChartDatasetClearData",
+		"href": "/index.php?title=DgsChartDatasetClearData&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCreateCircle",
+		"href": "/wiki/DgsCreateCircle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCircleSetRadius",
+		"href": "/wiki/DgsCircleSetRadius",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCircleGetRadius",
+		"href": "/wiki/DgsCircleGetRadius",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCircleSetTexture",
+		"href": "/wiki/DgsCircleSetTexture",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCircleGetTexture",
+		"href": "/wiki/DgsCircleGetTexture",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCircleSetColor",
+		"href": "/index.php?title=DgsCircleSetColor&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCircleGetColor",
+		"href": "/index.php?title=DgsCircleGetColor&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCircleSetColorOverwritten",
+		"href": "/index.php?title=DgsCircleSetColorOverwritten&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCircleGetColorOverwritten",
+		"href": "/index.php?title=DgsCircleGetColorOverwritten&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCircleSetDirection",
+		"href": "/index.php?title=DgsCircleSetDirection&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCircleGetDirection",
+		"href": "/index.php?title=DgsCircleGetDirection&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCircleSetAngle",
+		"href": "/index.php?title=DgsCircleSetAngle&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCircleGetAngle",
+		"href": "/index.php?title=DgsCircleGetAngle&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCircleSetTextureRotation",
+		"href": "/wiki/DgsCircleSetTextureRotation",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCircleGetTextureRotation",
+		"href": "/index.php?title=DgsCircleGetTextureRotation&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCreateColorPicker",
+		"href": "/wiki/DgsCreateColorPicker",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsColorPickerSetColor",
+		"href": "/wiki/DgsColorPickerSetColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsColorPickerGetColor",
+		"href": "/wiki/DgsColorPickerGetColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsBindToColorPicker",
+		"href": "/wiki/DgsBindToColorPicker",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsUnbindFromColorPicker",
+		"href": "/wiki/DgsUnbindFromColorPicker",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsColorPickerCreateComponentSelector",
+		"href": "/wiki/DgsColorPickerCreateComponentSelector",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsColorPickerGetComponentSelectorValue",
+		"href": "/wiki/DgsColorPickerGetComponentSelectorValue",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsColorPickerSetComponentSelectorValue",
+		"href": "/wiki/DgsColorPickerSetComponentSelectorValue",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsColorPickerGetComponentSelectorMask",
+		"href": "/index.php?title=DgsColorPickerGetComponentSelectorMask&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsColorPickerSetComponentSelectorMask",
+		"href": "/index.php?title=DgsColorPickerSetComponentSelectorMask&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCreateEffect3D",
+		"href": "/wiki/DgsCreateEffect3D",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEffect3DApplyToScrollPane",
+		"href": "/wiki/DgsEffect3DApplyToScrollPane",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEffect3DRemoveFromScrollPane",
+		"href": "/wiki/DgsEffect3DRemoveFromScrollPane",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsEffect3DSetRotationFactor",
+		"href": "/index.php?title=DgsEffect3DSetRotationFactor&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsEffect3DGetRotationFactor",
+		"href": "/index.php?title=DgsEffect3DGetRotationFactor&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsEffect3DSetAlwaysEnabled",
+		"href": "/index.php?title=DgsEffect3DSetAlwaysEnabled&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsEffect3DGetAlwaysEnabled",
+		"href": "/index.php?title=DgsEffect3DGetAlwaysEnabled&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCreateGradient",
+		"href": "/wiki/DgsCreateGradient",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGradientSetColor",
+		"href": "/index.php?title=DgsGradientSetColor&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGradientGetColor",
+		"href": "/index.php?title=DgsGradientGetColor&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGradientSetRotation",
+		"href": "/index.php?title=DgsGradientSetRotation&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGradientGetRotation",
+		"href": "/index.php?title=DgsGradientGetRotation&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGradientSetTexture",
+		"href": "/index.php?title=DgsGradientSetTexture&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGradientGetTexture",
+		"href": "/index.php?title=DgsGradientGetTexture&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsGradientSetColorOverwritten",
+		"href": "/wiki/DgsGradientSetColorOverwritten",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGradientGetColorOverwritten",
+		"href": "/wiki/DgsGradientGetColorOverwritten",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateMask",
+		"href": "/wiki/DgsCreateMask",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMaskGetSetting",
+		"href": "/index.php?title=DgsMaskGetSetting&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsMaskSetSetting",
+		"href": "/index.php?title=DgsMaskSetSetting&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsMaskGetTexture",
+		"href": "/wiki/DgsMaskGetTexture",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMaskSetTexture",
+		"href": "/wiki/DgsMaskSetTexture",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMaskCenterTexturePosition",
+		"href": "/wiki/DgsMaskCenterTexturePosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMaskAdaptTextureSize",
+		"href": "/wiki/DgsMaskAdaptTextureSize",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateMediaBrowser",
+		"href": "/wiki/DgsCreateMediaBrowser",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMediaLoadMedia",
+		"href": "/wiki/DgsMediaLoadMedia",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMediaGetMediaPath",
+		"href": "/wiki/DgsMediaGetMediaPath",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMediaClearMedia",
+		"href": "/wiki/DgsMediaClearMedia",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMediaIsStreamMedia",
+		"href": "/wiki/DgsMediaIsStreamMedia",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMediaPlay",
+		"href": "/wiki/DgsMediaPlay",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMediaPause",
+		"href": "/wiki/DgsMediaPause",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMediaStop",
+		"href": "/wiki/DgsMediaStop",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMediaGetDuration",
+		"href": "/wiki/DgsMediaGetDuration",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMediaGetCurrentPosition",
+		"href": "/wiki/DgsMediaGetCurrentPosition",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMediaSetCurrentPosition",
+		"href": "/index.php?title=DgsMediaSetCurrentPosition&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsMediaGetLooped",
+		"href": "/wiki/DgsMediaGetLooped",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMediaSetLooped",
+		"href": "/wiki/DgsMediaSetLooped",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsMediaGetSpeed",
+		"href": "/index.php?title=DgsMediaGetSpeed&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsMediaSetSpeed",
+		"href": "/index.php?title=DgsMediaSetSpeed&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCreateNineSlice",
+		"href": "/wiki/DgsCreateNineSlice",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsNineSliceSetGrid",
+		"href": "/wiki/DgsNineSliceSetGrid",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsNineSliceGetGrid",
+		"href": "/wiki/DgsNineSliceGetGrid",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateObjectPreviewHandle",
+		"href": "/wiki/DgsCreateObjectPreviewHandle",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsLocateObjectPreviewResource",
+		"href": "/wiki/DgsLocateObjectPreviewResource",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsAttachObjectPreviewToImage",
+		"href": "/wiki/DgsAttachObjectPreviewToImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRemoveObjectPreviewFromImage",
+		"href": "/wiki/DgsRemoveObjectPreviewFromImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsObjectPreviewGetHandleByID",
+		"href": "/wiki/DgsObjectPreviewGetHandleByID",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsConfigureObjectPreview",
+		"href": "/wiki/DgsConfigureObjectPreview",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsPasteHandlerSetEnabled",
+		"href": "/wiki/DgsPasteHandlerSetEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsPasteHandlerIsEnabled",
+		"href": "/wiki/DgsPasteHandlerIsEnabled",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsPasteHandlerSetFocused",
+		"href": "/wiki/DgsPasteHandlerSetFocused",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsPasteHandlerIsFocused",
+		"href": "/wiki/DgsPasteHandlerIsFocused",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRequestQRCode",
+		"href": "/wiki/DgsRequestQRCode",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetQRCodeLoaded",
+		"href": "/wiki/DgsGetQRCodeLoaded",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateRemoteImage",
+		"href": "/wiki/DgsCreateRemoteImage",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRemoteImageRequest",
+		"href": "/wiki/DgsRemoteImageRequest",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRemoteImageAbort",
+		"href": "/wiki/DgsRemoteImageAbort",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRemoteImageGetTexture",
+		"href": "/wiki/DgsRemoteImageGetTexture",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsGetRemoteImageLoadState",
+		"href": "/wiki/DgsGetRemoteImageLoadState",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateRoundRect",
+		"href": "/wiki/DgsCreateRoundRect",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRoundRectSetTexture",
+		"href": "/wiki/DgsRoundRectSetTexture",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRoundRectGetTexture",
+		"href": "/wiki/DgsRoundRectGetTexture",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRoundRectSetRadius",
+		"href": "/wiki/DgsRoundRectSetRadius",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRoundRectGetRadius",
+		"href": "/wiki/DgsRoundRectGetRadius",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRoundRectSetColor",
+		"href": "/wiki/DgsRoundRectSetColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRoundRectGetColor",
+		"href": "/wiki/DgsRoundRectGetColor",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRoundRectSetColorOverwritten",
+		"href": "/wiki/DgsRoundRectSetColorOverwritten",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRoundRectGetColorOverwritten",
+		"href": "/wiki/DgsRoundRectGetColorOverwritten",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRoundRectSetBorderThickness",
+		"href": "/wiki/DgsRoundRectSetBorderThickness",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRoundRectGetBorderThickness",
+		"href": "/wiki/DgsRoundRectGetBorderThickness",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsRoundRectGetBorderOnly",
+		"href": "/wiki/DgsRoundRectGetBorderOnly",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateScreenSource",
+		"href": "/index.php?title=DgsCreateScreenSource&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsScreenSourceSetUVPosition",
+		"href": "/index.php?title=DgsScreenSourceSetUVPosition&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsScreenSourceGetUVPosition",
+		"href": "/index.php?title=DgsScreenSourceGetUVPosition&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsScreenSourceSetUVSize",
+		"href": "/index.php?title=DgsScreenSourceSetUVSize&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsScreenSourceGetUVSize",
+		"href": "/index.php?title=DgsScreenSourceGetUVSize&action=edit&redlink=1",
+		"haveInfo": false
+	},
+	{
+		"name": "dgsCreateSVG",
+		"href": "/wiki/DgsCreateSVG",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSVGGetRawDocument",
+		"href": "/wiki/DgsSVGGetRawDocument",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSVGGetDocument",
+		"href": "/wiki/DgsSVGGetDocument",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSVGCreateNode",
+		"href": "/wiki/DgsSVGCreateNode",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSVGDestroyNode",
+		"href": "/wiki/DgsSVGDestroyNode",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSVGNodeSetAttribute",
+		"href": "/wiki/DgsSVGNodeSetAttribute",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSVGNodeGetAttribute",
+		"href": "/wiki/DgsSVGNodeGetAttribute",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSVGNodeSetAttributes",
+		"href": "/wiki/DgsSVGNodeSetAttributes",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsSVGNodeGetAttributes",
+		"href": "/wiki/DgsSVGNodeGetAttributes",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsCreateToolTip",
+		"href": "/wiki/DgsCreateToolTip",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsTooltipApplyTo",
+		"href": "/wiki/DgsTooltipApplyTo",
+		"haveInfo": true
+	},
+	{
+		"name": "dgsTooltipRemoveFrom",
+		"href": "/wiki/DgsTooltipRemoveFrom",
+		"haveInfo": true
+	}
+]
