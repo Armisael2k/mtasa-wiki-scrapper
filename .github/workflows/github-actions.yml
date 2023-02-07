@@ -9,9 +9,8 @@ jobs:
     container: node:16
     steps:
       - uses: actions/checkout@v3
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Changed files
       - run: npm install
       - run: npm start
-      - run: npm ci
+      - uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
