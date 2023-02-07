@@ -67,7 +67,6 @@ async function init() {
             await sleep(50);
         }
         await writeJsonFile('functions.json', functionsData);
-        await writeJsonFile('logs.json', functionList);
         console.log('End');
     } catch (err) {
         console.error(err);
