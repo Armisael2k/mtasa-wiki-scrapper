@@ -33,8 +33,7 @@ async function init() {
         }));
 
         const functionsData = {};
-        // for (let i = 0; i < functionList.length; i++) {
-        for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < functionList.length; i++) {
             const { name, href, haveInfo } = functionList[i];
             if (!haveInfo) {
                 console.log('Skipped fn', href, i+1 + '/' + functionList.length);
