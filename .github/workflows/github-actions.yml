@@ -1,7 +1,8 @@
 name: GitHub Actions
 run-name: Functions update
-on: schedule:
-  - cron: '*/4 * * * *'
+on:
+  schedule:
+    - cron: '*/4 * * * *'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
