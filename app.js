@@ -42,19 +42,16 @@ async function init() {
             console.log('Go to fn', mainURL + href, i+1 + '/' + functionList.length);
             const { data } = await axios.get(mainURL + href);
             const $ = cheerio.load(data);
-            const info = $('h2:contains("Syntax")').prevAll('p').get().map(el => $(el).text().replaceAll('\n', '')).filter(text => text.length > 0).reverse().join(' ');
+            const info = $('h2:contains("Syntax")').prevAll('p').get().reverse().map(el => $(el).text().replaceAll('\n', '')).filter(text => text.length > 0).join(' ');
+            if (info.length > 140) info.slice(0, 140).trim() + '...';
             const syntaxList = $('h2 + pre').get().map(el => ({
                 isSyntax:  $(el).prev().text().trim() === 'Syntax',
                 syntax: $(el).text(),
-            }));
+            })).filter(row => row.isSyntax);
             for (let i2 = 0; i2 < syntaxList.length; i2++) {
-                const { isSyntax, syntax } = syntaxList[i2];
+                const { syntax } = syntaxList[i2];
                 let n  = '';
                 if (i2 > 0) n = i2+1;
-                if (!isSyntax) {
-                    console.log('Skipped', name+n);
-                    continue;
-                };
                 const syntaxClear = syntax.trim().replace('\n', '');
                 const params = getParams(syntaxClear);
                 const paramsVSCode =  params.map((param, pi) => '${' + (pi+1) + ':' + param.trim() + '}');
@@ -69,6 +66,7 @@ async function init() {
             await sleep(50);
         }
         await writeJsonFile('functions.json', functionsData);
+        await writeJsonFile('logs.json', functionList);
         console.log('End');
     } catch (err) {
         console.error(err);

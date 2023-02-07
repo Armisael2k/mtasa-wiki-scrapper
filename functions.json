@@ -237,7 +237,7 @@
 		"scope": "lua",
 		"prefix": "dgsSetAlpha",
 		"description": [
-			"This changes the alpha level (the visibleness/transparency) of a DGS element", // Added manually
+			"This changes the alpha level (the visibleness/transparency) of a DGS element",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsSetAlpha"
 		],
 		"body": "dgsSetAlpha(${1:element guielement}, ${2:float alpha})"
@@ -678,7 +678,7 @@
 		"scope": "lua",
 		"prefix": "dgsCenterElement",
 		"description": [
-			"No info", // Skipped
+			"No info",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsCenterElement"
 		],
 		"body": "dgsCenterElement(${1:element dgsElement [}, ${2:bool remainX}, ${3:bool remainY ]})"
@@ -1614,7 +1614,7 @@
 		"scope": "lua",
 		"prefix": "dgsComboBoxAddItem",
 		"description": [
-			"Adds an item to a combobox.", // Added Manually
+			"Adds an item to a combobox.",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsComboBoxAddItem"
 		],
 		"body": "dgsComboBoxAddItem(${1:element comboBox}, ${2:string value})"
@@ -1686,7 +1686,7 @@
 		"scope": "lua",
 		"prefix": "dgsComboBoxGetItemCount",
 		"description": [
-			"No info", // Skipped
+			"No info",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsComboBoxGetItemCount"
 		],
 		"body": "dgsComboBoxGetItemCount(${1:element comboBox})"
@@ -1893,7 +1893,7 @@
 		"scope": "lua",
 		"prefix": "dgsCreateEdit",
 		"description": [
-			"This function is for creating a new DGS edit box.", // Added Manually
+			"No info",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsCreateEdit"
 		],
 		"body": "dgsCreateEdit(${1:float x}, ${2:float y}, ${3:float width}, ${4:float height}, ${5:string text}, ${6:bool relative [}, ${7:element parent = nil}, ${8:int textColor = FF000000}, ${9:float scaleX = 1}, ${10:float scaleY = 1}, ${11:element bgImage = nil}, ${12:int bgColor = 0xFFC8C8C8}, ${13:bool selectMode = false ]})"
@@ -2505,7 +2505,7 @@
 		"scope": "lua",
 		"prefix": "dgsGridListAutoSizeColumn",
 		"description": [
-			"This allows you to automatically size a column to display everything in it correctly, with the most minimal width.", // Added Manually
+			"This allows you to automatically size a column to display everything in it correctly, with the most minimal width.",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsGridListAutoSizeColumn"
 		],
 		"body": "dgsGridListAutoSizeColumn(${1:element gridList}, ${2:int columnIndex [}, ${3:float additionalLength}, ${4:bool relative}, ${5:bool isByItem ]})"
@@ -2595,7 +2595,7 @@
 		"scope": "lua",
 		"prefix": "dgsGridListAddRow",
 		"description": [
-			"Adds a row to a grid list, and optionally add simple text items with your rows.",
+			"Adds a row to a grid list, and optionally add simple text items with your rows.  Use dgsGridListSetItemText to add row headers.",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsGridListAddRow"
 		],
 		"body": "dgsGridListAddRow(${1:element gridList [}, ${2:int pos}, ${3:int/string itemText1}, ${4:int/string itemText2}, ${5:...]})"
@@ -2604,7 +2604,7 @@
 		"scope": "lua",
 		"prefix": "dgsGridListRemoveRow",
 		"description": [
-			"Adds a row to a grid list, and optionally add simple text items with your rows.",
+			"This allows you to delete rows that exist in grid lists.",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsGridListRemoveRow"
 		],
 		"body": "dgsGridListRemoveRow(${1:element gridList}, ${2:int rowIndex})"
@@ -2784,7 +2784,7 @@
 		"scope": "lua",
 		"prefix": "dgsGridListGetItemData",
 		"description": [
-			"With this function you can retrieve the string data associated with an item in a dgs grid list.", // Added Manually
+			"Returns the item data of the specified item if successful, false if one of the arguments was invalid. This example displays a random item data from the gridlist. With this function you can retrieve the string data associated with an item in a dgs grid list. This is not the text that is displayed on the item, but an internal string that you can use to hold extra information about the item.",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsGridListGetItemData"
 		],
 		"body": "dgsGridListGetItemData(${1:element gridList}, ${2:int rowIndex}, ${3:int columnIndex})"
@@ -2793,7 +2793,7 @@
 		"scope": "lua",
 		"prefix": "dgsGridListGetItemData2",
 		"description": [
-			"With this function you can retrieve the string data associated with an item in a dgs grid list.", // Added Manually
+			"Returns the item data of the specified item if successful, false if one of the arguments was invalid. This example displays a random item data from the gridlist. With this function you can retrieve the string data associated with an item in a dgs grid list. This is not the text that is displayed on the item, but an internal string that you can use to hold extra information about the item.",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsGridListGetItemData"
 		],
 		"body": "dgsGridListGetItemData(${1:element gridList}, ${2:int rowIndex}, ${3:int columnIndex}, ${4:mixed key})"
@@ -3216,7 +3216,7 @@
 		"scope": "lua",
 		"prefix": "dgsMemoGetVerticalScrollPosition",
 		"description": [
-			"No info", // Skipped
+			"No info",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsMemoGetVerticalScrollPosition"
 		],
 		"body": "dgsMemoGetVerticalScrollPosition(${1:element dgsMemo})"
@@ -3909,7 +3909,7 @@
 		"scope": "lua",
 		"prefix": "dgsCreateScrollPane",
 		"description": [
-			"This creates a DGS scroll pane.", // Added Manually
+			"This creates a DGS scroll pane.",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsCreateScrollPane"
 		],
 		"body": "dgsCreateScrollPane(${1:float x}, ${2:float y}, ${3:float width}, ${4:float height}, ${5:bool relative [}, ${6:element parent = nil ]})"
@@ -4944,7 +4944,7 @@
 		"scope": "lua",
 		"prefix": "dgsConfigureObjectPreview",
 		"description": [
-			"No info", // Skipped
+			"You need to insert this line into line 340 in 'c_main.lua of Object Preview:",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsConfigureObjectPreview"
 		],
 		"body": "dgsConfigureObjectPreview(${1:})"
@@ -5057,9 +5057,9 @@
 		],
 		"body": "dgsCreateRoundRect(${1:float radius}, ${2:bool relative [}, ${3:int color = 0xFFFFFFFF}, ${4:texture background = nil}, ${5:bool colorOverwritten = true}, ${6:bool isBorderOnly}, ${7:float borderHorizontalThickness}, ${8:float borderVerticalThickness ]})"
 	},
-	"dgsCreateRoundRect3": {
+	"dgsCreateRoundRect2": {
 		"scope": "lua",
-		"prefix": "dgsCreateRoundRect3",
+		"prefix": "dgsCreateRoundRect2",
 		"description": [
 			"NOTE: When using optional arguments, you might need to supply all arguments before the one you wish to use. For more information on optional arguments, see optional arguments.  Returns a dgs-dxroundrectangle element (dgs Type)/ shader (element Type) if succeed, false otherwise >>>Warning: This feature requires pixel shader model 2_a<<< This function creates a rounded rectangle shader that can be used for dgs elements.",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsCreateRoundRect"
@@ -5169,7 +5169,7 @@
 		"scope": "lua",
 		"prefix": "dgsCreateSVG",
 		"description": [
-			"Creates an svg from size (blank document), filepath or raw data , similar to svgCreate.", // Added Manually
+			"Creates an svg from size (blank document), filepath or raw data , similar to svgCreate. ",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsCreateSVG"
 		],
 		"body": "dgsCreateSVG(${1:int width}, ${2:int height [}, ${3:string pathORrawData ]})"
@@ -5178,7 +5178,7 @@
 		"scope": "lua",
 		"prefix": "dgsSVGGetRawDocument",
 		"description": [
-			"Gets the raw xml data from an svg or an svg node.", // Added Manually
+			"Gets the raw xml data from an svg or an svg node.",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsSVGGetRawDocument"
 		],
 		"body": "dgsSVGGetRawDocument(${1:mixed svgNode})"
@@ -5187,7 +5187,7 @@
 		"scope": "lua",
 		"prefix": "dgsSVGGetDocument",
 		"description": [
-			"Gets the underlying XML document from an SVG element.", // Added Manually
+			"Gets the underlying XML document from an SVG element. ",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsSVGGetDocument"
 		],
 		"body": "dgsSVGGetDocument(${1:svg svgElement})"
@@ -5196,7 +5196,7 @@
 		"scope": "lua",
 		"prefix": "dgsSVGCreateNode",
 		"description": [
-			"This function create a node in svg document.",
+			"This function create a node in svg document  .",
 			"URL: https://wiki.multitheftauto.com/wiki/DgsSVGCreateNode"
 		],
 		"body": "dgsSVGCreateNode(${1:xmlnode xmlNode}, ${2:string nodeType}, ${3:...})"
