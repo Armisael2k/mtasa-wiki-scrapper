@@ -1,8 +1,9 @@
 name: GitHub Actions
 run-name: Functions update
-on: [push]
+on: schedule:
+  - cron: '*/4 * * * *'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "on push event"
+      - run: npm start
