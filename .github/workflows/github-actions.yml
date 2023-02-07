@@ -1,6 +1,6 @@
 name: Auto Updater
 run-name: Functions update
-on: [push]
+on: [push] 
   # schedule:
   #   - cron: '*/4 * * * *'
 jobs:
