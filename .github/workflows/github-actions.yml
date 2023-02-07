@@ -1,4 +1,4 @@
-name: GitHub Actions
+name: Auto Updater
 run-name: Functions update
 on: [push]
   # schedule:
@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-node@v3
-      with:
-        node-version: 18
-        cache: 'npm'
+        with:
+          node-version: 18
+          cache: 'npm'
       - run: npm --v
