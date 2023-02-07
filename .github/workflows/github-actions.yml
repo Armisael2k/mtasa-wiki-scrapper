@@ -1,8 +1,8 @@
 name: Auto Updater
 run-name: Functions update
-on: [push] 
-  # schedule:
-  #   - cron: '*/4 * * * *'
+on:
+  schedule:
+    - cron: '*/10 * * * *'
 jobs:
   build-node: 
     runs-on: ubuntu-latest
