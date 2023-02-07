@@ -1,4 +1,4 @@
-name: GitHub Actions
+name: Auto Updater
 run-name: Functions update
 on: [push]
   # schedule:
@@ -9,6 +9,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v3
       with:
-        node-version: 18
+        node-version: 16
         cache: 'npm'
+        cache-dependency-path: subdir/package-lock.json
       - run: npm --v
