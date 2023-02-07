@@ -1,56 +1,78 @@
-import puppeteer from 'puppeteer';
+import axios from 'axios';
+import * as cheerio from 'cheerio';
 import { writeJsonFile } from 'write-json-file';
+import sleep from 'sleep-promise';
 
-(async () => {
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
-    
-    await page.goto('https://wiki.multitheftauto.com/wiki/Resource:DGS', { waitUntil: 'networkidle0' });
-    await page.waitForSelector('li>a[title]', { timeout: 2000});
-    const links = (await page.$$eval('li>a[title]', link => link.map(row => row.href))).filter(row => row.includes('Dgs') && !row.includes('-'));
+// const text = '( element dgsElement, bool relative [, bool includeParent = false,  bool theOpt = false ] )';
+// console.log(
+//     text
+//     .split('[')
+//     .map(params => params
+//       .replace(/[\(\)\[\]]/, '')
+//       .split(',')
+//       .map(s => s.trim())
+//       .filter(s => s.length > 0)
+//     )
+// );
 
-    const log = [];
-    const functions = {};
-    for (let i = 0; i < links.length; i++) {
-        const link = links[i];
-        try {
-            console.log('Go to', link, `${i+1}/${links.length}`);
-            await page.goto(link, { waitUntil: 'networkidle0' });
-            await page.waitForSelector('.mw-page-title-main', { timeout: 2000});
-            await page.waitForSelector('h2 + pre', { timeout: 2000});
-            const functionName = (await page.$eval('.mw-page-title-main', el => el.textContent)).trim();
-            const syntax = await page.$$eval('h2 + pre', el => el.map(row => row.previousElementSibling.textContent == 'Syntax' ? { isFunction: true, syntax: row.textContent.trim() } : { isFunction: false } ));
-            log.push({
-                ...syntax,
-                link: link,
-            });
-            if (syntax.length > 0) {
-                for (let i2 = 0; i2 < syntax.length; i2++) {
-                    const row = syntax[i2];
-                    if (!row.isFunction) continue;
-                    let n = "";
-                    if (i2 > 0) n = (i2+1).toString();
-                    console.log(functionName+n);
-                    functions[functionName+n] = {
-                        scope: "lua",
-                        description: row.syntax,
-                        prefix: functionName+n,
-                        body: functionName
-                    }
-                }
-            } else {
-                console.log('Not a function');
+const mainURL = 'https://wiki.multitheftauto.com';
+
+function getParams(syntax) {
+    const params = /\(([^)]+)\)/.exec(syntax)?.[1].split(/\s*,\s*/)?.map(arg => arg.trim()) || [];
+    return params;
+}
+
+async function init() {
+    try {
+        const { data } = await axios.get(mainURL + '/wiki/Template:DGSFUNCTIONS');
+        const $ = cheerio.load(data);
+        const functionList = $('.mw-parser-output>ul>li>a').get().map(el => ({
+            name: $(el).text(),
+            href: $(el).attr('href'),
+            haveInfo: !$(el).hasClass('new')
+        }));
+
+        const functionsData = {};
+        for (let i = 0; i < functionList.length; i++) {
+            const { name, href, haveInfo } = functionList[i];
+            if (!haveInfo) {
+                console.log('Skipped fn', href, i+1 + '/' + functionList.length);
+                continue;
+            };
+            console.log('Go to fn', mainURL + href, i+1 + '/' + functionList.length);
+            const { data } = await axios.get(mainURL + href);
+            const $ = cheerio.load(data);
+            const info = $('h2:contains("Syntax")').prevAll('p').get().map(el => $(el).text().replaceAll('\n', '')).filter(text => text.length > 0).reverse().join(' ');
+            const syntaxList = $('h2 + pre').get().map(el => ({
+                isSyntax:  $(el).prev().text().trim() === 'Syntax',
+                syntax: $(el).text(),
+            }));
+            for (let i2 = 0; i2 < syntaxList.length; i2++) {
+                const { isSyntax, syntax } = syntaxList[i2];
+                let n  = '';
+                if (i2 > 0) n = i2+1;
+                if (!isSyntax) {
+                    console.log('Skipped', name+n);
+                    continue;
+                };
+                const syntaxClear = syntax.trim().replace('\n', '');
+                const params = getParams(syntaxClear);
+                const paramsVSCode =  params.map((param, pi) => '${' + (pi+1) + ':' + param.trim() + '}');
+                functionsData[name+n] = {
+                    scope: 'lua',
+                    prefix: name+n,
+                    description: [info.trim().length > 0 ? info : 'No info', 'URL: ' + mainURL + href],
+                    body: name + '(' + paramsVSCode.join(', ') + ')'
+                };
+                console.log('Added', name+n);
             }
-        } catch (err) {
-            if (err.message.search('TimeoutError: Waiting for selector')){
-                console.log('Not a function');
-            } else {
-                console.log(err);
-            }
+            await sleep(50);
         }
+        await writeJsonFile('functions.json', functionsData);
+        console.log('End');
+    } catch (err) {
+        console.error(err);
     }
-    browser.close();
-    await writeJsonFile('log.json', log);
-    await writeJsonFile('functions.json', functions);
-    console.log('End');
-})();
+}
+
+init();
