@@ -42,8 +42,8 @@ async function init() {
             console.log('Go to fn', mainURL + href, i+1 + '/' + functionList.length);
             const { data } = await axios.get(mainURL + href);
             const $ = cheerio.load(data);
-            const info = $('h2:contains("Syntax")').prevAll('p').get().reverse().map(el => $(el).text().replaceAll('\n', '')).filter(text => text.length > 0).join(' ');
-            if (info.length > 140) info.slice(0, 140).trim() + '...';
+            let info = $('h2:contains("Syntax")').prevAll('p').get().reverse().map(el => $(el).text().replaceAll('\n', '')).filter(text => text.length > 0).join(' ');
+            if (info.length > 140) info = info.slice(0, 140).trim() + '...';
             const syntaxList = $('h2 + pre').get().map(el => ({
                 isSyntax:  $(el).prev().text().trim() === 'Syntax',
                 syntax: $(el).text(),
@@ -58,7 +58,7 @@ async function init() {
                 functionsData[name+n] = {
                     scope: 'lua',
                     prefix: name+n,
-                    description: [info.trim().length > 0 ? info : 'No info', 'URL: ' + mainURL + href],
+                    description: [info.trim().length > 0 ? info : 'No info', ' | URL: ' + mainURL + href],
                     body: name + '(' + paramsVSCode.join(', ') + ')'
                 };
                 console.log('Added', name+n);
