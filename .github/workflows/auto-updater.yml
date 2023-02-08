@@ -2,7 +2,7 @@ name: Auto Updater
 run-name: Functions update
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 0 1 * *'
 jobs:
   build-node: 
     runs-on: ubuntu-latest
