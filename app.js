@@ -3,6 +3,8 @@ import * as cheerio from 'cheerio';
 import { writeJsonFile } from 'write-json-file';
 import sleep from 'sleep-promise';
 
+const mainURL = 'https://wiki.multitheftauto.com';
+
 // const text = '( element dgsElement, bool relative [, bool includeParent = false,  bool theOpt = false ] )';
 // console.log(
 //     text
@@ -14,8 +16,6 @@ import sleep from 'sleep-promise';
 //       .filter(s => s.length > 0)
 //     )
 // );
-
-const mainURL = 'https://wiki.multitheftauto.com';
 
 function getParams(syntax) {
     const params = /\(([^)]+)\)/.exec(syntax)?.[1].split(/\s*,\s*/)?.map(arg => arg.trim()) || [];
