@@ -58,7 +58,7 @@ async function init() {
                 functionsData[name+n] = {
                     scope: 'lua',
                     prefix: name+n,
-                    description: [info.trim().length > 0 ? info : 'No info', ' | URL: ' + mainURL + href],
+                    description: (info.trim().length > 0 ? info : 'No info') + ' | URL: ' + mainURL + href,
                     body: name + '(' + paramsVSCode.join(', ') + ')'
                 };
                 console.log('Added', name+n);
