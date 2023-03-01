@@ -795,7 +795,7 @@
 		"scope": "lua",
 		"prefix": "dgs3DInterfaceSetAttachedOffsets",
 		"description": "This function sets the attached offsets of the attached dgs 3d interface. | URL: https://wiki.multitheftauto.com/wiki/Dgs3DInterfaceSetAttachedOffsets",
-		"body": "dgs3DInterfaceSetAttachedOffsets(${1:element dgsElement [}, ${2:float offX = offX}, ${3:float offY = offY}, ${4:float offZ = offZ}, ${5:float offFaceX = offFaceX}, ${6:float offFaceY = offFaceY}, ${7:float offFaceZ = offFaceZ ]})"
+		"body": "dgs3DInterfaceSetAttachedOffsets(${1:element dgsElement [}, ${2:float offsetX = offsetX}, ${3:float offsetY = offsetY}, ${4:float offsetZ = offsetZ}, ${5:float offsetFaceX = offsetFaceX}, ${6:float offsetFaceY = offsetFaceY}, ${7:float offsetFaceZ = offsetFaceZ ]})"
 	},
 	"dgs3DInterfaceGetAttachedOffsets": {
 		"scope": "lua",
