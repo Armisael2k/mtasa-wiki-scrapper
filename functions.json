@@ -159,7 +159,7 @@
 		"scope": "lua",
 		"prefix": "dgsSetAlpha",
 		"description": "This changes the alpha level (the visibleness/transparency) of a DGS element | URL: https://wiki.multitheftauto.com/wiki/DgsSetAlpha",
-		"body": "dgsSetAlpha(${1:element guielement}, ${2:float alpha})"
+		"body": "dgsSetAlpha(${1:element theElement}, ${2:float alpha})"
 	},
 	"dgsGetFont": {
 		"scope": "lua",
@@ -322,12 +322,6 @@
 		"prefix": "dgsGetFocusedGUI",
 		"description": "This function gets a dgs element that is focused at present. | URL: https://wiki.multitheftauto.com/wiki/DgsGetFocusedGUI",
 		"body": "dgsGetFocusedGUI(${1:})"
-	},
-	"dgsGetExportedFunctionName": {
-		"scope": "lua",
-		"prefix": "dgsGetExportedFunctionName",
-		"description": "This function is used to get a specific exported function name or all exported function names | URL: https://wiki.multitheftauto.com/wiki/DgsGetExportedFunctionName",
-		"body": "dgsGetExportedFunctionName(${1:[ string name ]})"
 	},
 	"dgsImportFunction": {
 		"scope": "lua",
@@ -603,7 +597,7 @@
 		"scope": "lua",
 		"prefix": "dgsMoveTo",
 		"description": "This function allow us to add animation to dgs elements. Change position of dgs elements with animation effect. | URL: https://wiki.multitheftauto.com/wiki/DgsMoveTo",
-		"body": "dgsMoveTo(${1:element dgsElement}, ${2:float x}, ${3:float y}, ${4:bool relative}, ${5:string easing = \"Linear\"}, ${6:float duration [}, ${7:int delay = 0 ]})"
+		"body": "dgsMoveTo(${1:element/table dgsElement}, ${2:float x}, ${3:float y}, ${4:bool relative}, ${5:string easing = \"Linear\"}, ${6:float duration [}, ${7:int delay = 0 ]})"
 	},
 	"dgsIsMoving": {
 		"scope": "lua",
@@ -621,7 +615,7 @@
 		"scope": "lua",
 		"prefix": "dgsSizeTo",
 		"description": "This function allow us to add animation to dgs elements. Change size of dgs elements with animation effect. | URL: https://wiki.multitheftauto.com/wiki/DgsSizeTo",
-		"body": "dgsSizeTo(${1:element dgsElement}, ${2:float w}, ${3:float h}, ${4:bool relative}, ${5:string easing = \"Linear\"}, ${6:float duration [}, ${7:int delay = 0 ]})"
+		"body": "dgsSizeTo(${1:element/table dgsElement}, ${2:float w}, ${3:float h}, ${4:bool relative}, ${5:string easing = \"Linear\"}, ${6:float duration [}, ${7:int delay = 0 ]})"
 	},
 	"dgsIsSizing": {
 		"scope": "lua",
@@ -639,7 +633,7 @@
 		"scope": "lua",
 		"prefix": "dgsAlphaTo",
 		"description": "This function allow us to add animation to dgs elements. Change alpha of dgs elements with animation effect. | URL: https://wiki.multitheftauto.com/wiki/DgsAlphaTo",
-		"body": "dgsAlphaTo(${1:element dgsElement}, ${2:float targetAlpha}, ${3:string easing = \"Linear\"}, ${4:float duration [}, ${5:int delay = 0 ]})"
+		"body": "dgsAlphaTo(${1:element/table dgsElement}, ${2:float targetAlpha}, ${3:string easing = \"Linear\"}, ${4:float duration [}, ${5:int delay = 0 ]})"
 	},
 	"dgsIsAlphaing": {
 		"scope": "lua",
@@ -1917,7 +1911,7 @@
 		"scope": "lua",
 		"prefix": "dgsGridListSetSelectedItem",
 		"description": "This function selects an item from a grid list. | URL: https://wiki.multitheftauto.com/wiki/DgsGridListSetSelectedItem",
-		"body": "dgsGridListSetSelectedItem(${1:element gridList}, ${2:int rowID})"
+		"body": "dgsGridListSetSelectedItem(${1:element gridList}, ${2:int rowID}, ${3:bool scrollTo})"
 	},
 	"dgsGridListGetSelectedItems": {
 		"scope": "lua",
@@ -3369,13 +3363,13 @@
 		"scope": "lua",
 		"prefix": "dgsCreateRoundRect",
 		"description": "NOTE: When using optional arguments, you might need to supply all arguments before the one you wish to use. For more information on optional... | URL: https://wiki.multitheftauto.com/wiki/DgsCreateRoundRect",
-		"body": "dgsCreateRoundRect(${1:float radius}, ${2:bool relative [}, ${3:int color = 0xFFFFFFFF}, ${4:texture background = nil}, ${5:bool colorOverwritten = true}, ${6:bool isBorderOnly}, ${7:float borderHorizontalThickness}, ${8:float borderVerticalThickness ]})"
+		"body": "dgsCreateRoundRect(${1:float radius}, ${2:bool relative [}, ${3:int color = 0xFFFFFFFF}, ${4:texture background = nil}, ${5:bool colorOverwritten = true}, ${6:bool/int border = false}, ${7:float borderHorizontalThickness}, ${8:float borderVerticalThickness ]})"
 	},
 	"dgsCreateRoundRect2": {
 		"scope": "lua",
 		"prefix": "dgsCreateRoundRect2",
 		"description": "NOTE: When using optional arguments, you might need to supply all arguments before the one you wish to use. For more information on optional... | URL: https://wiki.multitheftauto.com/wiki/DgsCreateRoundRect",
-		"body": "dgsCreateRoundRect(${1:table multiArguments [}, ${2:int color = 0xFFFFFFFF}, ${3:texture background = nil}, ${4:bool colorOverwritten = true}, ${5:bool isBorderOnly}, ${6:float borderHorizontalThickness}, ${7:float borderVerticalThickness ]})"
+		"body": "dgsCreateRoundRect(${1:table multiArguments [}, ${2:int color = 0xFFFFFFFF}, ${3:texture background = nil}, ${4:bool colorOverwritten = true}, ${5:bool/int border = false}, ${6:float borderHorizontalThickness}, ${7:float borderVerticalThickness ]})"
 	},
 	"dgsRoundRectSetTexture": {
 		"scope": "lua",
