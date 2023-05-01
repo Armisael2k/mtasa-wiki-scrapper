@@ -1544,7 +1544,7 @@
 	"dgsGridListGetScrollBar": {
 		"scope": "lua",
 		"prefix": "dgsGridListGetScrollBar",
-		"description": "This function gets two scroll bars of dgs grid list. | URL: https://wiki.multitheftauto.com/wiki/DgsGridListGetScrollBar",
+		"description": "This function retrieves the scroll bars of a DGS grid list. | URL: https://wiki.multitheftauto.com/wiki/DgsGridListGetScrollBar",
 		"body": "dgsGridListGetScrollBar(${1:element gridList})"
 	},
 	"dgsGridListSetScrollPosition": {
