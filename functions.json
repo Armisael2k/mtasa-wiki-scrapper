@@ -3009,7 +3009,7 @@
 		"scope": "lua",
 		"prefix": "dgsCreateCanvas",
 		"description": "This function creates a canvas that is used to draw multiple shaders. | URL: https://wiki.multitheftauto.com/wiki/DgsCreateCanvas",
-		"body": "dgsCreateCanvas(${1:element renderSource}, ${2:int width}, ${3:int height [}, ${4:int color ]})"
+		"body": "dgsCreateCanvas(${1:element renderSource}, ${2:int width}, ${3:int height})"
 	},
 	"dgsCreateChart": {
 		"scope": "lua",
