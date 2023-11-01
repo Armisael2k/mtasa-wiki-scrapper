@@ -1151,6 +1151,48 @@
 		"description": "This function get the color of a comboBox item. | URL: https://wiki.multitheftauto.com/wiki/DgsComboBoxGetItemColor",
 		"body": "dgsComboBoxGetItemColor(${1:element comboBox}, ${2:int item})"
 	},
+	"dgsComboBoxSetItemImage": {
+		"scope": "lua",
+		"prefix": "dgsComboBoxSetItemImage",
+		"description": "This function sets the image on a combo box item. | URL: https://wiki.multitheftauto.com/wiki/DgsComboBoxSetItemImage",
+		"body": "dgsComboBoxSetItemImage(${1:element comboBox}, ${2:int itemIndex}, ${3:element texture [}, ${4:int color = 0xFFFFFFFF}, ${5:float offsetX = 0}, ${6:float offsetY = 0}, ${7:float width}, ${8:float height}, ${9:bool relative ]})"
+	},
+	"dgsComboBoxGetItemImage": {
+		"scope": "lua",
+		"prefix": "dgsComboBoxGetItemImage",
+		"description": "This function gets the image from a combo box item. | URL: https://wiki.multitheftauto.com/wiki/DgsComboBoxGetItemImage",
+		"body": "dgsComboBoxGetItemImage(${1:element comboBox}, ${2:int itemIndex})"
+	},
+	"dgsComboBoxRemoveItemImage": {
+		"scope": "lua",
+		"prefix": "dgsComboBoxRemoveItemImage",
+		"description": "This function remove the image from the combo box item. | URL: https://wiki.multitheftauto.com/wiki/DgsComboBoxRemoveItemImage",
+		"body": "dgsComboBoxRemoveItemImage(${1:element comboBox}, ${2:int itemIndex})"
+	},
+	"dgsComboBoxSetItemBackGroundImage": {
+		"scope": "lua",
+		"prefix": "dgsComboBoxSetItemBackGroundImage",
+		"description": "This function sets the background texture of a specific item of the combo box. | URL: https://wiki.multitheftauto.com/wiki/DgsComboBoxSetItemBackGroundImage",
+		"body": "dgsComboBoxSetItemBackGroundImage(${1:element comboBox}, ${2:int itemIndex}, ${3:texture imageDefault}, ${4:texture imageHoving}, ${5:texture imageSelected})"
+	},
+	"dgsComboBoxGetItemBackGroundImage": {
+		"scope": "lua",
+		"prefix": "dgsComboBoxGetItemBackGroundImage",
+		"description": "This function gets the background texture from a specific item of the combo box. | URL: https://wiki.multitheftauto.com/wiki/DgsComboBoxGetItemBackGroundImage",
+		"body": "dgsComboBoxGetItemBackGroundImage(${1:element comboBox}, ${2:int itemIndex})"
+	},
+	"dgsComboBoxSetItemBackGroundColor": {
+		"scope": "lua",
+		"prefix": "dgsComboBoxSetItemBackGroundColor",
+		"description": "This function sets the background color of a specific item of the combo box. | URL: https://wiki.multitheftauto.com/wiki/DgsComboBoxSetItemBackGroundColor",
+		"body": "dgsComboBoxSetItemBackGroundColor(${1:element comboBox}, ${2:int itemIndex}, ${3:texture imageDefault}, ${4:texture imageHoving}, ${5:texture imageSelected})"
+	},
+	"dgsComboBoxGetItemBackGroundColor": {
+		"scope": "lua",
+		"prefix": "dgsComboBoxGetItemBackGroundColor",
+		"description": "This function gets the background color of a specific item of the combo box. | URL: https://wiki.multitheftauto.com/wiki/DgsComboBoxGetItemBackGroundColor",
+		"body": "dgsComboBoxGetItemBackGroundColor(${1:element comboBox}, ${2:int itemIndex})"
+	},
 	"dgsComboBoxSetItemFont": {
 		"scope": "lua",
 		"prefix": "dgsComboBoxSetItemFont",
@@ -1835,6 +1877,12 @@
 		"description": "This function changes the font of an item of a dgs grid list. | URL: https://wiki.multitheftauto.com/wiki/DgsGridListSetItemFont",
 		"body": "dgsGridListSetItemFont(${1:element gridList}, ${2:int rowIndex}, ${3:int columnIndex}, ${4:string/dx-font font})"
 	},
+	"dgsGridListGetItemFont": {
+		"scope": "lua",
+		"prefix": "dgsGridListGetItemFont",
+		"description": "With this function you can retrieve the font of an item in a dgs grid list. | URL: https://wiki.multitheftauto.com/wiki/DgsGridListGetItemFont",
+		"body": "dgsGridListGetItemFont(${1:element gridList}, ${2:int rowIndex}, ${3:int columnIndex})"
+	},
 	"dgsGridListSetItemData": {
 		"scope": "lua",
 		"prefix": "dgsGridListSetItemData",
@@ -1846,18 +1894,6 @@
 		"prefix": "dgsGridListSetItemData2",
 		"description": "Returns true if set successfully, false if one of the arguments was invalid. This example displays a random item data from the gridlist. Thi... | URL: https://wiki.multitheftauto.com/wiki/DgsGridListSetItemData",
 		"body": "dgsGridListSetItemData(${1:element gridList}, ${2:int rowIndex}, ${3:int columnIndex}, ${4:mixed key}, ${5:mixed data})"
-	},
-	"dgsGridListGetItemData": {
-		"scope": "lua",
-		"prefix": "dgsGridListGetItemData",
-		"description": "Returns the item data of the specified item if successful, false if one of the arguments was invalid. This example displays a random item da... | URL: https://wiki.multitheftauto.com/wiki/DgsGridListGetItemData",
-		"body": "dgsGridListGetItemData(${1:element gridList}, ${2:int rowIndex}, ${3:int columnIndex})"
-	},
-	"dgsGridListGetItemData2": {
-		"scope": "lua",
-		"prefix": "dgsGridListGetItemData2",
-		"description": "Returns the item data of the specified item if successful, false if one of the arguments was invalid. This example displays a random item da... | URL: https://wiki.multitheftauto.com/wiki/DgsGridListGetItemData",
-		"body": "dgsGridListGetItemData(${1:element gridList}, ${2:int rowIndex}, ${3:int columnIndex}, ${4:mixed key})"
 	},
 	"dgsGridListSetItemImage": {
 		"scope": "lua",
@@ -2278,6 +2314,12 @@
 		"prefix": "dgsMemoGetMaxLength",
 		"description": "This function gets the maximum text length that can be typed into a memo. | URL: https://wiki.multitheftauto.com/wiki/DgsMemoGetMaxLength",
 		"body": "dgsMemoGetMaxLength(${1:element theElement})"
+	},
+	"dgsCreateMenu": {
+		"scope": "lua",
+		"prefix": "dgsCreateMenu",
+		"description": "This function is for creating a DGS menu. DGS menu is invisible by default. To show menu, use dgsMenuShow. | URL: https://wiki.multitheftauto.com/wiki/DgsCreateMenu",
+		"body": "dgsCreateMenu(${1:float x}, ${2:float y}, ${3:float width}, ${4:float height}, ${5:bool relative [}, ${6:element parent = nil ]})"
 	},
 	"dgsCreateLabel": {
 		"scope": "lua",
@@ -3039,7 +3081,7 @@
 		"scope": "lua",
 		"prefix": "dgsCircleSetTexture",
 		"description": "This function applies a texture into dgs circle. | URL: https://wiki.multitheftauto.com/wiki/DgsCircleSetTexture",
-		"body": "dgsCircleSetTexture(${1:element circle [ element texture = nil ]})"
+		"body": "dgsCircleSetTexture(${1:element circle [}, ${2:element texture = nil ]})"
 	},
 	"dgsCircleGetTexture": {
 		"scope": "lua",
@@ -3047,11 +3089,65 @@
 		"description": "This function gets the texture from the dgs circle. | URL: https://wiki.multitheftauto.com/wiki/DgsCircleGetTexture",
 		"body": "dgsCircleGetTexture(${1:element circle})"
 	},
+	"dgsCircleSetColor": {
+		"scope": "lua",
+		"prefix": "dgsCircleSetColor",
+		"description": "This function sets the color of the dgs circle. | URL: https://wiki.multitheftauto.com/wiki/DgsCircleSetColor",
+		"body": "dgsCircleSetColor(${1:element circle}, ${2:int color})"
+	},
+	"dgsCircleGetColor": {
+		"scope": "lua",
+		"prefix": "dgsCircleGetColor",
+		"description": "This function gets the color of the dgs circle. | URL: https://wiki.multitheftauto.com/wiki/DgsCircleGetColor",
+		"body": "dgsCircleGetColor(${1:element circle})"
+	},
+	"dgsCircleSetDirection": {
+		"scope": "lua",
+		"prefix": "dgsCircleSetDirection",
+		"description": "This function sets the direction of dgs circle. | URL: https://wiki.multitheftauto.com/wiki/DgsCircleSetDirection",
+		"body": "dgsCircleSetDirection(${1:element circle}, ${2:bool direction})"
+	},
+	"dgsCircleGetDirection": {
+		"scope": "lua",
+		"prefix": "dgsCircleGetDirection",
+		"description": "This function gets the direction from dgs circle. | URL: https://wiki.multitheftauto.com/wiki/DgsCircleGetDirection",
+		"body": "dgsCircleGetDirection(${1:element circle})"
+	},
+	"dgsCircleSetAngle": {
+		"scope": "lua",
+		"prefix": "dgsCircleSetAngle",
+		"description": "This function sets the angle of dgs circle. | URL: https://wiki.multitheftauto.com/wiki/DgsCircleSetAngle",
+		"body": "dgsCircleSetAngle(${1:element circle}, ${2:float rotation})"
+	},
+	"dgsCircleGetAngle": {
+		"scope": "lua",
+		"prefix": "dgsCircleGetAngle",
+		"description": "This function gets the angle from dgs circle. | URL: https://wiki.multitheftauto.com/wiki/DgsCircleGetAngle",
+		"body": "dgsCircleGetAngle(${1:element circle})"
+	},
+	"dgsCircleSetRotation": {
+		"scope": "lua",
+		"prefix": "dgsCircleSetRotation",
+		"description": "This function sets the rotation of dgs circle. | URL: https://wiki.multitheftauto.com/wiki/DgsCircleSetRotation",
+		"body": "dgsCircleSetRotation(${1:element circle}, ${2:float rotation})"
+	},
+	"dgsCircleGetRotation": {
+		"scope": "lua",
+		"prefix": "dgsCircleGetRotation",
+		"description": "This function gets the rotation from dgs circle. | URL: https://wiki.multitheftauto.com/wiki/DgsCircleGetRotation",
+		"body": "dgsCircleGetRotation(${1:element circle})"
+	},
 	"dgsCircleSetTextureRotation": {
 		"scope": "lua",
 		"prefix": "dgsCircleSetTextureRotation",
-		"description": "This function changes the texture rotation of the dgs circle. | URL: https://wiki.multitheftauto.com/wiki/DgsCircleSetTextureRotation",
+		"description": "This function changes the texture rotation of the dgs circle. Texture rotation will be affect by rotation dgsCircleSetRotation. | URL: https://wiki.multitheftauto.com/wiki/DgsCircleSetTextureRotation",
 		"body": "dgsCircleSetTextureRotation(${1:element circle}, ${2:float rotDegree [}, ${3:float rotCenterX = rotCenterX}, ${4:float rotCenterY = rotCenterY ]})"
+	},
+	"dgsCircleGetTextureRotation": {
+		"scope": "lua",
+		"prefix": "dgsCircleGetTextureRotation",
+		"description": "This function gets the texture rotation from the dgs circle. | URL: https://wiki.multitheftauto.com/wiki/DgsCircleGetTextureRotation",
+		"body": "dgsCircleGetTextureRotation(${1:element circle})"
 	},
 	"dgsCreateColorPicker": {
 		"scope": "lua",
@@ -3410,13 +3506,13 @@
 	"dgsRoundRectSetColorOverwritten": {
 		"scope": "lua",
 		"prefix": "dgsRoundRectSetColorOverwritten",
-		"description": "This function sets whether the color of round rectangle will overwrite the color of dx functions. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectSetColorOverwritten",
+		"description": "This function sets whether the color of rounded rectangle will overwrite the color of dx functions. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectSetColorOverwritten",
 		"body": "dgsRoundRectSetColorOverwritten(${1:element rndRect}, ${2:bool isOverwritten})"
 	},
 	"dgsRoundRectGetColorOverwritten": {
 		"scope": "lua",
 		"prefix": "dgsRoundRectGetColorOverwritten",
-		"description": "This function gets whether the color of round rectangle will overwrite the color of dx functions. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectGetColorOverwritten",
+		"description": "This function gets whether the color of rounded rectangle will overwrite the color of dx functions. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectGetColorOverwritten",
 		"body": "dgsRoundRectGetColorOverwritten(${1:element rndRect})"
 	},
 	"dgsRoundRectSetBorderThickness": {
