@@ -3,7 +3,7 @@
 		"scope": "lua",
 		"prefix": "dgsGetPosition",
 		"description": "This function allows retrieval of a DGS element's current position, relative to its parent. | URL: https://wiki.multitheftauto.com/wiki/DgsGetPosition",
-		"body": "dgsGetPosition(${1:element dgsElement}, ${2:bool relative [}, ${3:bool includeParent = false ]})"
+		"body": "dgsGetPosition(${1:element dgsElement}, ${2:bool relative [}, ${3:bool isRelativeToScreen = false ]})"
 	},
 	"dgsSetPosition": {
 		"scope": "lua",
@@ -1185,7 +1185,7 @@
 		"scope": "lua",
 		"prefix": "dgsComboBoxSetItemBackGroundColor",
 		"description": "This function sets the background color of a specific item of the combo box. | URL: https://wiki.multitheftauto.com/wiki/DgsComboBoxSetItemBackGroundColor",
-		"body": "dgsComboBoxSetItemBackGroundColor(${1:element comboBox}, ${2:int itemIndex}, ${3:texture imageDefault}, ${4:texture imageHoving}, ${5:texture imageSelected})"
+		"body": "dgsComboBoxSetItemBackGroundColor(${1:element comboBox}, ${2:int itemIndex}, ${3:int imageDefault}, ${4:int imageHoving}, ${5:int imageSelected})"
 	},
 	"dgsComboBoxGetItemBackGroundColor": {
 		"scope": "lua",
@@ -3220,6 +3220,12 @@
 		"prefix": "dgsCreateGradient",
 		"description": "This function is for creating a gradient shader. | URL: https://wiki.multitheftauto.com/wiki/DgsCreateGradient",
 		"body": "dgsCreateGradient(${1:int colorFrom}, ${2:int colorTo [}, ${3:float rotation = 0 ]})"
+	},
+	"dgsGradientSetColor": {
+		"scope": "lua",
+		"prefix": "dgsGradientSetColor",
+		"description": "This function sets the color of the dgs gradient plugin. | URL: https://wiki.multitheftauto.com/wiki/DgsGradientSetColor",
+		"body": "dgsGradientSetColor(${1:element gradShader}, ${2:int colorFrom}, ${3:int colorTo})"
 	},
 	"dgsGradientSetColorOverwritten": {
 		"scope": "lua",
