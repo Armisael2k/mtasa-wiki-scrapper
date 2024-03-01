@@ -2567,18 +2567,6 @@
 		"description": "This function gets the scroll amount of a dgs scrollbar as a percentage. | URL: https://wiki.multitheftauto.com/wiki/DgsScrollBarGetScrollPosition",
 		"body": "dgsScrollBarGetScrollPosition(${1:element theScrollBar [}, ${2:bool isGrade = false ]})"
 	},
-	"dgsScrollBarSetCursorLength": {
-		"scope": "lua",
-		"prefix": "dgsScrollBarSetCursorLength",
-		"description": "This function sets the length of scroll bar cursor. | URL: https://wiki.multitheftauto.com/wiki/DgsScrollBarSetCursorLength",
-		"body": "dgsScrollBarSetCursorLength(${1:element scrollBar}, ${2:float size [}, ${3:bool relative]})"
-	},
-	"dgsScrollBarGetCursorLength": {
-		"scope": "lua",
-		"prefix": "dgsScrollBarGetCursorLength",
-		"description": "This function gets the length of scroll bar cursor. | URL: https://wiki.multitheftauto.com/wiki/DgsScrollBarGetCursorLength",
-		"body": "dgsScrollBarGetCursorLength(${1:element scrollBar [}, ${2:bool relative ]})"
-	},
 	"dgsScrollBarSetGrades": {
 		"scope": "lua",
 		"prefix": "dgsScrollBarSetGrades",
@@ -2602,6 +2590,18 @@
 		"prefix": "dgsScrollBarGetLocked",
 		"description": "This function is used to get the lock state of the scroll bar. | URL: https://wiki.multitheftauto.com/wiki/DgsScrollBarGetLocked",
 		"body": "dgsScrollBarGetLocked(${1:element theScrollBar})"
+	},
+	"dgsScrollBarSetCursorLength": {
+		"scope": "lua",
+		"prefix": "dgsScrollBarSetCursorLength",
+		"description": "This function sets the length of scroll bar cursor. | URL: https://wiki.multitheftauto.com/wiki/DgsScrollBarSetCursorLength",
+		"body": "dgsScrollBarSetCursorLength(${1:element scrollBar}, ${2:float size [}, ${3:bool relative]})"
+	},
+	"dgsScrollBarGetCursorLength": {
+		"scope": "lua",
+		"prefix": "dgsScrollBarGetCursorLength",
+		"description": "This function gets the length of scroll bar cursor. | URL: https://wiki.multitheftauto.com/wiki/DgsScrollBarGetCursorLength",
+		"body": "dgsScrollBarGetCursorLength(${1:element scrollBar [}, ${2:bool relative ]})"
 	},
 	"dgsScrollBarSetCursorWidth": {
 		"scope": "lua",
