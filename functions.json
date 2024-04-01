@@ -1491,7 +1491,7 @@
 		"scope": "lua",
 		"prefix": "dgsEditAddAutoComplete",
 		"description": "This function adds an auto complete string to edit box. | URL: https://wiki.multitheftauto.com/wiki/DgsEditAddAutoComplete",
-		"body": "dgsEditAddAutoComplete(${1:bool editBox}, ${2:string str [}, ${3:bool isSensitive]})"
+		"body": "dgsEditAddAutoComplete(${1:bool editBox}, ${2:string/table str [}, ${3:bool isSensitive = false}, ${4:bool isAdvanced = false ]})"
 	},
 	"dgsEditRemoveAutoComplete": {
 		"scope": "lua",
@@ -1510,6 +1510,12 @@
 		"prefix": "dgsEditGetAutoComplete",
 		"description": "This function gets auto complete table from the dgs edit. | URL: https://wiki.multitheftauto.com/wiki/DgsEditGetAutoComplete",
 		"body": "dgsEditGetAutoComplete(${1:element edit})"
+	},
+	"dgsEditAutoCompleteAddParameterFunction": {
+		"scope": "lua",
+		"prefix": "dgsEditAutoCompleteAddParameterFunction",
+		"description": "This function adds the advanced usage of dgs edit auto complete, which can be used as dynamic auto complete. | URL: https://wiki.multitheftauto.com/wiki/DgsEditAutoCompleteAddParameterFunction",
+		"body": "dgsEditAutoCompleteAddParameterFunction(${1:string parameterType}, ${2:string functionCode})"
 	},
 	"dgsCreateDetectArea": {
 		"scope": "lua",
@@ -2987,78 +2993,6 @@
 		"description": "This function retrieves the theoretical width and height (in pixels) of a certain piece of title text of dgs window. | URL: https://wiki.multitheftauto.com/wiki/DgsWindowGetTextSize",
 		"body": "dgsWindowGetTextSize(${1:element theWindow})"
 	},
-	"dgsCreateBlurBox": {
-		"scope": "lua",
-		"prefix": "dgsCreateBlurBox",
-		"description": ">>>Warning: This feature requires pixel shader model 2_a<<< This function creates a blur box. | URL: https://wiki.multitheftauto.com/wiki/DgsCreateBlurBox",
-		"body": "dgsCreateBlurBox(${1:int resolutionX}, ${2:int resolutionY [}, ${3:texture sourceTexture = nil ]})"
-	},
-	"dgsBlurBoxSetTexture": {
-		"scope": "lua",
-		"prefix": "dgsBlurBoxSetTexture",
-		"description": "This function sets the source texture of dgs blur box that will be blurred. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxSetTexture",
-		"body": "dgsBlurBoxSetTexture(${1:element blurbox [}, ${2:texture sourceTexture ]})"
-	},
-	"dgsBlurBoxGetTexture": {
-		"scope": "lua",
-		"prefix": "dgsBlurBoxGetTexture",
-		"description": "This function gets the texture that is used in blur box. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxGetTexture",
-		"body": "dgsBlurBoxGetTexture(${1:element blurbox})"
-	},
-	"dgsBlurBoxSetResolution": {
-		"scope": "lua",
-		"prefix": "dgsBlurBoxSetResolution",
-		"description": "This function changes blur box resolution. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxSetResolution",
-		"body": "dgsBlurBoxSetResolution(${1:element blurBox}, ${2:int width}, ${3:int height})"
-	},
-	"dgsBlurBoxSetIntensity": {
-		"scope": "lua",
-		"prefix": "dgsBlurBoxSetIntensity",
-		"description": "This function sets blur box intensity. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxSetIntensity",
-		"body": "dgsBlurBoxSetIntensity(${1:element blurBox}, ${2:float intensity})"
-	},
-	"dgsBlurBoxSetLevel": {
-		"scope": "lua",
-		"prefix": "dgsBlurBoxSetLevel",
-		"description": "This function sets blur box level. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxSetLevel",
-		"body": "dgsBlurBoxSetLevel(${1:element blurBox}, ${2:int level})"
-	},
-	"dgsBlurBoxGetResolution": {
-		"scope": "lua",
-		"prefix": "dgsBlurBoxGetResolution",
-		"description": "This function gets resolution of a blur box. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxGetResolution",
-		"body": "dgsBlurBoxGetResolution(${1:element blurBox})"
-	},
-	"dgsBlurBoxGetLevel": {
-		"scope": "lua",
-		"prefix": "dgsBlurBoxGetLevel",
-		"description": "This function gets level of a blur box. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxGetLevel",
-		"body": "dgsBlurBoxGetLevel(${1:element blurBox})"
-	},
-	"dgsBlurBoxGetIntensity": {
-		"scope": "lua",
-		"prefix": "dgsBlurBoxGetIntensity",
-		"description": "This function gets intensity of a blur box. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxGetIntensity",
-		"body": "dgsBlurBoxGetIntensity(${1:element blurBox})"
-	},
-	"dgsBlurBoxSetFilter": {
-		"scope": "lua",
-		"prefix": "dgsBlurBoxSetFilter",
-		"description": "This function applies a dgs shape plugin to a blurbox. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxSetFilter",
-		"body": "dgsBlurBoxSetFilter(${1:element blurbox [}, ${2:shader shapePlugin]})"
-	},
-	"dgsCreateCanvas": {
-		"scope": "lua",
-		"prefix": "dgsCreateCanvas",
-		"description": "This function creates a canvas that is used to draw multiple shaders. | URL: https://wiki.multitheftauto.com/wiki/DgsCreateCanvas",
-		"body": "dgsCreateCanvas(${1:element renderSource}, ${2:int width}, ${3:int height})"
-	},
-	"dgsCreateChart": {
-		"scope": "lua",
-		"prefix": "dgsCreateChart",
-		"description": "This function creates a data chart. | URL: https://wiki.multitheftauto.com/wiki/DgsCreateChart",
-		"body": "dgsCreateChart(${1:float x}, ${2:float y}, ${3:float width}, ${4:float height}, ${5:string chartType}, ${6:bool relative [}, ${7:element parent = nil ]})"
-	},
 	"dgsCreateCircle": {
 		"scope": "lua",
 		"prefix": "dgsCreateCircle",
@@ -3148,6 +3082,156 @@
 		"prefix": "dgsCircleGetTextureRotation",
 		"description": "This function gets the texture rotation from the dgs circle. | URL: https://wiki.multitheftauto.com/wiki/DgsCircleGetTextureRotation",
 		"body": "dgsCircleGetTextureRotation(${1:element circle})"
+	},
+	"dgsCreateRoundRect": {
+		"scope": "lua",
+		"prefix": "dgsCreateRoundRect",
+		"description": "NOTE: When using optional arguments, you might need to supply all arguments before the one you wish to use. For more information on optional... | URL: https://wiki.multitheftauto.com/wiki/DgsCreateRoundRect",
+		"body": "dgsCreateRoundRect(${1:float radius}, ${2:bool relative [}, ${3:int color = 0xFFFFFFFF}, ${4:texture background = nil}, ${5:bool colorOverwritten = true}, ${6:bool/int border = false}, ${7:float borderHorizontalThickness}, ${8:float borderVerticalThickness ]})"
+	},
+	"dgsCreateRoundRect2": {
+		"scope": "lua",
+		"prefix": "dgsCreateRoundRect2",
+		"description": "NOTE: When using optional arguments, you might need to supply all arguments before the one you wish to use. For more information on optional... | URL: https://wiki.multitheftauto.com/wiki/DgsCreateRoundRect",
+		"body": "dgsCreateRoundRect(${1:table multiArguments [}, ${2:int color = 0xFFFFFFFF}, ${3:texture background = nil}, ${4:bool colorOverwritten = true}, ${5:bool/int border = false}, ${6:float borderHorizontalThickness}, ${7:float borderVerticalThickness ]})"
+	},
+	"dgsRoundRectSetTexture": {
+		"scope": "lua",
+		"prefix": "dgsRoundRectSetTexture",
+		"description": "This function sets the source texture of dgs rounded rectangle that will be cut into rounded rectangle. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectSetTexture",
+		"body": "dgsRoundRectSetTexture(${1:element rndRect}, ${2:texture sourceTexture})"
+	},
+	"dgsRoundRectGetTexture": {
+		"scope": "lua",
+		"prefix": "dgsRoundRectGetTexture",
+		"description": "This function gets the texture that is used in rounded rectangle. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectGetTexture",
+		"body": "dgsRoundRectGetTexture(${1:element rndRect})"
+	},
+	"dgsRoundRectSetRadius": {
+		"scope": "lua",
+		"prefix": "dgsRoundRectSetRadius",
+		"description": "This function sets the radius of the corner of the dgs rounded rectangle. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectSetRadius",
+		"body": "dgsRoundRectSetRadius(${1:element rndRect}, ${2:float radius [}, ${3:bool isRelative = true]})"
+	},
+	"dgsRoundRectGetRadius": {
+		"scope": "lua",
+		"prefix": "dgsRoundRectGetRadius",
+		"description": "This function gets the radius of the corner of the dgs rounded rectangle. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectGetRadius",
+		"body": "dgsRoundRectGetRadius(${1:element rndRect})"
+	},
+	"dgsRoundRectSetColor": {
+		"scope": "lua",
+		"prefix": "dgsRoundRectSetColor",
+		"description": "This function sets the color of the dgs rounded rectangle. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectSetColor",
+		"body": "dgsRoundRectSetColor(${1:element rndRect}, ${2:int color})"
+	},
+	"dgsRoundRectGetColor": {
+		"scope": "lua",
+		"prefix": "dgsRoundRectGetColor",
+		"description": "This function gets the color of the dgs rounded rectangle. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectGetColor",
+		"body": "dgsRoundRectGetColor(${1:element rndRect})"
+	},
+	"dgsRoundRectSetColorOverwritten": {
+		"scope": "lua",
+		"prefix": "dgsRoundRectSetColorOverwritten",
+		"description": "This function sets whether the color of rounded rectangle will overwrite the color of dx functions. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectSetColorOverwritten",
+		"body": "dgsRoundRectSetColorOverwritten(${1:element rndRect}, ${2:bool isOverwritten})"
+	},
+	"dgsRoundRectGetColorOverwritten": {
+		"scope": "lua",
+		"prefix": "dgsRoundRectGetColorOverwritten",
+		"description": "This function gets whether the color of rounded rectangle will overwrite the color of dx functions. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectGetColorOverwritten",
+		"body": "dgsRoundRectGetColorOverwritten(${1:element rndRect})"
+	},
+	"dgsRoundRectSetBorderThickness": {
+		"scope": "lua",
+		"prefix": "dgsRoundRectSetBorderThickness",
+		"description": "This function sets border thickness of an unfilled round rectangle. This function only works with unfilled round rectangle, make sure the ro... | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectSetBorderThickness",
+		"body": "dgsRoundRectSetBorderThickness(${1:element rndRect}, ${2:float horizontal [}, ${3:float vertical = horizontal ]})"
+	},
+	"dgsRoundRectGetBorderThickness": {
+		"scope": "lua",
+		"prefix": "dgsRoundRectGetBorderThickness",
+		"description": "This function gets border thickness of an unfilled round rectangle. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectGetBorderThickness",
+		"body": "dgsRoundRectGetBorderThickness(${1:element rndRect})"
+	},
+	"dgsRoundRectGetBorderOnly": {
+		"scope": "lua",
+		"prefix": "dgsRoundRectGetBorderOnly",
+		"description": "This function gets whether the round rectangle is border only ( unfilled ). | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectGetBorderOnly",
+		"body": "dgsRoundRectGetBorderOnly(${1:element rndRect})"
+	},
+	"dgsCreateBlurBox": {
+		"scope": "lua",
+		"prefix": "dgsCreateBlurBox",
+		"description": ">>>Warning: This feature requires pixel shader model 2_a<<< This function creates a blur box. | URL: https://wiki.multitheftauto.com/wiki/DgsCreateBlurBox",
+		"body": "dgsCreateBlurBox(${1:int resolutionX}, ${2:int resolutionY [}, ${3:texture sourceTexture = nil ]})"
+	},
+	"dgsBlurBoxSetTexture": {
+		"scope": "lua",
+		"prefix": "dgsBlurBoxSetTexture",
+		"description": "This function sets the source texture of dgs blur box that will be blurred. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxSetTexture",
+		"body": "dgsBlurBoxSetTexture(${1:element blurbox [}, ${2:texture sourceTexture ]})"
+	},
+	"dgsBlurBoxGetTexture": {
+		"scope": "lua",
+		"prefix": "dgsBlurBoxGetTexture",
+		"description": "This function gets the texture that is used in blur box. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxGetTexture",
+		"body": "dgsBlurBoxGetTexture(${1:element blurbox})"
+	},
+	"dgsBlurBoxSetResolution": {
+		"scope": "lua",
+		"prefix": "dgsBlurBoxSetResolution",
+		"description": "This function changes blur box resolution. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxSetResolution",
+		"body": "dgsBlurBoxSetResolution(${1:element blurBox}, ${2:int width}, ${3:int height})"
+	},
+	"dgsBlurBoxSetIntensity": {
+		"scope": "lua",
+		"prefix": "dgsBlurBoxSetIntensity",
+		"description": "This function sets blur box intensity. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxSetIntensity",
+		"body": "dgsBlurBoxSetIntensity(${1:element blurBox}, ${2:float intensity})"
+	},
+	"dgsBlurBoxSetLevel": {
+		"scope": "lua",
+		"prefix": "dgsBlurBoxSetLevel",
+		"description": "This function sets blur box level. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxSetLevel",
+		"body": "dgsBlurBoxSetLevel(${1:element blurBox}, ${2:int level})"
+	},
+	"dgsBlurBoxGetResolution": {
+		"scope": "lua",
+		"prefix": "dgsBlurBoxGetResolution",
+		"description": "This function gets resolution of a blur box. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxGetResolution",
+		"body": "dgsBlurBoxGetResolution(${1:element blurBox})"
+	},
+	"dgsBlurBoxGetLevel": {
+		"scope": "lua",
+		"prefix": "dgsBlurBoxGetLevel",
+		"description": "This function gets level of a blur box. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxGetLevel",
+		"body": "dgsBlurBoxGetLevel(${1:element blurBox})"
+	},
+	"dgsBlurBoxGetIntensity": {
+		"scope": "lua",
+		"prefix": "dgsBlurBoxGetIntensity",
+		"description": "This function gets intensity of a blur box. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxGetIntensity",
+		"body": "dgsBlurBoxGetIntensity(${1:element blurBox})"
+	},
+	"dgsBlurBoxSetFilter": {
+		"scope": "lua",
+		"prefix": "dgsBlurBoxSetFilter",
+		"description": "This function applies a dgs shape plugin to a blurbox. | URL: https://wiki.multitheftauto.com/wiki/DgsBlurBoxSetFilter",
+		"body": "dgsBlurBoxSetFilter(${1:element blurbox [}, ${2:shader shapePlugin]})"
+	},
+	"dgsCreateCanvas": {
+		"scope": "lua",
+		"prefix": "dgsCreateCanvas",
+		"description": "This function creates a canvas that is used to draw multiple shaders. | URL: https://wiki.multitheftauto.com/wiki/DgsCreateCanvas",
+		"body": "dgsCreateCanvas(${1:element renderSource}, ${2:int width}, ${3:int height})"
+	},
+	"dgsCreateChart": {
+		"scope": "lua",
+		"prefix": "dgsCreateChart",
+		"description": "This function creates a data chart. | URL: https://wiki.multitheftauto.com/wiki/DgsCreateChart",
+		"body": "dgsCreateChart(${1:float x}, ${2:float y}, ${3:float width}, ${4:float height}, ${5:string chartType}, ${6:bool relative [}, ${7:element parent = nil ]})"
 	},
 	"dgsCreateColorPicker": {
 		"scope": "lua",
@@ -3460,84 +3544,6 @@
 		"prefix": "dgsGetRemoteImageLoadState",
 		"description": "This function gets whether the DGS Remote Image is loaded or not. | URL: https://wiki.multitheftauto.com/wiki/DgsGetRemoteImageLoadState",
 		"body": "dgsGetRemoteImageLoadState(${1:element imageTexture})"
-	},
-	"dgsCreateRoundRect": {
-		"scope": "lua",
-		"prefix": "dgsCreateRoundRect",
-		"description": "NOTE: When using optional arguments, you might need to supply all arguments before the one you wish to use. For more information on optional... | URL: https://wiki.multitheftauto.com/wiki/DgsCreateRoundRect",
-		"body": "dgsCreateRoundRect(${1:float radius}, ${2:bool relative [}, ${3:int color = 0xFFFFFFFF}, ${4:texture background = nil}, ${5:bool colorOverwritten = true}, ${6:bool/int border = false}, ${7:float borderHorizontalThickness}, ${8:float borderVerticalThickness ]})"
-	},
-	"dgsCreateRoundRect2": {
-		"scope": "lua",
-		"prefix": "dgsCreateRoundRect2",
-		"description": "NOTE: When using optional arguments, you might need to supply all arguments before the one you wish to use. For more information on optional... | URL: https://wiki.multitheftauto.com/wiki/DgsCreateRoundRect",
-		"body": "dgsCreateRoundRect(${1:table multiArguments [}, ${2:int color = 0xFFFFFFFF}, ${3:texture background = nil}, ${4:bool colorOverwritten = true}, ${5:bool/int border = false}, ${6:float borderHorizontalThickness}, ${7:float borderVerticalThickness ]})"
-	},
-	"dgsRoundRectSetTexture": {
-		"scope": "lua",
-		"prefix": "dgsRoundRectSetTexture",
-		"description": "This function sets the source texture of dgs rounded rectangle that will be cut into rounded rectangle. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectSetTexture",
-		"body": "dgsRoundRectSetTexture(${1:element rndRect}, ${2:texture sourceTexture})"
-	},
-	"dgsRoundRectGetTexture": {
-		"scope": "lua",
-		"prefix": "dgsRoundRectGetTexture",
-		"description": "This function gets the texture that is used in rounded rectangle. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectGetTexture",
-		"body": "dgsRoundRectGetTexture(${1:element rndRect})"
-	},
-	"dgsRoundRectSetRadius": {
-		"scope": "lua",
-		"prefix": "dgsRoundRectSetRadius",
-		"description": "This function sets the radius of the corner of the dgs rounded rectangle. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectSetRadius",
-		"body": "dgsRoundRectSetRadius(${1:element rndRect}, ${2:float radius [}, ${3:bool isRelative = true]})"
-	},
-	"dgsRoundRectGetRadius": {
-		"scope": "lua",
-		"prefix": "dgsRoundRectGetRadius",
-		"description": "This function gets the radius of the corner of the dgs rounded rectangle. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectGetRadius",
-		"body": "dgsRoundRectGetRadius(${1:element rndRect})"
-	},
-	"dgsRoundRectSetColor": {
-		"scope": "lua",
-		"prefix": "dgsRoundRectSetColor",
-		"description": "This function sets the color of the dgs rounded rectangle. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectSetColor",
-		"body": "dgsRoundRectSetColor(${1:element rndRect}, ${2:int color})"
-	},
-	"dgsRoundRectGetColor": {
-		"scope": "lua",
-		"prefix": "dgsRoundRectGetColor",
-		"description": "This function gets the color of the dgs rounded rectangle. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectGetColor",
-		"body": "dgsRoundRectGetColor(${1:element rndRect})"
-	},
-	"dgsRoundRectSetColorOverwritten": {
-		"scope": "lua",
-		"prefix": "dgsRoundRectSetColorOverwritten",
-		"description": "This function sets whether the color of rounded rectangle will overwrite the color of dx functions. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectSetColorOverwritten",
-		"body": "dgsRoundRectSetColorOverwritten(${1:element rndRect}, ${2:bool isOverwritten})"
-	},
-	"dgsRoundRectGetColorOverwritten": {
-		"scope": "lua",
-		"prefix": "dgsRoundRectGetColorOverwritten",
-		"description": "This function gets whether the color of rounded rectangle will overwrite the color of dx functions. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectGetColorOverwritten",
-		"body": "dgsRoundRectGetColorOverwritten(${1:element rndRect})"
-	},
-	"dgsRoundRectSetBorderThickness": {
-		"scope": "lua",
-		"prefix": "dgsRoundRectSetBorderThickness",
-		"description": "This function sets border thickness of an unfilled round rectangle. This function only works with unfilled round rectangle, make sure the ro... | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectSetBorderThickness",
-		"body": "dgsRoundRectSetBorderThickness(${1:element rndRect}, ${2:float horizontal [}, ${3:float vertical = horizontal ]})"
-	},
-	"dgsRoundRectGetBorderThickness": {
-		"scope": "lua",
-		"prefix": "dgsRoundRectGetBorderThickness",
-		"description": "This function gets border thickness of an unfilled round rectangle. | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectGetBorderThickness",
-		"body": "dgsRoundRectGetBorderThickness(${1:element rndRect})"
-	},
-	"dgsRoundRectGetBorderOnly": {
-		"scope": "lua",
-		"prefix": "dgsRoundRectGetBorderOnly",
-		"description": "This function gets whether the round rectangle is border only ( unfilled ). | URL: https://wiki.multitheftauto.com/wiki/DgsRoundRectGetBorderOnly",
-		"body": "dgsRoundRectGetBorderOnly(${1:element rndRect})"
 	},
 	"dgsCreateSVG": {
 		"scope": "lua",
