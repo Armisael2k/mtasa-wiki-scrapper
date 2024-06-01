@@ -1953,7 +1953,7 @@
 		"scope": "lua",
 		"prefix": "dgsGridListSetSelectedItem",
 		"description": "This function selects an item from a grid list. | URL: https://wiki.multitheftauto.com/wiki/DgsGridListSetSelectedItem",
-		"body": "dgsGridListSetSelectedItem(${1:element gridList}, ${2:int rowID}, ${3:bool scrollTo})"
+		"body": "dgsGridListSetSelectedItem(${1:element gridList}, ${2:int rowID}, ${3:[ int columnID}, ${4:bool scrollTo ]})"
 	},
 	"dgsGridListGetSelectedItems": {
 		"scope": "lua",
@@ -3082,6 +3082,12 @@
 		"prefix": "dgsCircleGetTextureRotation",
 		"description": "This function gets the texture rotation from the dgs circle. | URL: https://wiki.multitheftauto.com/wiki/DgsCircleGetTextureRotation",
 		"body": "dgsCircleGetTextureRotation(${1:element circle})"
+	},
+	"dgsCreateQuad": {
+		"scope": "lua",
+		"prefix": "dgsCreateQuad",
+		"description": ">>>Warning: This feature requires pixel shader model 2_a<<< This function creates a quadrilateral shader that can be used for dgs elements. | URL: https://wiki.multitheftauto.com/wiki/DgsCreateQuad",
+		"body": "dgsCreateQuad(${1:table corners [}, ${2:int color = 0xFFFFFFFF}, ${3:texture background = nil}, ${4:bool colorOverwritten = true ]})"
 	},
 	"dgsCreateRoundRect": {
 		"scope": "lua",
