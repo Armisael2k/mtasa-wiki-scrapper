@@ -135,7 +135,7 @@
 		"scope": "lua",
 		"prefix": "dgsSetEnabled",
 		"description": "This function enables/disables a DGS element. A disabled DGS element can't be used, gets a gray aspect and doesn't receive any events. | URL: https://wiki.multitheftauto.com/wiki/DgsSetEnabled",
-		"body": "dgsSetEnabled(${1:element dgsElement}, ${2:bool enabled})"
+		"body": "dgsSetEnabled(${1:element/table dgsElement}, ${2:bool enabled})"
 	},
 	"dgsGetPositionAlignment": {
 		"scope": "lua",
